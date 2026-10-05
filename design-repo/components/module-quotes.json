@@ -1,0 +1,14 @@
+{
+  "id": "module-quotes",
+  "name": "module-quotes",
+  "occurrences": 4,
+  "composedOf": [
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

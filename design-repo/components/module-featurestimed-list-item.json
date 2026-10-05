@@ -1,0 +1,14 @@
+{
+  "id": "module-featurestimed-list-item",
+  "name": "module-featuresTimed-list-item",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "content.module-mediafiltergrid",
+  "category": "CONTENT",
+  "label": "module-mediaFilterGrid",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"One truth. Every team. Every time.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/index.html:1573-2040",
+      "src/enterprise/index.html:1081-1548",
+      "src/home/index.html:1579-2046",
+      "src/teams/index.html:240-707"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 5,
+        "maxWords": 14
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 24,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 697,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 707,
+      "columns": 6,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image"
+  ],
+  "implementedBy": "src/sections/ModuleMediaFilterGrid.jsx"
+}

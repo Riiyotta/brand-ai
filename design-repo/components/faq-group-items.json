@@ -1,0 +1,12 @@
+{
+  "id": "faq-group-items",
+  "name": "faq-group-items",
+  "occurrences": 7,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/faq"
+  }
+}

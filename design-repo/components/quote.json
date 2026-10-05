@@ -1,0 +1,10 @@
+{
+  "id": "quote",
+  "name": "quote",
+  "occurrences": 19,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/enterprise"
+  }
+}

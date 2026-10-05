@@ -1,0 +1,16 @@
+{
+  "id": "page-wrapper",
+  "name": "page-wrapper",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers/senior-software-engineer"
+  }
+}

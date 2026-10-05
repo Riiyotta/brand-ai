@@ -1,0 +1,12 @@
+{
+  "id": "footer-top-newsletter",
+  "name": "footer-top-newsletter",
+  "occurrences": 38,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

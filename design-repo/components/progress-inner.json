@@ -1,0 +1,10 @@
+{
+  "id": "progress-inner",
+  "name": "progress-inner",
+  "occurrences": 18,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

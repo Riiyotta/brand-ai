@@ -1,0 +1,14 @@
+{
+  "id": "module-featuresapp",
+  "name": "module-featuresApp",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/enterprise"
+  }
+}

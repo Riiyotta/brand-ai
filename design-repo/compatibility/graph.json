@@ -1,0 +1,214 @@
+{
+  "version": "0.1.0",
+  "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "severity": "error",
+      "kind": "maxCategoryPerPage",
+      "category": "HERO",
+      "max": 1,
+      "exceptions": [
+        "template.group"
+      ],
+      "description": "A page has at most one HERO section. Templates that genuinely carry more are named in `exceptions`."
+    },
+    {
+      "id": "SECTION_PER_PAGE_LIMITS",
+      "severity": "error",
+      "kind": "perPageLimits",
+      "limits": {
+        "shell.header": 1,
+        "hero.module-coverstacked": 1,
+        "proof.module-logos": 1,
+        "hero.module-hero-inline": 1,
+        "content.module-centeredheadline": 1,
+        "features.module-featurestimed": 2,
+        "content.module-mediafiltergrid": 1,
+        "proof.module-quotes": 1,
+        "content.module-news": 1,
+        "content.module-download": 1,
+        "shell.footer-main": 1,
+        "shell.cookieswrap": 1,
+        "hero.module-covercolumns": 1,
+        "features.module-featurescertification": 1,
+        "features.module-featuresinline": 1,
+        "features.module-featuresunpacked": 1,
+        "support.module-faq": 1,
+        "features.module-featuresnumbered": 1,
+        "content.module-mediasingle": 2,
+        "content.current-roles": 1,
+        "features.news-card-featured": 1,
+        "content.filter-news": 1,
+        "content.newsroom-grid-inner": 1,
+        "hero.main-inner": 1,
+        "content.module-headlinefloating": 1,
+        "content.textblock": 2,
+        "content.module-mediaflexible-media-wrapper": 2,
+        "content.newsroom": 1,
+        "content.connected-applications": 1,
+        "content.assistant": 1,
+        "content.canvas": 1,
+        "content.projects": 1,
+        "content.brandcheck": 1,
+        "content.module-mediaflexible": 4,
+        "features.module-featurescolumns": 1,
+        "features.module-featuresapp": 1,
+        "hero.page-wrapper": 1,
+        "content.post-related": 1,
+        "hero.page-container": 1,
+        "content.page-content-meta": 1,
+        "shell.post-header": 1,
+        "content.post-content": 1
+      },
+      "description": "No section appears more often on one page than it does in any measured template."
+    },
+    {
+      "id": "SHELL_MUST_BE_FIRST",
+      "severity": "error",
+      "kind": "mustBeFirst",
+      "sections": [
+        "shell.header"
+      ],
+      "description": "Sections that opened every template they appear in must be the first node."
+    },
+    {
+      "id": "SHELL_MUST_BE_LAST",
+      "severity": "error",
+      "kind": "mustBeLast",
+      "sections": [
+        "shell.cookieswrap"
+      ],
+      "description": "Sections that closed every template they appear in must be the last node."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SAME_SECTION",
+      "severity": "warn",
+      "kind": "noConsecutive",
+      "sections": [
+        "content.textblock",
+        "content.module-mediaflexible-media-wrapper"
+      ],
+      "description": "These sections were never observed back-to-back."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "kind": "noAdjacentSameCategory",
+      "exceptions": [
+        [
+          "content.module-news",
+          "content.module-download"
+        ],
+        [
+          "shell.footer-main",
+          "shell.cookieswrap"
+        ],
+        [
+          "features.module-featurescertification",
+          "features.module-featuresinline"
+        ],
+        [
+          "features.module-featuresinline",
+          "features.module-featuresunpacked"
+        ],
+        [
+          "content.module-mediasingle",
+          "content.module-news"
+        ],
+        [
+          "features.module-featuresunpacked",
+          "features.module-featuresnumbered"
+        ],
+        [
+          "content.filter-news",
+          "content.newsroom-grid-inner"
+        ],
+        [
+          "content.module-headlinefloating",
+          "content.textblock"
+        ],
+        [
+          "content.textblock",
+          "content.module-mediaflexible-media-wrapper"
+        ],
+        [
+          "content.module-mediaflexible-media-wrapper",
+          "content.textblock"
+        ],
+        [
+          "content.module-mediaflexible-media-wrapper",
+          "content.newsroom"
+        ],
+        [
+          "content.newsroom",
+          "content.connected-applications"
+        ],
+        [
+          "content.module-download",
+          "content.module-news"
+        ],
+        [
+          "content.module-headlinefloating",
+          "content.assistant"
+        ],
+        [
+          "content.assistant",
+          "content.canvas"
+        ],
+        [
+          "content.canvas",
+          "content.projects"
+        ],
+        [
+          "content.projects",
+          "content.brandcheck"
+        ],
+        [
+          "content.brandcheck",
+          "content.module-download"
+        ],
+        [
+          "content.module-centeredheadline",
+          "content.module-mediaflexible"
+        ],
+        [
+          "features.module-featuresinline",
+          "features.module-featurescertification"
+        ],
+        [
+          "content.module-download",
+          "content.module-mediasingle"
+        ],
+        [
+          "features.module-featuresapp",
+          "features.module-featuresunpacked"
+        ],
+        [
+          "content.module-mediafiltergrid",
+          "content.module-mediaflexible"
+        ],
+        [
+          "content.page-content-meta",
+          "content.post-related"
+        ],
+        [
+          "shell.header",
+          "shell.post-header"
+        ],
+        [
+          "content.post-content",
+          "content.page-content-meta"
+        ]
+      ],
+      "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "kind": "maxAnimatedSections",
+      "max": 14,
+      "description": "No page has more animated sections than the most animated measured page."
+    }
+  ]
+}

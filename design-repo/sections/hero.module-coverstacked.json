@@ -1,0 +1,88 @@
+{
+  "id": "hero.module-coverstacked",
+  "category": "HERO",
+  "label": "module-coverStacked",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Your brand, as source code\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 9,
+    "routes": 9,
+    "measuredFrom": [
+      "src/index.html:145-173",
+      "src/brand-os/index.html:148-176",
+      "src/brand-studio/index.html:148-176",
+      "src/careers/index.html:148-172",
+      "src/company/index.html:148-170"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 12
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 29
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image",
+          "hero-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1222,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 799,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 3 to 2"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "hero-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/ModuleCoverStacked.jsx"
+}

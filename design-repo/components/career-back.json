@@ -1,0 +1,13 @@
+{
+  "id": "career-back",
+  "name": "career-back",
+  "occurrences": 8,
+  "composedOf": [
+    "link",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers/senior-software-engineer"
+  }
+}

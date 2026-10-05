@@ -1,0 +1,12 @@
+{
+  "id": "module-quotes-nav",
+  "name": "module-quotes-nav",
+  "occurrences": 3,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

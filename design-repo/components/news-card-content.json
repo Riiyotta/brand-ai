@@ -1,0 +1,10 @@
+{
+  "id": "news-card-content",
+  "name": "news-card-content",
+  "occurrences": 72,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

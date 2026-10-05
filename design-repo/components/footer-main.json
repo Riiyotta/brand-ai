@@ -1,0 +1,15 @@
+{
+  "id": "footer-main",
+  "name": "footer-main",
+  "occurrences": 38,
+  "composedOf": [
+    "button",
+    "canvas",
+    "link",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

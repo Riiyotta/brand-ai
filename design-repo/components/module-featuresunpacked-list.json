@@ -1,0 +1,13 @@
+{
+  "id": "module-featuresunpacked-list",
+  "name": "module-featuresUnpacked-list",
+  "occurrences": 3,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "module-hero-grid",
+  "name": "module-hero-grid",
+  "occurrences": 2,
+  "composedOf": [
+    "canvas",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

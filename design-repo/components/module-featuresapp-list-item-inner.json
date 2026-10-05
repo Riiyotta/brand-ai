@@ -1,0 +1,13 @@
+{
+  "id": "module-featuresapp-list-item-inner",
+  "name": "module-featuresApp-list-item-inner",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/enterprise"
+  }
+}

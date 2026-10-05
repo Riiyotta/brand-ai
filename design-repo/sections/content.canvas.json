@@ -1,0 +1,76 @@
+{
+  "id": "content.canvas",
+  "category": "CONTENT",
+  "label": "canvas",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Canvas Visual strategy sandbox\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/brand-studio/index.html:327-495"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 7,
+        "maxWords": 25
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 7,
+        "assetRoles": [
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2755,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 3610,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "4 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/Canvas.jsx"
+}

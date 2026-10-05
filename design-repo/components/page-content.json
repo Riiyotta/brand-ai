@@ -1,0 +1,14 @@
+{
+  "id": "page-content",
+  "name": "page-content",
+  "occurrences": 8,
+  "composedOf": [
+    "image",
+    "link",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

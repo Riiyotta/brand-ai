@@ -1,0 +1,10 @@
+{
+  "id": "footer-copyright",
+  "name": "footer-copyright",
+  "occurrences": 38,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

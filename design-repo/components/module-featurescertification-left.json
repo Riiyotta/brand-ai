@@ -1,0 +1,14 @@
+{
+  "id": "module-featurescertification-left",
+  "name": "module-featuresCertification-left",
+  "occurrences": 3,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

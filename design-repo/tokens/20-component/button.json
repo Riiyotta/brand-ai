@@ -1,0 +1,33 @@
+{
+  "$description": "Component tokens for button: the most common measured style (290 instances). Values in {braces} reference semantic/foundation tokens.",
+  "component": "button",
+  "tokens": {
+    "background": {
+      "$value": "transparent"
+    },
+    "color": {
+      "$value": "{color.neutral.03}"
+    },
+    "radius": {
+      "$value": "{radius.5_999}"
+    },
+    "paddingY": {
+      "$value": "{space.10_0002}"
+    },
+    "paddingX": {
+      "$value": "{space.18_9994}"
+    },
+    "fontSize": {
+      "$value": "{radius.14}"
+    },
+    "fontWeight": {
+      "$value": "400"
+    },
+    "borderWidth": {
+      "$value": "1px"
+    }
+  },
+  "unresolvedLiterals": [
+    "borderWidth"
+  ]
+}

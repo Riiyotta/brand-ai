@@ -1,0 +1,12 @@
+{
+  "id": "hero3",
+  "name": "hero3",
+  "occurrences": 2,
+  "composedOf": [
+    "canvas"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

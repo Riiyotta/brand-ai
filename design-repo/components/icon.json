@@ -1,0 +1,12 @@
+{
+  "id": "icon",
+  "name": "icon",
+  "occurrences": 17,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "career-header",
+  "name": "career-header",
+  "occurrences": 8,
+  "composedOf": [
+    "heading",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers/senior-software-engineer"
+  }
+}

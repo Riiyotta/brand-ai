@@ -1,0 +1,13 @@
+{
+  "id": "careers-category",
+  "name": "careers-category",
+  "occurrences": 3,
+  "composedOf": [
+    "heading",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

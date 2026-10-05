@@ -1,0 +1,190 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.group-2",
+  "route": "/book-a-demo",
+  "nodes": [
+    {
+      "type": "shell.header",
+      "content": {
+        "body": [
+          "Book a demo"
+        ],
+        "ctas": [
+          {
+            "label": "brand.ai",
+            "href": "/"
+          },
+          {
+            "label": "Product"
+          },
+          {
+            "label": "Solutions"
+          },
+          {
+            "label": "Security",
+            "href": "/security/"
+          },
+          {
+            "label": "Company",
+            "href": "/company/"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers/"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "label": "Log in"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.main-inner",
+      "content": {
+        "heading": "Get a private, personalized demo",
+        "body": [
+          "“brand.ai was born with the desire to liberate. It's created for inclusivity and understanding.”",
+          "\"As I build us into a global brand, brand.ai will help the entire global company become a global brand as it'll help ensure brand consistency across countries, languages etc.\"",
+          "\"There are things that AI is great at and there are things that it is not. AI can't build a brand on its own—only humans can do that—but it can help suggest different directions and assess risk.\"",
+          "\"The project is a testament to our growing need for brands to become aware of their surroundings. To evolve past traditional management, and into a new frontier altogether.\"",
+          "\"Brand.ai is the first tool I've seen that actually understands the brand and culture and powers better, faster work for marketers and partners.\"",
+          "A team member will give you a tour of the platform and answer all your questions"
+        ],
+        "ctas": [
+          {
+            "label": "Next"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "avatar"
+          },
+          {
+            "assetRole": "avatar"
+          },
+          {
+            "assetRole": "avatar"
+          },
+          {
+            "assetRole": "avatar"
+          },
+          {
+            "assetRole": "avatar"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.footer-main",
+      "content": {
+        "body": [
+          "Your brand is a garden. Let it grow.",
+          "© 2026 Access to Tools, Inc."
+        ],
+        "ctas": [
+          {
+            "label": "Open request early access form"
+          },
+          {
+            "label": "Product",
+            "href": "/product/"
+          },
+          {
+            "label": "Brand OS",
+            "href": "/brand-os/"
+          },
+          {
+            "label": "Brand Studio",
+            "href": "/brand-studio/"
+          },
+          {
+            "label": "Enterprise",
+            "href": "/enterprise/"
+          },
+          {
+            "label": "Teams",
+            "href": "/teams/"
+          },
+          {
+            "label": "Security",
+            "href": "/security/"
+          },
+          {
+            "label": "Trust Center"
+          },
+          {
+            "label": "Company",
+            "href": "/company/"
+          },
+          {
+            "label": "Blog",
+            "href": "/blog/"
+          },
+          {
+            "label": "Careers",
+            "href": "/careers/"
+          },
+          {
+            "label": "Book a demo",
+            "href": "/book-a-demo/"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq/"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "/legal/privacy/"
+          },
+          {
+            "label": "Acceptable Use",
+            "href": "/legal/acceptable-use-policy/"
+          },
+          {
+            "label": "Instagram"
+          },
+          {
+            "label": "LinkedIn"
+          },
+          {
+            "label": "Operational"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "shell.cookieswrap",
+      "content": {
+        "body": [
+          "This site uses cookies."
+        ],
+        "ctas": [
+          {
+            "label": "cookies",
+            "href": "/legal/privacy/"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

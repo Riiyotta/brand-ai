@@ -1,0 +1,12 @@
+{
+  "id": "red-div",
+  "name": "red-div",
+  "occurrences": 32,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

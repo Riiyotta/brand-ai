@@ -1,0 +1,15 @@
+{
+  "id": "module-mediasingle-inner",
+  "name": "module-mediaSingle-inner",
+  "occurrences": 5,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/company"
+  }
+}

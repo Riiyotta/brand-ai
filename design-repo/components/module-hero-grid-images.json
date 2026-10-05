@@ -1,0 +1,12 @@
+{
+  "id": "module-hero-grid-images",
+  "name": "module-hero-grid-images",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

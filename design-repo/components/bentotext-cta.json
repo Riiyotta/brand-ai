@@ -1,0 +1,10 @@
+{
+  "id": "bentotext-cta",
+  "name": "bentoText-cta",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/product"
+  }
+}

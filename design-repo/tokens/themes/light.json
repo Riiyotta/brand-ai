@@ -1,0 +1,45 @@
+{
+  "id": "light",
+  "mode": "light",
+  "$description": "The only theme measured (the page as served). Every semantic token resolves to a real foundation value.",
+  "resolves": {
+    "surface.default": "rgb(27,27,27)",
+    "surface.alt": "rgb(247,245,242)",
+    "surface.inverse": "rgb(247,245,242)",
+    "surface.accent": "rgb(0,128,0)",
+    "text.primary": "rgb(27,27,27)",
+    "text.inverse": "rgb(247,245,242)",
+    "text.accent": "rgb(41,205,96)",
+    "border.default": "rgb(210,210,210)",
+    "accent.primary": "rgb(0,128,0)",
+    "typography.display": {
+      "fontFamily": "ABC Monument Grotesk",
+      "fontSize": "72px",
+      "fontWeight": "400",
+      "lineHeight": "72px"
+    },
+    "typography.heading": {
+      "fontFamily": "ABC Monument Grotesk",
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "lineHeight": "39.2px"
+    },
+    "typography.body": {
+      "fontFamily": "ABC Monument Grotesk",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "25.2px"
+    },
+    "typography.label": {
+      "fontFamily": "ABC Monument Grotesk Semi-Mono",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "28px"
+    },
+    "radius.control": "5.999px",
+    "radius.surface": "8px",
+    "elevation.default": "rgba(0, 0, 0, 0.15) 0px 4px 20px 0px",
+    "motion.duration.default": "0.25s",
+    "motion.easing.default": "ease"
+  }
+}

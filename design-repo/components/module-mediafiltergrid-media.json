@@ -1,0 +1,13 @@
+{
+  "id": "module-mediafiltergrid-media",
+  "name": "module-mediaFilterGrid-media",
+  "occurrences": 96,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

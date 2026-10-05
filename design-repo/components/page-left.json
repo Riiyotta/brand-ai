@@ -1,0 +1,12 @@
+{
+  "id": "page-left",
+  "name": "page-left",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/legal/privacy"
+  }
+}

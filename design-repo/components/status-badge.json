@@ -1,0 +1,10 @@
+{
+  "id": "status-badge",
+  "name": "status-badge",
+  "occurrences": 38,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

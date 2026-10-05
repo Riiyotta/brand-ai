@@ -1,0 +1,10 @@
+{
+  "id": "post-meta-separator",
+  "name": "post-meta-separator",
+  "occurrences": 20,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

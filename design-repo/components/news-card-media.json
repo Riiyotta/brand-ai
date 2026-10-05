@@ -1,0 +1,12 @@
+{
+  "id": "news-card-media",
+  "name": "news-card-media",
+  "occurrences": 72,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

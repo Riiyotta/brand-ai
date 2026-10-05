@@ -1,0 +1,12 @@
+{
+  "id": "faq-item-content-inner",
+  "name": "faq-item-content-inner",
+  "occurrences": 40,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

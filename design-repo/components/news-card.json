@@ -1,0 +1,12 @@
+{
+  "id": "news-card",
+  "name": "news-card",
+  "occurrences": 70,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

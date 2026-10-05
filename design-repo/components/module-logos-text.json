@@ -1,0 +1,12 @@
+{
+  "id": "module-logos-text",
+  "name": "module-logos-text",
+  "occurrences": 4,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

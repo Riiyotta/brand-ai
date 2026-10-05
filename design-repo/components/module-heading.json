@@ -1,0 +1,13 @@
+{
+  "id": "module-heading",
+  "name": "module-heading",
+  "occurrences": 18,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

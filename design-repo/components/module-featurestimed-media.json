@@ -1,0 +1,12 @@
+{
+  "id": "module-featurestimed-media",
+  "name": "module-featuresTimed-media",
+  "occurrences": 4,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

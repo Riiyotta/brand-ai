@@ -1,0 +1,13 @@
+{
+  "id": "citation-item",
+  "name": "citation-item",
+  "occurrences": 52,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/your-cmo-s-days-are-numbered"
+  }
+}

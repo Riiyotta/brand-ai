@@ -1,0 +1,13 @@
+{
+  "id": "module-featuresinline-list-item",
+  "name": "module-featuresInline-list-item",
+  "occurrences": 33,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

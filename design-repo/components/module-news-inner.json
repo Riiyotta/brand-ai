@@ -1,0 +1,14 @@
+{
+  "id": "module-news-inner",
+  "name": "module-news-inner",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

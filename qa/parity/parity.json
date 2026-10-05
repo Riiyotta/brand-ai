@@ -1,0 +1,460 @@
+{
+  "gate": 0.8,
+  "average": 0.927,
+  "rows": [
+    {
+      "route": "/",
+      "reference": "mirror",
+      "sections": 13,
+      "compared": 13,
+      "sectionsInClone": 13,
+      "mirrorPageHeight": 11662,
+      "clonePageHeight": 11662,
+      "score": 0.962,
+      "below": [
+        "12:CookiesWrap 64%"
+      ],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ModuleCoverStacked",
+          "mirrorHeight": 1220,
+          "cloneHeight": 1220,
+          "pixelMatch": 0.838,
+          "score": 0.838
+        },
+        {
+          "idx": 2,
+          "component": "ModuleLogos",
+          "mirrorHeight": 140,
+          "cloneHeight": 140,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "ModuleHeroInline",
+          "mirrorHeight": 3150,
+          "cloneHeight": 3150,
+          "pixelMatch": 0.989,
+          "score": 0.989,
+          "pinned": true
+        },
+        {
+          "idx": 4,
+          "component": "ModuleCenteredHeadline",
+          "mirrorHeight": 290,
+          "cloneHeight": 290,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 5,
+          "component": "ModuleFeaturesTimed",
+          "mirrorHeight": 935,
+          "cloneHeight": 935,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 6,
+          "component": "ModuleFeaturesTimed2",
+          "mirrorHeight": 935,
+          "cloneHeight": 935,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 7,
+          "component": "ModuleMediaFilterGrid",
+          "mirrorHeight": 697,
+          "cloneHeight": 697,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 8,
+          "component": "ModuleQuotes",
+          "mirrorHeight": 785,
+          "cloneHeight": 785,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 9,
+          "component": "ModuleNews",
+          "mirrorHeight": 88,
+          "cloneHeight": 88,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 10,
+          "component": "ModuleDownload",
+          "mirrorHeight": 383,
+          "cloneHeight": 383,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 11,
+          "component": "FooterMain",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.877,
+          "score": 0.877
+        },
+        {
+          "idx": 12,
+          "component": "CookiesWrap",
+          "mirrorHeight": 51,
+          "cloneHeight": 51,
+          "pixelMatch": 0.639,
+          "score": 0.639
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/brand-os",
+      "reference": "mirror",
+      "sections": 16,
+      "compared": 16,
+      "sectionsInClone": 16,
+      "mirrorPageHeight": 13523,
+      "clonePageHeight": 13523,
+      "score": 0.958,
+      "below": [
+        "15:CookiesWrap2 69%"
+      ],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header7",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "ModuleCoverStacked4",
+          "mirrorHeight": 1247,
+          "cloneHeight": 1247,
+          "pixelMatch": 0.872,
+          "score": 0.872
+        },
+        {
+          "idx": 2,
+          "component": "ModuleHeadlineFloating",
+          "mirrorHeight": 216,
+          "cloneHeight": 216,
+          "pixelMatch": 0.993,
+          "score": 0.993
+        },
+        {
+          "idx": 3,
+          "component": "TextBlock",
+          "mirrorHeight": 261,
+          "cloneHeight": 261,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 4,
+          "component": "ModuleMediaFlexibleMediaWrapper",
+          "mirrorHeight": 2214,
+          "cloneHeight": 2214,
+          "pixelMatch": 0.931,
+          "score": 0.931
+        },
+        {
+          "idx": 5,
+          "component": "TextBlock2",
+          "mirrorHeight": 261,
+          "cloneHeight": 261,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 6,
+          "component": "ModuleMediaFlexibleMediaWrapper2",
+          "mirrorHeight": 1342,
+          "cloneHeight": 1342,
+          "pixelMatch": 0.997,
+          "score": 0.997
+        },
+        {
+          "idx": 7,
+          "component": "Newsroom",
+          "mirrorHeight": 1645,
+          "cloneHeight": 1645,
+          "pixelMatch": 0.983,
+          "score": 0.983
+        },
+        {
+          "idx": 8,
+          "component": "ConnectedApplications",
+          "mirrorHeight": 897,
+          "cloneHeight": 897,
+          "pixelMatch": 0.998,
+          "score": 0.998
+        },
+        {
+          "idx": 9,
+          "component": "ModuleFeaturesInline2",
+          "mirrorHeight": 512,
+          "cloneHeight": 512,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 10,
+          "component": "ModuleCenteredHeadline3",
+          "mirrorHeight": 144,
+          "cloneHeight": 144,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 11,
+          "component": "ModuleFaq2",
+          "mirrorHeight": 393,
+          "cloneHeight": 393,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 12,
+          "component": "ModuleDownload",
+          "mirrorHeight": 383,
+          "cloneHeight": 383,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 13,
+          "component": "ModuleNews3",
+          "mirrorHeight": 88,
+          "cloneHeight": 88,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 14,
+          "component": "FooterMain7",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.912,
+          "score": 0.912
+        },
+        {
+          "idx": 15,
+          "component": "CookiesWrap2",
+          "mirrorHeight": 51,
+          "cloneHeight": 51,
+          "pixelMatch": 0.693,
+          "score": 0.693
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/legal/privacy",
+      "reference": "original crawl screenshot",
+      "sections": 4,
+      "compared": 4,
+      "sectionsInClone": 4,
+      "mirrorPageHeight": 6702,
+      "clonePageHeight": 6702,
+      "score": 1,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header6",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "MainInner3",
+          "mirrorHeight": 5802,
+          "cloneHeight": 5802,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "FooterMain13",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.999,
+          "score": 0.999
+        },
+        {
+          "idx": 3,
+          "component": "CookiesWrap3",
+          "mirrorHeight": 51,
+          "cloneHeight": 51,
+          "pixelMatch": 0.983,
+          "score": 0.983
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/careers/brand-support-specialist",
+      "reference": "original crawl screenshot",
+      "sections": 4,
+      "compared": 3,
+      "sectionsInClone": 3,
+      "mirrorPageHeight": 3125,
+      "clonePageHeight": 3125,
+      "score": 1,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header7",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "MainInner10",
+          "mirrorHeight": 2225,
+          "cloneHeight": 2225,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 2,
+          "component": "FooterMain17",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 1,
+          "score": 1
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/company",
+      "reference": "original crawl screenshot",
+      "sections": 4,
+      "compared": 4,
+      "sectionsInClone": 4,
+      "mirrorPageHeight": 1986,
+      "clonePageHeight": 1986,
+      "score": 0.915,
+      "below": [],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header10",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "MainInner16",
+          "mirrorHeight": 1086,
+          "cloneHeight": 1086,
+          "pixelMatch": 0.917,
+          "score": 0.917
+        },
+        {
+          "idx": 2,
+          "component": "FooterMain22",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.899,
+          "score": 0.899
+        },
+        {
+          "idx": 3,
+          "component": "CookiesWrap",
+          "mirrorHeight": 51,
+          "cloneHeight": 51,
+          "pixelMatch": 0.983,
+          "score": 0.983
+        }
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog/post/welcome-to-brand-ai",
+      "reference": "original crawl screenshot",
+      "sections": 5,
+      "compared": 5,
+      "sectionsInClone": 5,
+      "mirrorPageHeight": 7835,
+      "clonePageHeight": 7835,
+      "score": 0.726,
+      "below": [
+        "1:PageWrapper3 71%",
+        "3:FooterMain26 68%",
+        "4:CookiesWrap 27%"
+      ],
+      "secRows": [
+        {
+          "idx": 0,
+          "component": "Header6",
+          "mirrorHeight": 100,
+          "cloneHeight": 100,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 1,
+          "component": "PageWrapper3",
+          "mirrorHeight": 5614,
+          "cloneHeight": 5614,
+          "pixelMatch": 0.706,
+          "score": 0.706
+        },
+        {
+          "idx": 2,
+          "component": "PostRelated4",
+          "mirrorHeight": 571,
+          "cloneHeight": 571,
+          "pixelMatch": 1,
+          "score": 1
+        },
+        {
+          "idx": 3,
+          "component": "FooterMain26",
+          "mirrorHeight": 900,
+          "cloneHeight": 900,
+          "pixelMatch": 0.675,
+          "score": 0.675
+        },
+        {
+          "idx": 4,
+          "component": "CookiesWrap",
+          "mirrorHeight": 51,
+          "cloneHeight": 51,
+          "pixelMatch": 0.273,
+          "score": 0.273
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "pass": false
+}

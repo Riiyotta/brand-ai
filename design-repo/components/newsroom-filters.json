@@ -1,0 +1,12 @@
+{
+  "id": "newsroom-filters",
+  "name": "newsroom-filters",
+  "occurrences": 6,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

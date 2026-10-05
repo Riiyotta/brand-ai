@@ -1,0 +1,12 @@
+{
+  "id": "richtext-box-inner",
+  "name": "richtext-box-inner",
+  "occurrences": 2,
+  "composedOf": [
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/your-brand-is-more-valuable-than-you-can-measure"
+  }
+}

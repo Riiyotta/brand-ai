@@ -1,0 +1,14 @@
+{
+  "id": "page-newsroom-slug",
+  "name": "page-newsroom-slug",
+  "occurrences": 5,
+  "composedOf": [
+    "image",
+    "link",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/infrastructure"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "module-featuresunpacked-media",
+  "name": "module-featuresUnpacked-media",
+  "occurrences": 3,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

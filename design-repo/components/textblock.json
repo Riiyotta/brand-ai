@@ -1,0 +1,14 @@
+{
+  "id": "textblock",
+  "name": "textBlock",
+  "occurrences": 64,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

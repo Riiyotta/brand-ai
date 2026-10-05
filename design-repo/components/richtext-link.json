@@ -1,0 +1,10 @@
+{
+  "id": "richtext-link",
+  "name": "richtext-link",
+  "occurrences": 34,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/legal/privacy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "quote-author-wrapper",
+  "name": "quote-author-wrapper",
+  "occurrences": 5,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/book-a-demo"
+  }
+}

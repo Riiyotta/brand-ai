@@ -1,0 +1,12 @@
+{
+  "id": "module-logos-marquee",
+  "name": "module-logos-marquee",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

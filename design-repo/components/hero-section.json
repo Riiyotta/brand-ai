@@ -1,0 +1,12 @@
+{
+  "id": "hero-section",
+  "name": "hero-section",
+  "occurrences": 4,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

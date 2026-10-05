@@ -1,0 +1,12 @@
+{
+  "id": "title-wrapper",
+  "name": "title-wrapper",
+  "occurrences": 39,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

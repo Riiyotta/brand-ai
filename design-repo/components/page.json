@@ -1,0 +1,20 @@
+{
+  "id": "page",
+  "name": "page",
+  "occurrences": 38,
+  "composedOf": [
+    "button",
+    "canvas",
+    "heading",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

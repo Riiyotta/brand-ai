@@ -1,0 +1,10 @@
+{
+  "id": "module-mediafiltergrid-filters-tag",
+  "name": "module-mediaFilterGrid-filters-tag",
+  "occurrences": 24,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

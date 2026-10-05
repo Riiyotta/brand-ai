@@ -1,0 +1,13 @@
+{
+  "id": "newsroom-grid",
+  "name": "newsroom-grid",
+  "occurrences": 22,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

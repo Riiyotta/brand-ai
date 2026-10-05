@@ -1,0 +1,87 @@
+{
+  "id": "content.module-mediaflexible",
+  "category": "CONTENT",
+  "label": "module-mediaFlexible",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Shift how you collaborate\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 6,
+    "routes": 3,
+    "measuredFrom": [
+      "src/enterprise/index.html:1678-1823",
+      "src/product/index.html:1029-1159",
+      "src/product/index.html:1160-1269",
+      "src/product/index.html:1485-1567",
+      "src/product/index.html:1568-1633"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 20
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 4
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1396,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 3091,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/ModuleMediaFlexible.jsx"
+}

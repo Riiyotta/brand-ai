@@ -1,0 +1,17 @@
+{
+  "id": "page-container",
+  "name": "page-container",
+  "occurrences": 10,
+  "composedOf": [
+    "button",
+    "heading",
+    "image",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

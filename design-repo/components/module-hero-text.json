@@ -1,0 +1,12 @@
+{
+  "id": "module-hero-text",
+  "name": "module-hero-text",
+  "occurrences": 2,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

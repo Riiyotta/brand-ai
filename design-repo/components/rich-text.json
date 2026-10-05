@@ -1,0 +1,12 @@
+{
+  "id": "rich-text",
+  "name": "rich-text",
+  "occurrences": 151,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

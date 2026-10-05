@@ -1,0 +1,12 @@
+{
+  "id": "hero-img-inner",
+  "name": "hero-img-inner",
+  "occurrences": 32,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

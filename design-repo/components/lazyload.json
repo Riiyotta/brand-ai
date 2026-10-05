@@ -1,0 +1,10 @@
+{
+  "id": "lazyload",
+  "name": "lazyload",
+  "occurrences": 79,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

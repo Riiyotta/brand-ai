@@ -1,0 +1,12 @@
+{
+  "id": "module-headlinefloating-images",
+  "name": "module-headlineFloating-images",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/brand-os"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "content.post-content",
+  "category": "CONTENT",
+  "label": "post-content",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good/index.html:202-512"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 80
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 14,
+        "titleMaxWords": 12,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 19259,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 20475,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/PostContent.jsx"
+}

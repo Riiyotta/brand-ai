@@ -1,0 +1,16 @@
+{
+  "id": "module-inner",
+  "name": "module-inner",
+  "occurrences": 32,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

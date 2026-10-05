@@ -1,0 +1,10 @@
+{
+  "id": "location",
+  "name": "location",
+  "occurrences": 9,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers"
+  }
+}

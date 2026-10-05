@@ -1,0 +1,72 @@
+{
+  "id": "content.post-related",
+  "category": "CONTENT",
+  "label": "post-related",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Related Articles\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 10,
+    "routes": 10,
+    "measuredFrom": [
+      "src/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now/index.html:307-394",
+      "src/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good/index.html:616-703",
+      "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html:470-557",
+      "src/blog/post/how-brand-engineering-is-shaping-modern-brands/index.html:328-415",
+      "src/blog/post/how-teams-are-using-brand-ai/index.html:355-442"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 3,
+        "assetRoles": [
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 571,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 413,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/PostRelated.jsx"
+}

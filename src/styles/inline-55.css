@@ -1,0 +1,1 @@
+.richtext-link{text-decoration:underline;text-decoration-color:currentColor;transition:opacity var(--duration-default,.25s),text-decoration-color var(--duration-default,.25s)}@media(hover:hover){.richtext-link:hover{opacity:.65;text-decoration-color:transparent}}.richtext-link{font-weight:400!important;text-underline-position:from-font}

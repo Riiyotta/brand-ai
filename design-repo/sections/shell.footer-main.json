@@ -1,0 +1,72 @@
+{
+  "id": "shell.footer-main",
+  "category": "SHELL",
+  "label": "footer-main",
+  "tag": "footer",
+  "purpose": "Orients the visitor and provides navigation or site-wide links; carried across pages.",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 38,
+    "routes": 38,
+    "measuredFrom": [
+      "src/index.html:2296-2410",
+      "src/blog/index.html:393-585",
+      "src/blog/company/index.html:225-339",
+      "src/blog/infrastructure/index.html:267-381",
+      "src/blog/insights/index.html:268-460"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 8
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 18,
+        "maxWords": 5
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "canvas-animation",
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 900,
+      "columns": 6
+    },
+    "mobile": {
+      "heightPx": 880,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 6 to 2"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/FooterMain.jsx"
+}

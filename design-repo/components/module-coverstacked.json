@@ -1,0 +1,15 @@
+{
+  "id": "module-coverstacked",
+  "name": "module-coverStacked",
+  "occurrences": 9,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

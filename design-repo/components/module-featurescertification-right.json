@@ -1,0 +1,13 @@
+{
+  "id": "module-featurescertification-right",
+  "name": "module-featuresCertification-right",
+  "occurrences": 3,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

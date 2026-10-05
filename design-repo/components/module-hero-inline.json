@@ -1,0 +1,14 @@
+{
+  "id": "module-hero-inline",
+  "name": "module-hero-inline",
+  "occurrences": 2,
+  "composedOf": [
+    "canvas",
+    "heading",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

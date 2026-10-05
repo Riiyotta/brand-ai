@@ -1,0 +1,10 @@
+{
+  "id": "bentotext-heading",
+  "name": "bentoText-heading",
+  "occurrences": 156,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

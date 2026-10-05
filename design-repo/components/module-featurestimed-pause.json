@@ -1,0 +1,12 @@
+{
+  "id": "module-featurestimed-pause",
+  "name": "module-featuresTimed-pause",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

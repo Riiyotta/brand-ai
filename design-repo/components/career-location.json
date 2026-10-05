@@ -1,0 +1,10 @@
+{
+  "id": "career-location",
+  "name": "career-location",
+  "occurrences": 8,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/careers/senior-software-engineer"
+  }
+}

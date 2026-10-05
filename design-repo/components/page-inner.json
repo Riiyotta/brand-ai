@@ -1,0 +1,15 @@
+{
+  "id": "page-inner",
+  "name": "page-inner",
+  "occurrences": 26,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog"
+  }
+}

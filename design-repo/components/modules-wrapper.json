@@ -1,0 +1,20 @@
+{
+  "id": "modules-wrapper",
+  "name": "modules-wrapper",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "canvas",
+    "heading",
+    "image",
+    "link",
+    "list",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

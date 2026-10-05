@@ -1,0 +1,12 @@
+{
+  "id": "bentotext-text",
+  "name": "bentoText-text",
+  "occurrences": 156,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

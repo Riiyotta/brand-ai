@@ -1,0 +1,14 @@
+{
+  "id": "citations-content-inner",
+  "name": "citations-content-inner",
+  "occurrences": 4,
+  "composedOf": [
+    "link",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/your-cmo-s-days-are-numbered"
+  }
+}

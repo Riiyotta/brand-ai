@@ -1,0 +1,10 @@
+{
+  "id": "faq-item-header",
+  "name": "faq-item-header",
+  "occurrences": 40,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

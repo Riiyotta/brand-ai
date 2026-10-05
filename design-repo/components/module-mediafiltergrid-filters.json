@@ -1,0 +1,12 @@
+{
+  "id": "module-mediafiltergrid-filters",
+  "name": "module-mediaFilterGrid-filters",
+  "occurrences": 4,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

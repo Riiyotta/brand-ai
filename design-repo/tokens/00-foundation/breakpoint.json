@@ -1,0 +1,77 @@
+{
+  "$description": "Foundation breakpoint tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "breakpoint.767.98": {
+      "$type": "dimension",
+      "$value": "767.98px",
+      "usage": 9839,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.820": {
+      "$type": "dimension",
+      "$value": "820px",
+      "usage": 560,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.932": {
+      "$type": "dimension",
+      "$value": "932px",
+      "usage": 156,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1024": {
+      "$type": "dimension",
+      "$value": "1024px",
+      "usage": 38,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1179.98": {
+      "$type": "dimension",
+      "$value": "1179.98px",
+      "usage": 2229,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1180": {
+      "$type": "dimension",
+      "$value": "1180px",
+      "usage": 399,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1279.98": {
+      "$type": "dimension",
+      "$value": "1279.98px",
+      "usage": 356,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1280": {
+      "$type": "dimension",
+      "$value": "1280px",
+      "usage": 240,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1366": {
+      "$type": "dimension",
+      "$value": "1366px",
+      "usage": 38,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1440.98": {
+      "$type": "dimension",
+      "$value": "1440.98px",
+      "usage": 76,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1919.98": {
+      "$type": "dimension",
+      "$value": "1919.98px",
+      "usage": 431,
+      "source": "CSS @media width conditions"
+    },
+    "breakpoint.1920": {
+      "$type": "dimension",
+      "$value": "1920px",
+      "usage": 232,
+      "source": "CSS @media width conditions"
+    }
+  }
+}

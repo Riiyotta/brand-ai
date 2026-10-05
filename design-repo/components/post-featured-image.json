@@ -1,0 +1,12 @@
+{
+  "id": "post-featured-image",
+  "name": "post-featured-image",
+  "occurrences": 10,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "footer-nav-column",
+  "name": "footer-nav-column",
+  "occurrences": 228,
+  "composedOf": [
+    "link",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

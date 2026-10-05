@@ -1,0 +1,13 @@
+{
+  "id": "module-faq",
+  "name": "module-faq",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

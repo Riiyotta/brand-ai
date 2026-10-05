@@ -1,0 +1,12 @@
+{
+  "id": "module-centeredheadline-inner",
+  "name": "module-centeredHeadline-inner",
+  "occurrences": 5,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

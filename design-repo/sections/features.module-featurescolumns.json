@@ -1,0 +1,70 @@
+{
+  "id": "features.module-featurescolumns",
+  "category": "FEATURES",
+  "label": "module-featuresColumns",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters. Example headline: \"How teams are using brand.ai today\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/product/index.html:1270-1340"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 6
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 6
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 6,
+        "titleMaxWords": 3,
+        "bodyMaxWords": 21
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 630,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 828,
+      "columns": 2,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/ModuleFeaturesColumns.jsx"
+}

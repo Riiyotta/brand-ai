@@ -1,0 +1,12 @@
+{
+  "id": "module-coverstacked-media-wrapper",
+  "name": "module-coverStacked-media-wrapper",
+  "occurrences": 9,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

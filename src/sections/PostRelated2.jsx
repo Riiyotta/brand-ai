@@ -1,0 +1,66 @@
+import A from "../lib/A.jsx";
+
+// post-related — the section's real markup, read from the rendered page (route /blog/post/your-cmo-s-days-are-numbered, section 3).
+export default function PostRelated2() {
+  return (
+    <section className="post-related is-grid" data-v-3d1fee30="" data-clone-section="PostRelated2">
+      <div className="post-related-heading-wrapper">
+        <div className="module-heading post-related-heading">
+          <h3 className="headline">Related Articles</h3>
+        </div>
+      </div>
+      <div className="post-related-inner">
+        <div className="post-related-posts-wrapper">
+          <div className="newsroom-grid">
+            <div>
+              <div className="gutter-sm is-mobile-list newsroom-grid-inner">
+                <A href="/blog/post/how-brand-engineering-is-shaping-modern-brands" className="news-card">
+                  <div className="news-card-media">
+                    <div className="media video mux" data-orientation="false">
+                      <video autoPlay loop muted playsInline preload="none" poster="/_ext/image.mux.com/c400iuZDtrPy8Ghz2Qjqxx4y2ki7QW6Mx02024ZC013uCvI/thumbnail__84f7228a.jpg" className="" width="100" height="100" fetchPriority="auto" src="/_ext/stream.mux.com/c400iuZDtrPy8Ghz2Qjqxx4y2ki7QW6Mx02024ZC013uCvI/high.mp4"></video>
+                    </div>
+                  </div>
+                  <div className="news-card-content">
+                    <div className="news-card-title">{"How brand engineering is shaping modern brands "}</div>
+                    <div className="news-card-meta">
+                      <div className="news-tag">Infrastructure</div>
+                      <div className="news-date">Mar 2026</div>
+                    </div>
+                  </div>
+                </A>
+                <A href="/blog/post/why-most-ai-pilots-never-leave-the-lab" className="news-card">
+                  <div className="news-card-media">
+                    <div className="media image" data-orientation="landscape">
+                      <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="1620" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__b31158bd.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__520c86ad.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__b31158bd.png 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e6c110d1ab85a685d7e92f604f45220010e42a3-1620x1620__07385d44.png 1620w" />
+                    </div>
+                  </div>
+                  <div className="news-card-content">
+                    <div className="news-card-title">Why most AI pilots never leave the lab</div>
+                    <div className="news-card-meta">
+                      <div className="news-tag">Infrastructure</div>
+                      <div className="news-date">Apr 2026</div>
+                    </div>
+                  </div>
+                </A>
+                <A href="/blog/post/your-brand-is-more-valuable-than-you-can-measure" className="news-card">
+                  <div className="news-card-media">
+                    <div className="media image" data-orientation="landscape">
+                      <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="1620" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__b31158bd.png" alt="Stylized illustration of a light-colored abacus with multiple rows of round beads on a dark textured background." fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__520c86ad.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__b31158bd.png 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__07385d44.png 1620w" />
+                    </div>
+                  </div>
+                  <div className="news-card-content">
+                    <div className="news-card-title">Your brand is more valuable than you can measure</div>
+                    <div className="news-card-meta">
+                      <div className="news-tag">Insights</div>
+                      <div className="news-date">Feb 2026</div>
+                    </div>
+                  </div>
+                </A>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

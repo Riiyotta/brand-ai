@@ -1,0 +1,13 @@
+{
+  "id": "cookies-wrapper",
+  "name": "cookies-wrapper",
+  "occurrences": 38,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

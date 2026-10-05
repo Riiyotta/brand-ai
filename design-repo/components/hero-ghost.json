@@ -1,0 +1,12 @@
+{
+  "id": "hero-ghost",
+  "name": "hero-ghost",
+  "occurrences": 2,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

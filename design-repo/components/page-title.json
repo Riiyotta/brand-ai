@@ -1,0 +1,10 @@
+{
+  "id": "page-title",
+  "name": "page-title",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/legal/privacy"
+  }
+}

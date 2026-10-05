@@ -1,0 +1,75 @@
+{
+  "$description": "Foundation motion tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "duration.250ms": {
+      "$type": "duration",
+      "$value": "0.25s",
+      "usage": 2014
+    },
+    "duration.350ms": {
+      "$type": "duration",
+      "$value": "0.35s",
+      "usage": 258
+    },
+    "duration.1500ms": {
+      "$type": "duration",
+      "$value": "1.5s",
+      "usage": 148
+    },
+    "duration.500ms": {
+      "$type": "duration",
+      "$value": "0.5s",
+      "usage": 91
+    },
+    "duration.666ms": {
+      "$type": "duration",
+      "$value": "0.666s",
+      "usage": 87
+    },
+    "duration.700ms": {
+      "$type": "duration",
+      "$value": "0.7s",
+      "usage": 76
+    },
+    "duration.150ms": {
+      "$type": "duration",
+      "$value": "0.15s",
+      "usage": 45
+    },
+    "duration.100ms": {
+      "$type": "duration",
+      "$value": "0.1s",
+      "usage": 33
+    },
+    "easing.01": {
+      "$type": "cubicBezier",
+      "$value": "ease",
+      "usage": 2471
+    },
+    "easing.02": {
+      "$type": "cubicBezier",
+      "$value": "linear",
+      "usage": 128
+    },
+    "easing.03": {
+      "$type": "cubicBezier",
+      "$value": "linear(0 0%, 0.1641 3.52%, 0.311 7.18%, 0.4413 10.99%, 0.5553 14.96%, 0.6539 19.12%, 0.738 23.5%, 0.8086 28.15%, 0.8662 33.12%, 0.9078 37.92%, 0.9405 43.12%, 0.965 48.84%, 0.9821 55.28%, 0.992 61.97%, 0.9976 70.09%, 1 100%)",
+      "usage": 80
+    },
+    "easing.04": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(0.77, 0, 0.175, 1)",
+      "usage": 69
+    },
+    "easing.05": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(0.42, 0, 0, 1)",
+      "usage": 52
+    },
+    "easing.06": {
+      "$type": "cubicBezier",
+      "$value": "steps(2, start)",
+      "usage": 38
+    }
+  }
+}

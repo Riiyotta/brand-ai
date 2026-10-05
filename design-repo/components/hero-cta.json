@@ -1,0 +1,10 @@
+{
+  "id": "hero-cta",
+  "name": "hero-cta",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

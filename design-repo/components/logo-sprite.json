@@ -1,0 +1,10 @@
+{
+  "id": "logo-sprite",
+  "name": "logo-sprite",
+  "occurrences": 38,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

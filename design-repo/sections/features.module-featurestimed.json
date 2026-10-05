@@ -1,0 +1,88 @@
+{
+  "id": "features.module-featurestimed",
+  "category": "FEATURES",
+  "label": "module-featuresTimed",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters. Example headline: \"Brand OS The structured intelligence layer for your brand\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 2,
+    "measuredFrom": [
+      "src/index.html:1209-1405",
+      "src/index.html:1406-1572",
+      "src/home/index.html:1215-1411",
+      "src/home/index.html:1412-1578"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 9
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 5
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 1,
+        "titleMaxWords": 2,
+        "bodyMaxWords": 27
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 2
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 935,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 1032,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "video"
+  ],
+  "implementedBy": "src/sections/ModuleFeaturesTimed.jsx"
+}

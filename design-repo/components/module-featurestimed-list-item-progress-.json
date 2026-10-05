@@ -1,0 +1,10 @@
+{
+  "id": "module-featurestimed-list-item-progress-",
+  "name": "module-featuresTimed-list-item-progress-wrapper",
+  "occurrences": 18,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "news-keycollaborators-item-author",
+  "name": "news-keyCollaborators-item-author",
+  "occurrences": 12,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

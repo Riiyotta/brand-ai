@@ -1,0 +1,12 @@
+{
+  "id": "richtext-media-carousel-arrow",
+  "name": "richtext-media-carousel-arrow",
+  "occurrences": 2,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

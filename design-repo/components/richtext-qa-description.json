@@ -1,0 +1,12 @@
+{
+  "id": "richtext-qa-description",
+  "name": "richtext-qa-description",
+  "occurrences": 20,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

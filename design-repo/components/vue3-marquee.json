@@ -1,0 +1,12 @@
+{
+  "id": "vue3-marquee",
+  "name": "vue3-marquee",
+  "occurrences": 5,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

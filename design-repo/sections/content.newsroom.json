@@ -1,0 +1,76 @@
+{
+  "id": "content.newsroom",
+  "category": "CONTENT",
+  "label": "Newsroom",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Newsroom From noise to strategy\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/brand-os/index.html:520-658"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 21
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1645,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 2780,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "4 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/Newsroom.jsx"
+}

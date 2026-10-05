@@ -1,0 +1,15 @@
+{
+  "id": "page-right",
+  "name": "page-right",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "link",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/legal/privacy"
+  }
+}

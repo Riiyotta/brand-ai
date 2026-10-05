@@ -1,0 +1,12 @@
+{
+  "id": "ghost-img-inner",
+  "name": "ghost-img-inner",
+  "occurrences": 8,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

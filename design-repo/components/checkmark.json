@@ -1,0 +1,12 @@
+{
+  "id": "checkmark",
+  "name": "checkmark",
+  "occurrences": 9,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

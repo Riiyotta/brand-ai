@@ -1,0 +1,91 @@
+{
+  "id": "content.module-mediasingle",
+  "category": "CONTENT",
+  "label": "module-mediaSingle",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Work with us\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 5,
+    "routes": 4,
+    "measuredFrom": [
+      "src/company/index.html:244-278",
+      "src/company/index.html:279-309",
+      "src/enterprise/index.html:2250-2290",
+      "src/product/index.html:1855-1889",
+      "src/teams/index.html:1220-1260"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 10
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 26
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 26
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image",
+          "hero-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "maxPerPage": 2
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 945,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 540,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image",
+    "hero-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/ModuleMediaSingle.jsx"
+}

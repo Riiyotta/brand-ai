@@ -1,0 +1,71 @@
+{
+  "id": "hero.module-hero-inline",
+  "category": "HERO",
+  "label": "module-hero-inline",
+  "tag": "section",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Brand is your most valuable asset. brand.ai makes it machine-readable so every team, tool, and agent gets it right.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 2,
+    "routes": 2,
+    "measuredFrom": [
+      "src/index.html:1045-1198",
+      "src/home/index.html:1051-1204"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 19
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 20,
+        "assetRoles": [
+          "content-image",
+          "hero-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "canvas-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 3150,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 2701,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "content-image",
+    "hero-image"
+  ],
+  "implementedBy": "src/sections/ModuleHeroInline.jsx"
+}

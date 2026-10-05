@@ -1,0 +1,10 @@
+{
+  "id": "position",
+  "name": "position",
+  "occurrences": 28,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

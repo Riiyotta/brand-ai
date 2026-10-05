@@ -1,0 +1,13 @@
+{
+  "id": "module-featurescolumns-list-item",
+  "name": "module-featuresColumns-list-item",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/product"
+  }
+}

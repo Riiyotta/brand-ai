@@ -1,0 +1,12 @@
+{
+  "id": "footer-top",
+  "name": "footer-top",
+  "occurrences": 38,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

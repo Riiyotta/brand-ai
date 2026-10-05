@@ -1,0 +1,10 @@
+{
+  "id": "module-mediaflexible-spacer",
+  "name": "module-mediaFlexible-spacer",
+  "occurrences": 5,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/brand-os"
+  }
+}

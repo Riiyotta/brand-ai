@@ -1,0 +1,12 @@
+{
+  "id": "news-audio-player-info",
+  "name": "news-audio-player-info",
+  "occurrences": 9,
+  "composedOf": [
+    "button"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

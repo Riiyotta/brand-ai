@@ -1,0 +1,12 @@
+{
+  "id": "module-logos-wrapper",
+  "name": "module-logos-wrapper",
+  "occurrences": 4,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

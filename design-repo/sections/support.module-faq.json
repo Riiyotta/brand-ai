@@ -1,0 +1,68 @@
+{
+  "id": "support.module-faq",
+  "category": "SUPPORT",
+  "label": "module-faq",
+  "tag": "section",
+  "purpose": "Answers questions or collects a message. Example headline: \"Have questions? Ask us.\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 6,
+    "routes": 6,
+    "measuredFrom": [
+      "src/brand-os/index.html:819-930",
+      "src/brand-studio/index.html:767-875",
+      "src/enterprise/index.html:2144-2249",
+      "src/product/index.html:1890-2004",
+      "src/security/index.html:493-604"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 62
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 393,
+      "columns": 2
+    },
+    "mobile": {
+      "heightPx": 490,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "2 columns collapse to a single column"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/ModuleFaq.jsx"
+}

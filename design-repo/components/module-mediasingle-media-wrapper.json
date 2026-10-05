@@ -1,0 +1,12 @@
+{
+  "id": "module-mediasingle-media-wrapper",
+  "name": "module-mediaSingle-media-wrapper",
+  "occurrences": 5,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/company"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "id": "hero.main-inner",
+  "category": "HERO",
+  "label": "main-inner",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Blog\".",
+  "purposeIsInferred": true,
+  "nameSource": "id",
+  "evidence": {
+    "level": "measured",
+    "instances": 17,
+    "routes": 17,
+    "measuredFrom": [
+      "src/blog/company/index.html:144-224",
+      "src/blog/infrastructure/index.html:144-266",
+      "src/blog/insights/index.html:145-267",
+      "src/blog/interviews/index.html:145-204",
+      "src/blog/product/index.html:144-224"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 4
+      },
+      "body": {
+        "type": "string[]",
+        "required": false,
+        "maxItems": 30,
+        "maxWords": 82
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": false,
+        "maxItems": 6,
+        "maxWords": 3
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 15,
+        "titleMaxWords": 9,
+        "bodyMaxWords": 61
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 5,
+        "assetRoles": [
+          "avatar",
+          "content-image",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2225,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 2350,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 4 to 3"
+    ]
+  },
+  "assetRoles": [
+    "avatar",
+    "content-image",
+    "video"
+  ],
+  "implementedBy": "src/sections/MainInner.jsx"
+}

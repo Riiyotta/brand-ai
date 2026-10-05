@@ -1,0 +1,13 @@
+{
+  "id": "module-logos",
+  "name": "module-logos",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

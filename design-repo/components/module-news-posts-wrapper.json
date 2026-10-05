@@ -1,0 +1,13 @@
+{
+  "id": "module-news-posts-wrapper",
+  "name": "module-news-posts-wrapper",
+  "occurrences": 6,
+  "composedOf": [
+    "image",
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

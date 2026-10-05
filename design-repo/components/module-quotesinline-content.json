@@ -1,0 +1,10 @@
+{
+  "id": "module-quotesinline-content",
+  "name": "module-quotesInline-content",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/enterprise"
+  }
+}

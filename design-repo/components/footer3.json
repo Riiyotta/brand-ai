@@ -1,0 +1,12 @@
+{
+  "id": "footer3",
+  "name": "footer3",
+  "occurrences": 38,
+  "composedOf": [
+    "canvas"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

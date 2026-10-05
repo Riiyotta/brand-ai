@@ -1,0 +1,13 @@
+{
+  "id": "hero-allwrapper",
+  "name": "hero-allwrapper",
+  "occurrences": 2,
+  "composedOf": [
+    "canvas",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

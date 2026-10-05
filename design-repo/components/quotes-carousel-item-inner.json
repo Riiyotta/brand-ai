@@ -1,0 +1,13 @@
+{
+  "id": "quotes-carousel-item-inner",
+  "name": "quotes-carousel-item-inner",
+  "occurrences": 5,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/book-a-demo"
+  }
+}

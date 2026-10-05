@@ -1,0 +1,10 @@
+{
+  "id": "transparent-overlay",
+  "name": "transparent-overlay",
+  "occurrences": 5,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

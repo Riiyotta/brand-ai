@@ -1,0 +1,84 @@
+{
+  "id": "content.module-download",
+  "category": "CONTENT",
+  "label": "module-download",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Get a personalized demo for your brand\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 8,
+    "routes": 8,
+    "measuredFrom": [
+      "src/index.html:2264-2295",
+      "src/brand-os/index.html:931-955",
+      "src/brand-studio/index.html:741-766",
+      "src/enterprise/index.html:2118-2143",
+      "src/home/index.html:2270-2301"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 7
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 16
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 383,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": 345,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "columns change from 4 to 3"
+    ]
+  },
+  "assetRoles": [
+    "illustration"
+  ],
+  "implementedBy": "src/sections/ModuleDownload.jsx"
+}

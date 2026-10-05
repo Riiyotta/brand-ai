@@ -1,0 +1,98 @@
+{
+  "id": "hero.page-wrapper",
+  "category": "HERO",
+  "label": "page-wrapper",
+  "tag": "div",
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Example headline: \"Brand engineers: The role that didn't exist until now\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 6,
+    "routes": 6,
+    "measuredFrom": [
+      "src/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now/index.html:148-306",
+      "src/blog/post/how-brand-engineering-is-shaping-modern-brands/index.html:148-327",
+      "src/blog/post/how-teams-are-using-brand-ai/index.html:148-354",
+      "src/blog/post/welcome-to-brand-ai/index.html:148-348",
+      "src/blog/post/why-katie-dreke-is-betting-on-the-human-touch/index.html:148-684"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 9
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 32
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 94
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 2
+      },
+      "items": {
+        "type": "item[]",
+        "required": false,
+        "maxItems": 5,
+        "titleMaxWords": 9,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 8,
+        "assetRoles": [
+          "hero-image",
+          "icon",
+          "video"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 5778,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 5443,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [
+    "hero-image",
+    "icon",
+    "video"
+  ],
+  "implementedBy": "src/sections/PageWrapper.jsx"
+}

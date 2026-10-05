@@ -1,0 +1,16 @@
+{
+  "id": "module-featurestimed",
+  "name": "module-featuresTimed",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

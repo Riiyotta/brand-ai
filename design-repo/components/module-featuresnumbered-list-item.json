@@ -1,0 +1,13 @@
+{
+  "id": "module-featuresnumbered-list-item",
+  "name": "module-featuresNumbered-list-item",
+  "occurrences": 10,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/company"
+  }
+}

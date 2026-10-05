@@ -1,0 +1,82 @@
+{
+  "id": "features.module-featurescertification",
+  "category": "FEATURES",
+  "label": "module-featuresCertification",
+  "tag": "section",
+  "purpose": "Explains what the product does and why it matters. Example headline: \"We maintain compliance withthe most rigorous international security standards\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 3,
+    "measuredFrom": [
+      "src/enterprise/index.html:1549-1677",
+      "src/product/index.html:1701-1829",
+      "src/security/index.html:175-303"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 10
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 5,
+        "maxWords": 20
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 3
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 3,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 670,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 897,
+      "columns": 3,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [
+    "illustration"
+  ],
+  "implementedBy": "src/sections/ModuleFeaturesCertification.jsx"
+}

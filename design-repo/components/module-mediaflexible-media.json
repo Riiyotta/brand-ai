@@ -1,0 +1,13 @@
+{
+  "id": "module-mediaflexible-media",
+  "name": "module-mediaFlexible-media",
+  "occurrences": 63,
+  "composedOf": [
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/brand-os"
+  }
+}

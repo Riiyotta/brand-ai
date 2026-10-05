@@ -1,0 +1,12 @@
+{
+  "id": "module-part-callouts",
+  "name": "module-part-callouts",
+  "occurrences": 3,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

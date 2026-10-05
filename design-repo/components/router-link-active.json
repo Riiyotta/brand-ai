@@ -1,0 +1,10 @@
+{
+  "id": "router-link-active",
+  "name": "router-link-active",
+  "occurrences": 41,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

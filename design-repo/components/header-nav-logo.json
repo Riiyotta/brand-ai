@@ -1,0 +1,10 @@
+{
+  "id": "header-nav-logo",
+  "name": "header-nav-logo",
+  "occurrences": 37,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

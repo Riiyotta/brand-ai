@@ -1,0 +1,10 @@
+{
+  "id": "ls-is-cached",
+  "name": "ls-is-cached",
+  "occurrences": 130,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

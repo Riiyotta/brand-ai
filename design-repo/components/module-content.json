@@ -1,0 +1,12 @@
+{
+  "id": "module-content",
+  "name": "module-content",
+  "occurrences": 8,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

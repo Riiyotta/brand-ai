@@ -1,0 +1,13 @@
+{
+  "id": "footer-bottom",
+  "name": "footer-bottom",
+  "occurrences": 38,
+  "composedOf": [
+    "link",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

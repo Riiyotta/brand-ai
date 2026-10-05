@@ -1,0 +1,12 @@
+{
+  "id": "push-right",
+  "name": "push-right",
+  "occurrences": 38,
+  "composedOf": [
+    "link"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

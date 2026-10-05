@@ -1,0 +1,10 @@
+{
+  "id": "lazypreload",
+  "name": "lazypreload",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/enterprise"
+  }
+}

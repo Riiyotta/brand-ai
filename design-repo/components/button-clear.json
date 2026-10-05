@@ -1,0 +1,10 @@
+{
+  "id": "button-clear",
+  "name": "button-clear",
+  "occurrences": 295,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

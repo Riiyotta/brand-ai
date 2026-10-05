@@ -1,0 +1,60 @@
+{
+  "id": "proof.module-logos",
+  "category": "PROOF",
+  "label": "module-logos",
+  "tag": "section",
+  "purpose": "Builds trust with customers, quotes or logos. Example headline: \"Built with brand leaders from\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/index.html:174-1044",
+      "src/enterprise/index.html:173-1013",
+      "src/home/index.html:180-1050",
+      "src/product/index.html:178-1018"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 5
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 140,
+      "columns": 16
+    },
+    "mobile": {
+      "heightPx": 113,
+      "columns": 16,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
+  "implementedBy": "src/sections/ModuleLogos.jsx"
+}

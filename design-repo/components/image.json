@@ -1,0 +1,13 @@
+{
+  "id": "image",
+  "name": "image",
+  "occurrences": 9,
+  "composedOf": [
+    "image",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/security"
+  }
+}

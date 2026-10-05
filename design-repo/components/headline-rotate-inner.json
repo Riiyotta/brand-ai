@@ -1,0 +1,10 @@
+{
+  "id": "headline-rotate-inner",
+  "name": "headline-rotate-inner",
+  "occurrences": 38,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "message",
+  "name": "message",
+  "occurrences": 47,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

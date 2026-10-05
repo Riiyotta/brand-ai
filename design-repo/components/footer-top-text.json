@@ -1,0 +1,10 @@
+{
+  "id": "footer-top-text",
+  "name": "footer-top-text",
+  "occurrences": 38,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

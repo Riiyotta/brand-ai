@@ -1,0 +1,59 @@
+{
+  "id": "content.module-centeredheadline",
+  "category": "CONTENT",
+  "label": "module-centeredHeadline",
+  "tag": "section",
+  "purpose": "Carries the substantive content of the page. Example headline: \"As AI agents proliferate across your organization, they all need brand context. Brand OS structures your brand into machine-readable intelligence. Brand Studio turns that intelligence into on-brand wo\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 5,
+    "routes": 5,
+    "measuredFrom": [
+      "src/index.html:1199-1208",
+      "src/brand-os/index.html:808-818",
+      "src/company/index.html:171-180",
+      "src/home/index.html:1205-1214",
+      "src/product/index.html:1019-1028"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 28
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 216,
+      "columns": 1
+    },
+    "mobile": {
+      "heightPx": 240,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": []
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/ModuleCenteredHeadline.jsx"
+}

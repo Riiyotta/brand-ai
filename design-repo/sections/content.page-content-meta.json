@@ -1,0 +1,79 @@
+{
+  "id": "content.page-content-meta",
+  "category": "CONTENT",
+  "label": "page-content-meta",
+  "tag": "div",
+  "purpose": "Carries the substantive content of the page. Example headline: \"Citations (17)\".",
+  "purposeIsInferred": true,
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good/index.html:513-615",
+      "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html:405-469",
+      "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html:411-497",
+      "src/blog/post/your-cmo-s-days-are-numbered/index.html:439-543"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "subheading": {
+        "type": "string",
+        "required": false,
+        "maxWords": 1
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 17,
+        "maxWords": 33
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 3,
+        "maxWords": 1
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation"
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 901,
+      "columns": 3
+    },
+    "mobile": {
+      "heightPx": 2135,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "3 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
+    ]
+  },
+  "assetRoles": [],
+  "implementedBy": "src/sections/PageContentMeta.jsx"
+}

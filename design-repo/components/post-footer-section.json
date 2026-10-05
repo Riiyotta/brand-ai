@@ -1,0 +1,13 @@
+{
+  "id": "post-footer-section",
+  "name": "post-footer-section",
+  "occurrences": 30,
+  "composedOf": [
+    "link",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

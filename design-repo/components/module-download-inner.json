@@ -1,0 +1,15 @@
+{
+  "id": "module-download-inner",
+  "name": "module-download-inner",
+  "occurrences": 8,
+  "composedOf": [
+    "heading",
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

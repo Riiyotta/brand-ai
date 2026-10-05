@@ -1,0 +1,3366 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://brand.ai/",
+    "framework": "Vite-like (ESM module scripts)",
+    "scrapedAt": "2026-10-05T11:30:42Z",
+    "snapshotFolder": "recon/mirror/src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        12422
+      ],
+      [
+        "rgb(27,27,27)",
+        7676
+      ],
+      [
+        "rgb(247,245,242)",
+        2566
+      ],
+      [
+        "rgb(255,255,255)",
+        1974
+      ],
+      [
+        "rgb(140,135,125)",
+        1103
+      ],
+      [
+        "rgb(187,186,179)",
+        900
+      ],
+      [
+        "rgb(20,20,20)",
+        227
+      ],
+      [
+        "rgb(210,210,210)",
+        195
+      ],
+      [
+        "rgb(10,10,10)",
+        177
+      ],
+      [
+        "rgb(235,233,230)",
+        86
+      ],
+      [
+        "rgb(0,128,0)",
+        38
+      ],
+      [
+        "rgba(215,215,215,0.5)",
+        38
+      ],
+      [
+        "rgba(255,255,255,0.15)",
+        38
+      ],
+      [
+        "rgb(240,238,234)",
+        18
+      ],
+      [
+        "rgb(41,205,96)",
+        18
+      ],
+      [
+        "rgba(255,255,255,0.4)",
+        13
+      ],
+      [
+        "rgb(38,38,38)",
+        6
+      ],
+      [
+        "rgba(0,0,0,0.05)",
+        6
+      ],
+      [
+        "rgb(0,0,0)",
+        4
+      ],
+      [
+        "rgba(255,255,255,0.1)",
+        4
+      ],
+      [
+        "rgba(247,245,242,0.8)",
+        2
+      ],
+      [
+        "rgb(168,163,159)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "8px",
+        467
+      ],
+      [
+        "5.999px",
+        387
+      ],
+      [
+        "50px",
+        73
+      ],
+      [
+        "4px",
+        66
+      ],
+      [
+        "10px",
+        40
+      ],
+      [
+        "12px",
+        39
+      ],
+      [
+        "14px",
+        38
+      ],
+      [
+        "60px",
+        38
+      ],
+      [
+        "15px",
+        18
+      ],
+      [
+        "80px",
+        10
+      ],
+      [
+        "36px",
+        9
+      ],
+      [
+        "9999px",
+        9
+      ],
+      [
+        "26.4px",
+        8
+      ],
+      [
+        "20px",
+        6
+      ]
+    ],
+    "spacing": [
+      [
+        "20px",
+        839
+      ],
+      [
+        "10.0002px",
+        774
+      ],
+      [
+        "18.9994px",
+        774
+      ],
+      [
+        "100px",
+        472
+      ],
+      [
+        "10px",
+        389
+      ],
+      [
+        "40px",
+        324
+      ],
+      [
+        "30px",
+        254
+      ],
+      [
+        "18.62px",
+        228
+      ],
+      [
+        "15px",
+        220
+      ],
+      [
+        "120px",
+        217
+      ],
+      [
+        "22px",
+        202
+      ],
+      [
+        "12px",
+        160
+      ],
+      [
+        "7px",
+        144
+      ],
+      [
+        "18px",
+        132
+      ],
+      [
+        "90px",
+        124
+      ],
+      [
+        "24px",
+        122
+      ],
+      [
+        "36px",
+        120
+      ],
+      [
+        "250px",
+        106
+      ],
+      [
+        "5.6px",
+        104
+      ],
+      [
+        "60px",
+        101
+      ],
+      [
+        "11.2px",
+        98
+      ],
+      [
+        "16.8px",
+        98
+      ],
+      [
+        "6px",
+        98
+      ],
+      [
+        "9px",
+        94
+      ],
+      [
+        "14px",
+        88
+      ],
+      [
+        "64px",
+        76
+      ],
+      [
+        "9.6px",
+        76
+      ],
+      [
+        "5px",
+        71
+      ],
+      [
+        "28px",
+        70
+      ],
+      [
+        "8px",
+        48
+      ],
+      [
+        "167.016px",
+        38
+      ],
+      [
+        "360px",
+        38
+      ],
+      [
+        "200px",
+        36
+      ],
+      [
+        "16px",
+        35
+      ],
+      [
+        "42px",
+        27
+      ],
+      [
+        "50px",
+        24
+      ],
+      [
+        "80px",
+        24
+      ],
+      [
+        "300px",
+        19
+      ],
+      [
+        "135px",
+        17
+      ],
+      [
+        "12.6px",
+        15
+      ]
+    ],
+    "breakpoints": [
+      [
+        "767.98px",
+        9839
+      ],
+      [
+        "1179.98px",
+        2229
+      ],
+      [
+        "820px",
+        560
+      ],
+      [
+        "1919.98px",
+        431
+      ],
+      [
+        "1180px",
+        399
+      ],
+      [
+        "1279.98px",
+        356
+      ],
+      [
+        "1280px",
+        240
+      ],
+      [
+        "1920px",
+        232
+      ],
+      [
+        "932px",
+        156
+      ],
+      [
+        "1440.98px",
+        76
+      ],
+      [
+        "1024px",
+        38
+      ],
+      [
+        "1366px",
+        38
+      ]
+    ],
+    "durations": [
+      [
+        "0.25s",
+        2014
+      ],
+      [
+        "0.35s",
+        258
+      ],
+      [
+        "1.5s",
+        148
+      ],
+      [
+        "0.5s",
+        91
+      ],
+      [
+        "0.666s",
+        87
+      ],
+      [
+        "0.7s",
+        76
+      ],
+      [
+        "0.15s",
+        45
+      ],
+      [
+        "0.1s",
+        33
+      ],
+      [
+        "35s",
+        24
+      ],
+      [
+        "0.8s",
+        22
+      ],
+      [
+        "0.4s",
+        18
+      ],
+      [
+        "0.75s",
+        18
+      ],
+      [
+        "0.3s",
+        10
+      ],
+      [
+        "0.6s",
+        6
+      ],
+      [
+        "55s",
+        6
+      ],
+      [
+        "0.2s",
+        4
+      ]
+    ],
+    "easings": [
+      [
+        "ease",
+        2471
+      ],
+      [
+        "linear",
+        128
+      ],
+      [
+        "linear(0 0%, 0.1641 3.52%, 0.311 7.18%, 0.4413 10.99%, 0.5553 14.96%, 0.6539 19.12%, 0.738 23.5%, 0.8086 28.15%, 0.8662 33.12%, 0.9078 37.92%, 0.9405 43.12%, 0.965 48.84%, 0.9821 55.28%, 0.992 61.97%, 0.9976 70.09%, 1 100%)",
+        80
+      ],
+      [
+        "cubic-bezier(0.77, 0, 0.175, 1)",
+        69
+      ],
+      [
+        "cubic-bezier(0.42, 0, 0, 1)",
+        52
+      ],
+      [
+        "steps(2, start)",
+        38
+      ],
+      [
+        "cubic-bezier(0.3, 0, 0, 1)",
+        22
+      ]
+    ],
+    "cssVariables": {
+      "--vh100": "calc(1vh*100)",
+      "--sticky-top": "16rem",
+      "--gutter": "4rem",
+      "--size-hero": "8rem",
+      "--size-xlarge2": "7.2rem",
+      "--size-xlarge": "5.4rem",
+      "--size-large": "4.4rem",
+      "--size-medium": "2.8rem",
+      "--size-body2": "2.2rem",
+      "--size-body": "1.8rem",
+      "--pwx": "2rem",
+      "--radius-large": "2.4rem",
+      "--size-body-small": "1.6rem",
+      "--vh": "1svh",
+      "--margin-xxl": "20rem",
+      "--margin-xl2": "10rem",
+      "--margin-xl3": "15rem",
+      "--margin-main-top-xl": "15rem",
+      "--radius-medium": "1.4rem",
+      "--size-small": "1.4rem",
+      "--size-nav": "1.4rem",
+      "--size-button": "1.4rem",
+      "--pwy": "2rem",
+      "--margin-main-top": "15rem",
+      "--margin-lg": "7rem",
+      "--margin-xl": "10rem",
+      "--richtext-spacing": "7rem",
+      "--radius": ".8rem"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "brand.ai | AI for brand management",
+      "h1": "Your brand, as source code",
+      "template": "template.group",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            92,
+            144
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            145,
+            173
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.module-logos",
+          "tag": "section",
+          "anchor": "module-logos",
+          "lines": [
+            174,
+            1044
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "hero.module-hero-inline",
+          "tag": "section",
+          "anchor": "module-hero-inline",
+          "lines": [
+            1045,
+            1198
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-centeredheadline",
+          "tag": "section",
+          "anchor": "module-centeredHeadline",
+          "lines": [
+            1199,
+            1208
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "features.module-featurestimed",
+          "tag": "section",
+          "anchor": "module-featuresTimed",
+          "lines": [
+            1209,
+            1405
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "features.module-featurestimed",
+          "tag": "section",
+          "anchor": "module-featuresTimed",
+          "lines": [
+            1406,
+            1572
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.module-mediafiltergrid",
+          "tag": "section",
+          "anchor": "module-mediaFilterGrid",
+          "lines": [
+            1573,
+            2040
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.module-quotes",
+          "tag": "section",
+          "anchor": "module-quotes",
+          "lines": [
+            2041,
+            2184
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            2185,
+            2263
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            2264,
+            2295
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            2296,
+            2410
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            2411,
+            2427
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/security",
+      "title": "SOC 2 certified, zero training on your data | brand.ai",
+      "h1": "Enterprise-grade security for your brand intelligence",
+      "template": "template.security",
+      "file": "src/security/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-covercolumns",
+          "tag": "section",
+          "anchor": "module-coverColumns",
+          "lines": [
+            148,
+            174
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.module-featurescertification",
+          "tag": "section",
+          "anchor": "module-featuresCertification",
+          "lines": [
+            175,
+            303
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "features.module-featuresinline",
+          "tag": "section",
+          "anchor": "module-featuresInline",
+          "lines": [
+            304,
+            370
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "features.module-featuresunpacked",
+          "tag": "section",
+          "anchor": "module-featuresUnpacked",
+          "lines": [
+            371,
+            467
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            468,
+            492
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            493,
+            604
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            605,
+            719
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            720,
+            736
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/company",
+      "title": "Tools for those who believe in brand | brand.ai",
+      "h1": "Access to tools for those who believe in the power of brand",
+      "template": "template.company",
+      "file": "src/company/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            148,
+            170
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.module-centeredheadline",
+          "tag": "section",
+          "anchor": "module-centeredHeadline",
+          "lines": [
+            171,
+            180
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "features.module-featuresnumbered",
+          "tag": "section",
+          "anchor": "module-featuresNumbered",
+          "lines": [
+            181,
+            243
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-mediasingle",
+          "tag": "section",
+          "anchor": "module-mediaSingle",
+          "lines": [
+            244,
+            278
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.module-mediasingle",
+          "tag": "section",
+          "anchor": "module-mediaSingle",
+          "lines": [
+            279,
+            309
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            310,
+            394
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            395,
+            509
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            510,
+            526
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers",
+      "title": "Join toolmakers between code and craft | brand.ai",
+      "h1": "Build the tools for those who build the brands",
+      "template": "template.careers",
+      "file": "src/careers/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            148,
+            172
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.module-featuresunpacked",
+          "tag": "section",
+          "anchor": "module-featuresUnpacked",
+          "lines": [
+            173,
+            238
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "features.module-featuresnumbered",
+          "tag": "section",
+          "anchor": "module-featuresNumbered",
+          "lines": [
+            239,
+            301
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "proof.module-quotes",
+          "tag": "section",
+          "anchor": "module-quotes",
+          "lines": [
+            302,
+            330
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.current-roles",
+          "tag": "section",
+          "anchor": "id=\"current-roles\"",
+          "lines": [
+            331,
+            452
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            453,
+            567
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            568,
+            584
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "title": "Insights on brand strategy and AI | brand.ai",
+      "h1": "Blog",
+      "template": "template.blog",
+      "file": "src/blog/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            155
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "features.news-card-featured",
+          "tag": "a",
+          "anchor": "news-card-featured",
+          "lines": [
+            156,
+            175
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.filter-news",
+          "tag": "div",
+          "anchor": "newsroom-filters",
+          "lines": [
+            176,
+            187
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.newsroom-grid-inner",
+          "tag": "div",
+          "anchor": "newsroom-grid-inner",
+          "lines": [
+            188,
+            392
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            393,
+            585
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            586,
+            602
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/book-a-demo",
+      "title": "Book a Personalized brand.ai Demo for Your Team | brand.ai",
+      "h1": "Get a private, personalized demo",
+      "template": "template.group-2",
+      "file": "src/book-a-demo/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            90,
+            137
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            138,
+            1298
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            1299,
+            1413
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            1414,
+            1430
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/brand-os",
+      "title": "Turn brand guidelines into intelligent systems | brand.ai",
+      "h1": "Your brand, engineered into living intelligence",
+      "template": "template.brand-os",
+      "file": "src/brand-os/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            148,
+            176
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.module-headlinefloating",
+          "tag": "section",
+          "anchor": "module-headlineFloating",
+          "lines": [
+            177,
+            215
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.textblock",
+          "tag": "div",
+          "anchor": "textBlock",
+          "lines": [
+            216,
+            237
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-mediaflexible-media-wrapper",
+          "tag": "div",
+          "anchor": "module-mediaFlexible-media-wrapper",
+          "lines": [
+            238,
+            381
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.textblock",
+          "tag": "div",
+          "anchor": "textBlock",
+          "lines": [
+            382,
+            403
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.module-mediaflexible-media-wrapper",
+          "tag": "div",
+          "anchor": "module-mediaFlexible-media-wrapper",
+          "lines": [
+            404,
+            519
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.newsroom",
+          "tag": "section",
+          "anchor": "id=\"Newsroom\"",
+          "lines": [
+            520,
+            658
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.connected-applications",
+          "tag": "section",
+          "anchor": "id=\"Connected Applications\"",
+          "lines": [
+            659,
+            701
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "features.module-featuresinline",
+          "tag": "section",
+          "anchor": "module-featuresInline",
+          "lines": [
+            702,
+            807
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.module-centeredheadline",
+          "tag": "section",
+          "anchor": "module-centeredHeadline",
+          "lines": [
+            808,
+            818
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            819,
+            930
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            931,
+            955
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            956,
+            1040
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            1041,
+            1155
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            1156,
+            1172
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/brand-studio",
+      "title": "Where brand intelligence meets execution | brand.ai",
+      "h1": "Where brand intelligence becomes execution",
+      "template": "template.brand-studio",
+      "file": "src/brand-studio/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            148,
+            176
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.module-headlinefloating",
+          "tag": "section",
+          "anchor": "module-headlineFloating",
+          "lines": [
+            177,
+            214
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.assistant",
+          "tag": "section",
+          "anchor": "id=\"assistant\"",
+          "lines": [
+            215,
+            326
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.canvas",
+          "tag": "section",
+          "anchor": "id=\"canvas\"",
+          "lines": [
+            327,
+            495
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.projects",
+          "tag": "section",
+          "anchor": "id=\"projects\"",
+          "lines": [
+            496,
+            601
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.brandcheck",
+          "tag": "section",
+          "anchor": "id=\"brandcheck\"",
+          "lines": [
+            602,
+            740
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            741,
+            766
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            767,
+            875
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            876,
+            960
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            961,
+            1075
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            1076,
+            1092
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/product",
+      "title": "Brand management software that preserves craft | brand.ai",
+      "h1": "The operating system for modern brand work",
+      "template": "template.product",
+      "file": "src/product/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            148,
+            177
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.module-logos",
+          "tag": "section",
+          "anchor": "module-logos",
+          "lines": [
+            178,
+            1018
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.module-centeredheadline",
+          "tag": "section",
+          "anchor": "module-centeredHeadline",
+          "lines": [
+            1019,
+            1028
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            1029,
+            1159
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            1160,
+            1269
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "features.module-featurescolumns",
+          "tag": "section",
+          "anchor": "module-featuresColumns",
+          "lines": [
+            1270,
+            1340
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.module-quotes",
+          "tag": "section",
+          "anchor": "module-quotes",
+          "lines": [
+            1341,
+            1484
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            1485,
+            1567
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            1568,
+            1633
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "features.module-featuresinline",
+          "tag": "section",
+          "anchor": "module-featuresInline",
+          "lines": [
+            1634,
+            1700
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "features.module-featurescertification",
+          "tag": "section",
+          "anchor": "module-featuresCertification",
+          "lines": [
+            1701,
+            1829
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            1830,
+            1854
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "content.module-mediasingle",
+          "tag": "section",
+          "anchor": "module-mediaSingle",
+          "lines": [
+            1855,
+            1889
+          ]
+        },
+        {
+          "idx": 14,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            1890,
+            2004
+          ]
+        },
+        {
+          "idx": 15,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            2005,
+            2089
+          ]
+        },
+        {
+          "idx": 16,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            2090,
+            2204
+          ]
+        },
+        {
+          "idx": 17,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            2205,
+            2221
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/enterprise",
+      "title": "Enterprise brand management for global teams | brand.ai",
+      "h1": "One truth. Every team. Every time.",
+      "template": "template.enterprise",
+      "file": "src/enterprise/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            91,
+            143
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            144,
+            172
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.module-logos",
+          "tag": "section",
+          "anchor": "module-logos",
+          "lines": [
+            173,
+            1013
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "features.module-featuresinline",
+          "tag": "section",
+          "anchor": "module-featuresInline",
+          "lines": [
+            1014,
+            1080
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-mediafiltergrid",
+          "tag": "section",
+          "anchor": "module-mediaFilterGrid",
+          "lines": [
+            1081,
+            1548
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "features.module-featurescertification",
+          "tag": "section",
+          "anchor": "module-featuresCertification",
+          "lines": [
+            1549,
+            1677
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            1678,
+            1823
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "features.module-featuresapp",
+          "tag": "section",
+          "anchor": "module-featuresApp",
+          "lines": [
+            1824,
+            2051
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "features.module-featuresunpacked",
+          "tag": "section",
+          "anchor": "module-featuresUnpacked",
+          "lines": [
+            2052,
+            2117
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            2118,
+            2143
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            2144,
+            2249
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "content.module-mediasingle",
+          "tag": "section",
+          "anchor": "module-mediaSingle",
+          "lines": [
+            2250,
+            2290
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            2291,
+            2405
+          ]
+        },
+        {
+          "idx": 13,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            2406,
+            2422
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/teams",
+      "title": "Brand management software for growing teams | brand.ai",
+      "h1": "Built for teams scaling fast",
+      "template": "template.teams",
+      "file": "src/teams/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            91,
+            143
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            144,
+            172
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "features.module-featuresinline",
+          "tag": "section",
+          "anchor": "module-featuresInline",
+          "lines": [
+            173,
+            239
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.module-mediafiltergrid",
+          "tag": "section",
+          "anchor": "module-mediaFilterGrid",
+          "lines": [
+            240,
+            707
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-mediaflexible",
+          "tag": "section",
+          "anchor": "module-mediaFlexible",
+          "lines": [
+            708,
+            908
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "features.module-featuresapp",
+          "tag": "section",
+          "anchor": "module-featuresApp",
+          "lines": [
+            909,
+            1081
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            1082,
+            1107
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "support.module-faq",
+          "tag": "section",
+          "anchor": "module-faq",
+          "lines": [
+            1108,
+            1219
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "content.module-mediasingle",
+          "tag": "section",
+          "anchor": "module-mediaSingle",
+          "lines": [
+            1220,
+            1260
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            1261,
+            1375
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            1376,
+            1392
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/faq",
+      "title": "Frequently asked questions | brand.ai",
+      "h1": "Have questions?Ask us.",
+      "template": "template.group-2",
+      "file": "src/faq/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            90,
+            137
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            138,
+            576
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            577,
+            691
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            692,
+            708
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/privacy",
+      "title": "Privacy Policy – brand.ai",
+      "h1": "Privacy Policy",
+      "template": "template.group-2",
+      "file": "src/legal/privacy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            93,
+            140
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            141,
+            447
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            448,
+            640
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            641,
+            657
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/legal/acceptable-use-policy",
+      "title": "Acceptable Use Policy | brand.ai",
+      "h1": "Acceptable Use Policy",
+      "template": "template.group-2",
+      "file": "src/legal/acceptable-use-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            93,
+            140
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            141,
+            287
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            288,
+            480
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            481,
+            497
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/senior-software-engineer",
+      "title": "Senior Software Engineer - Remote | brand.ai",
+      "h1": "Senior Software Engineer",
+      "template": "template.group-2",
+      "file": "src/careers/senior-software-engineer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            236
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            237,
+            429
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            430,
+            446
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/forward-deployed-engineer",
+      "title": "Forward Deployed Engineer - Remote (USA) | brand.ai",
+      "h1": "Forward Deployed Engineer",
+      "template": "template.group-2",
+      "file": "src/careers/forward-deployed-engineer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            239
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            240,
+            432
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            433,
+            449
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/software-engineer",
+      "title": "Software Engineer | brand.ai",
+      "h1": "Software Engineer",
+      "template": "template.group-2",
+      "file": "src/careers/software-engineer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            240
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            241,
+            433
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            434,
+            450
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/digital-designer",
+      "title": "Digital Designer - Remote | brand.ai",
+      "h1": "Digital Designer",
+      "template": "template.group-2",
+      "file": "src/careers/digital-designer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            243
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            244,
+            436
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            437,
+            453
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/product-designer",
+      "title": "Product Designer - Remote | brand.ai",
+      "h1": "Product Designer",
+      "template": "template.group-2",
+      "file": "src/careers/product-designer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            251
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            252,
+            444
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            445,
+            461
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/brand-support-specialist",
+      "title": "Brand Support Specialist - Remote | brand.ai",
+      "h1": "Brand Support Specialist",
+      "template": "template.group-2",
+      "file": "src/careers/brand-support-specialist/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            237
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            238,
+            430
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            431,
+            447
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/brand-engineer",
+      "title": "Brand Engineer - Remote | brand.ai",
+      "h1": "Brand Engineer",
+      "template": "template.group-2",
+      "file": "src/careers/brand-engineer/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            263
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            264,
+            456
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            457,
+            473
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/careers/account-executive",
+      "title": "Account Executive, Enterprise - Remote | brand.ai",
+      "h1": "Account Executive, Enterprise",
+      "template": "template.group-2",
+      "file": "src/careers/account-executive/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            142
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            143,
+            304
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            305,
+            497
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            498,
+            514
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/infrastructure",
+      "title": "Infrastructure – brand.ai",
+      "h1": "Blog",
+      "template": "template.group-2",
+      "file": "src/blog/infrastructure/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            96,
+            143
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            144,
+            266
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            267,
+            381
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            382,
+            398
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/insights",
+      "title": "Insights – brand.ai",
+      "h1": "Blog",
+      "template": "template.group-2",
+      "file": "src/blog/insights/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            144
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            145,
+            267
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            268,
+            460
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            461,
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/product",
+      "title": "Product – brand.ai",
+      "h1": "Blog",
+      "template": "template.group-2",
+      "file": "src/blog/product/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            96,
+            143
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            144,
+            224
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            225,
+            339
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            340,
+            356
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/company",
+      "title": "Company – brand.ai",
+      "h1": "Blog",
+      "template": "template.group-2",
+      "file": "src/blog/company/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            96,
+            143
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            144,
+            224
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            225,
+            339
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            340,
+            356
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/interviews",
+      "title": "Interviews – brand.ai",
+      "h1": "Blog",
+      "template": "template.group-2",
+      "file": "src/blog/interviews/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            144
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.main-inner",
+          "tag": "div",
+          "anchor": "id=\"main-inner\"",
+          "lines": [
+            145,
+            204
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            205,
+            397
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            398,
+            414
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
+      "title": "Why Katie Dreke is betting on the human touch – brand.ai",
+      "h1": "Why Katie Dreke is betting on the human touch",
+      "template": "template.blog-2",
+      "file": "src/blog/post/why-katie-dreke-is-betting-on-the-human-touch/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            684
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            685,
+            772
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            773,
+            966
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            967,
+            983
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/your-cmo-s-days-are-numbered",
+      "title": "Your CMO's days are numbered – brand.ai",
+      "h1": "Your CMO's days are numbered",
+      "template": "template.blog-3",
+      "file": "src/blog/post/your-cmo-s-days-are-numbered/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            149
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-container",
+          "tag": "div",
+          "anchor": "page-container",
+          "lines": [
+            150,
+            438
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.page-content-meta",
+          "tag": "div",
+          "anchor": "page-content-meta",
+          "lines": [
+            439,
+            543
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            544,
+            631
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            632,
+            824
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            825,
+            841
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/home",
+      "title": "brand.ai | AI for brand management",
+      "h1": "Your brand, as source code",
+      "template": "template.group",
+      "file": "src/home/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            98,
+            150
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.module-coverstacked",
+          "tag": "section",
+          "anchor": "module-coverStacked",
+          "lines": [
+            151,
+            179
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "proof.module-logos",
+          "tag": "section",
+          "anchor": "module-logos",
+          "lines": [
+            180,
+            1050
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "hero.module-hero-inline",
+          "tag": "section",
+          "anchor": "module-hero-inline",
+          "lines": [
+            1051,
+            1204
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.module-centeredheadline",
+          "tag": "section",
+          "anchor": "module-centeredHeadline",
+          "lines": [
+            1205,
+            1214
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "features.module-featurestimed",
+          "tag": "section",
+          "anchor": "module-featuresTimed",
+          "lines": [
+            1215,
+            1411
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "features.module-featurestimed",
+          "tag": "section",
+          "anchor": "module-featuresTimed",
+          "lines": [
+            1412,
+            1578
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "content.module-mediafiltergrid",
+          "tag": "section",
+          "anchor": "module-mediaFilterGrid",
+          "lines": [
+            1579,
+            2046
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "proof.module-quotes",
+          "tag": "section",
+          "anchor": "module-quotes",
+          "lines": [
+            2047,
+            2190
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "content.module-news",
+          "tag": "section",
+          "anchor": "module-news",
+          "lines": [
+            2191,
+            2269
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "content.module-download",
+          "tag": "section",
+          "anchor": "module-download",
+          "lines": [
+            2270,
+            2301
+          ]
+        },
+        {
+          "idx": 11,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            2302,
+            2494
+          ]
+        },
+        {
+          "idx": 12,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            2495,
+            2511
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/why-most-ai-pilots-never-leave-the-lab",
+      "title": "Why most AI pilots never leave the lab – brand.ai",
+      "h1": "Why most AI pilots never leave the lab",
+      "template": "template.blog-2",
+      "file": "src/blog/post/why-most-ai-pilots-never-leave-the-lab/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            331
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            332,
+            419
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            420,
+            612
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            613,
+            629
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/welcome-to-brand-ai",
+      "title": "Welcome to brand.ai, the platform we always wanted",
+      "h1": "Welcome to brand.ai, the platform we always wanted",
+      "template": "template.blog-2",
+      "file": "src/blog/post/welcome-to-brand-ai/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            348
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            349,
+            436
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            437,
+            629
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            630,
+            646
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
+      "title": "Brand Engineers: The Role That Didn't Exist Until Now – brand.ai",
+      "h1": "Brand engineers: The role that didn't exist until now",
+      "template": "template.blog-2",
+      "file": "src/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            306
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            307,
+            394
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            395,
+            587
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            588,
+            604
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/how-teams-are-using-brand-ai",
+      "title": "Top brand.ai Use Cases",
+      "h1": "How teams are using brand.ai",
+      "template": "template.blog-2",
+      "file": "src/blog/post/how-teams-are-using-brand-ai/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            354
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            355,
+            442
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            443,
+            635
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            636,
+            652
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/how-brand-engineering-is-shaping-modern-brands",
+      "title": "How brand engineering is shaping moderns brands – brand.ai",
+      "h1": "How brand engineering is shaping modern brands",
+      "template": "template.blog-2",
+      "file": "src/blog/post/how-brand-engineering-is-shaping-modern-brands/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-wrapper",
+          "tag": "div",
+          "anchor": "page-wrapper",
+          "lines": [
+            148,
+            327
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            328,
+            415
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            416,
+            608
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            609,
+            625
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/your-brand-is-more-valuable-than-you-can-measure",
+      "title": "Your brand is more valuable than you can measure – brand.ai",
+      "h1": "Your brand is more valuable than you can measure",
+      "template": "template.blog-3",
+      "file": "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            95,
+            147
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-container",
+          "tag": "div",
+          "anchor": "page-container",
+          "lines": [
+            148,
+            410
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.page-content-meta",
+          "tag": "div",
+          "anchor": "page-content-meta",
+          "lines": [
+            411,
+            497
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            498,
+            585
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            586,
+            778
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            779,
+            795
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf",
+      "title": "Every brand needs a living operating system, not a PDF – brand.ai",
+      "h1": "Every brand needs a living operating system, not a PDF",
+      "template": "template.blog-3",
+      "file": "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            149
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.page-container",
+          "tag": "div",
+          "anchor": "page-container",
+          "lines": [
+            150,
+            404
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.page-content-meta",
+          "tag": "div",
+          "anchor": "page-content-meta",
+          "lines": [
+            405,
+            469
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            470,
+            557
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            558,
+            750
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            751,
+            767
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good",
+      "title": "Brands of loving grace, and humans who use AI for good – brand.ai",
+      "h1": "Brands of loving grace, and humans who use AI for good",
+      "template": "template.brands-of-loving-grace-and-humans-who-us",
+      "file": "src/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            150
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "shell.post-header",
+          "tag": "header",
+          "anchor": "post-header",
+          "lines": [
+            151,
+            201
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-content",
+          "tag": "div",
+          "anchor": "post-content",
+          "lines": [
+            202,
+            512
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "content.page-content-meta",
+          "tag": "div",
+          "anchor": "page-content-meta",
+          "lines": [
+            513,
+            615
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            616,
+            703
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            704,
+            896
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "shell.cookieswrap",
+          "tag": "div",
+          "anchor": "id=\"cookiesWrap\"",
+          "lines": [
+            897,
+            913
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "richtext-media",
+  "name": "richtext-media",
+  "occurrences": 19,
+  "composedOf": [
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+  }
+}

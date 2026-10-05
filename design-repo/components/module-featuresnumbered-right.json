@@ -1,0 +1,13 @@
+{
+  "id": "module-featuresnumbered-right",
+  "name": "module-featuresNumbered-right",
+  "occurrences": 2,
+  "composedOf": [
+    "heading",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/company"
+  }
+}

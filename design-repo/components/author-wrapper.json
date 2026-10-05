@@ -1,0 +1,10 @@
+{
+  "id": "author-wrapper",
+  "name": "author-wrapper",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good"
+  }
+}

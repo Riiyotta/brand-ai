@@ -1,0 +1,913 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "template.group",
+      "name": "Group",
+      "routeCount": 2,
+      "chrome": "full",
+      "routes": [
+        "/",
+        "/home"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-logos",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-hero-inline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-centeredheadline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featurestimed",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
+          "section": "content.module-mediafiltergrid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-quotes",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.security",
+      "name": "Security",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/security"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-covercolumns",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featurescertification",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresinline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresunpacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.company",
+      "name": "Company",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/company"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-centeredheadline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresnumbered",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediasingle",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
+          "section": "content.module-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.careers",
+      "name": "Careers",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/careers"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresunpacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresnumbered",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-quotes",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.current-roles",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog",
+      "name": "Blog",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/blog"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.news-card-featured",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.filter-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.newsroom-grid-inner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.group-2",
+      "name": "Group",
+      "routeCount": 17,
+      "chrome": "full",
+      "routes": [
+        "/book-a-demo",
+        "/faq",
+        "/legal/privacy",
+        "/legal/acceptable-use-policy",
+        "/careers/senior-software-engineer",
+        "/careers/forward-deployed-engineer",
+        "/careers/software-engineer",
+        "/careers/digital-designer",
+        "/careers/product-designer",
+        "/careers/brand-support-specialist",
+        "/careers/brand-engineer",
+        "/careers/account-executive",
+        "/blog/infrastructure",
+        "/blog/insights",
+        "/blog/product",
+        "/blog/company",
+        "/blog/interviews"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.main-inner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.brand-os",
+      "name": "Brand os",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/brand-os"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-headlinefloating",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.textblock",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible-media-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.textblock",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible-media-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.newsroom",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.connected-applications",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresinline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-centeredheadline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.brand-studio",
+      "name": "Brand studio",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/brand-studio"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-headlinefloating",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.assistant",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.canvas",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.projects",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.brandcheck",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.product",
+      "name": "Product",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/product"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-logos",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-centeredheadline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
+          "section": "features.module-featurescolumns",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-quotes",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible",
+          "required": true,
+          "repeatable": true,
+          "maxCount": 2
+        },
+        {
+          "section": "features.module-featuresinline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featurescertification",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediasingle",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-news",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.enterprise",
+      "name": "Enterprise",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/enterprise"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.module-logos",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresinline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediafiltergrid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featurescertification",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresapp",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresunpacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediasingle",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.teams",
+      "name": "Teams",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/teams"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.module-coverstacked",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresinline",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediafiltergrid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediaflexible",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.module-featuresapp",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-download",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.module-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.module-mediasingle",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-2",
+      "name": "Blog pages",
+      "routeCount": 6,
+      "chrome": "full",
+      "routes": [
+        "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
+        "/blog/post/why-most-ai-pilots-never-leave-the-lab",
+        "/blog/post/welcome-to-brand-ai",
+        "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
+        "/blog/post/how-teams-are-using-brand-ai",
+        "/blog/post/how-brand-engineering-is-shaping-modern-brands"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-related",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-3",
+      "name": "Blog pages",
+      "routeCount": 3,
+      "chrome": "full",
+      "routes": [
+        "/blog/post/your-cmo-s-days-are-numbered",
+        "/blog/post/your-brand-is-more-valuable-than-you-can-measure",
+        "/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.page-container",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.page-content-meta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-related",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.brands-of-loving-grace-and-humans-who-us",
+      "name": "Brands of loving grace and humans who us",
+      "routeCount": 1,
+      "chrome": "full",
+      "routes": [
+        "/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.post-header",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-content",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.page-content-meta",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-related",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.cookieswrap",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    }
+  ]
+}
