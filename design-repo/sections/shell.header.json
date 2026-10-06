@@ -64,5 +64,26 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/pages/HomePage.jsx"
+  "implementedBy": "src/sections/Header6.jsx",
+  "implementedByAll": [
+    "src/sections/Header6.jsx",
+    "src/sections/Header14.jsx",
+    "src/sections/Header15.jsx",
+    "src/sections/Header17.jsx",
+    "src/sections/Header.jsx",
+    "src/sections/Header10.jsx",
+    "src/sections/Header11.jsx",
+    "src/sections/Header12.jsx",
+    "src/sections/Header13.jsx",
+    "src/sections/Header16.jsx",
+    "src/sections/Header18.jsx",
+    "src/sections/Header19.jsx",
+    "src/sections/Header2.jsx",
+    "src/sections/Header3.jsx",
+    "src/sections/Header4.jsx",
+    "src/sections/Header5.jsx",
+    "src/sections/Header7.jsx",
+    "src/sections/Header8.jsx",
+    "src/sections/Header9.jsx"
+  ]
 }

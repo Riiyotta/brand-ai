@@ -1,6 +1,7 @@
+// IA section(s): shell.footer-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// footer-main — the section's real markup, read from the rendered page (route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good, section 5).
+// footer-main — the section's real markup, read from the rendered page (route /blog/post/your-brand-is-more-valuable-than-you-can-measure, section 4).
 export default function FooterMain32() {
   return (
     <footer className="footer-main" data-clone-section="FooterMain32">
@@ -9,8 +10,8 @@ export default function FooterMain32() {
           <div className="footer-top-text">
             <div className="headline-rotate">
               <div className="headline-rotate-inner">
-                <span className="headline-rotate-text">Transform data into brand intelligence</span>
-                <span className="cursor" data-reveal="">|</span>
+                <span className="headline-rotate-text"></span>
+                <span className="cursor">|</span>
               </div>
             </div>
           </div>
@@ -22,7 +23,7 @@ export default function FooterMain32() {
           <div className="footer-three-inner">
             <div data-v-a370ce5e="" className="footer3">
               <div data-v-a370ce5e="" className="footer3-container">
-                <img src="/stills/cf48f641.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
+                <img src="/stills/b0a5c27c.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
               </div>
             </div>
           </div>

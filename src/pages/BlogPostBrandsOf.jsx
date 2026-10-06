@@ -1,27 +1,26 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header12 from "../sections/Header12.jsx";
+import Header15 from "../sections/Header15.jsx";
 import PostHeader from "../sections/PostHeader.jsx";
 import PostContent from "../sections/PostContent.jsx";
 import PageContentMeta4 from "../sections/PageContentMeta4.jsx";
 import PostRelated10 from "../sections/PostRelated10.jsx";
-import FooterMain32 from "../sections/FooterMain32.jsx";
-import CookiesWrap2 from "../sections/CookiesWrap2.jsx";
+import FooterMain34 from "../sections/FooterMain34.jsx";
 import css0 from "../styles/14-_slug_.C1n5o3pd.css?inline"; // only this page loads it
 import css1 from "../styles/15-_slug_.BC6yS-M8.css?inline"; // only this page loads it
 import css2 from "../styles/inline-59.css?inline"; // only this page loads it
 import css3 from "../styles/inline-60.css?inline"; // only this page loads it
 import css4 from "../styles/inline-13.css?inline"; // only this page loads it
 import css5 from "../styles/inline-19.css?inline"; // only this page loads it
-import css6 from "../styles/inline-69.css?inline"; // only this page loads it
-import css7 from "../styles/inline-64.css?inline"; // only this page loads it
-import css8 from "../styles/inline-63.css?inline"; // only this page loads it
-import css9 from "../styles/inline-70.css?inline"; // only this page loads it
-import css10 from "../styles/inline-68.css?inline"; // only this page loads it
+import css6 from "../styles/inline-61.css?inline"; // only this page loads it
+import css7 from "../styles/inline-66.css?inline"; // only this page loads it
+import css8 from "../styles/inline-62.css?inline"; // only this page loads it
+import css9 from "../styles/inline-64.css?inline"; // only this page loads it
+import css10 from "../styles/inline-65.css?inline"; // only this page loads it
 import css11 from "../styles/inline-24.css?inline"; // only this page loads it
 import css12 from "../styles/inline-43.css?inline"; // only this page loads it
 
-// Route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good — 7 section(s), in page order.
+// Route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good — 6 section(s), in page order.
 export default function BlogPostBrandsOf() {
   usePageChrome({ title: "Brands of loving grace, and humans who use AI for good – brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 900px;" }, body: { "style": "" } });
   return (
@@ -41,7 +40,7 @@ export default function BlogPostBrandsOf() {
       <style>{css12}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header12 />
+        <Header15 />
         <main id="main" role="main">
           <div id="main-inner">
             <div className="page page-post" data-v-3d1fee30="">
@@ -58,9 +57,18 @@ export default function BlogPostBrandsOf() {
             </div>
           </div>
         </main>
-        <FooterMain32 />
+        <FooterMain34 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap2 />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

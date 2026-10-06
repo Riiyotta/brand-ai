@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediaflexible-media-wrapper (ia/ia.json, design-repo/sections/)
 // module-mediaFlexible-media-wrapper — the section's real markup, read from the rendered page (route /brand-os, section 4).
 export default function ModuleMediaFlexibleMediaWrapper() {
   return (

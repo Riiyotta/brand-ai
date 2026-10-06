@@ -1,3 +1,4 @@
+// IA section(s): features.module-featuresunpacked (ia/ia.json, design-repo/sections/)
 // module-featuresUnpacked — the section's real markup, read from the rendered page (route /careers, section 2).
 export default function ModuleFeaturesUnpacked2() {
   return (

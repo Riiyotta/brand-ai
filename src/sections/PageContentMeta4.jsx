@@ -1,3 +1,4 @@
+// IA section(s): content.page-content-meta (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // page-content-meta — the section's real markup, read from the rendered page (route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good, section 3).

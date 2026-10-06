@@ -1,8 +1,8 @@
 # https://brand.ai/
 
-Source: https://brand.ai/ · website-builder crawl, 2026-10-05T11:30:42Z
+Source: https://brand.ai/ · website-builder crawl, 2026-10-06T09:30:12Z
 Status: **measured-from-mirror** · production approved: **false**
-38 routes · 14 templates · 42 unique sections
+38 routes · 14 templates · 41 unique sections
 
 > Generated from `ia.json` by `build.mjs`. Edit the JSON, not this file.
 
@@ -38,9 +38,8 @@ component library or stays local to its page.
 
 | section | category | templates | routes | implementation | scope |
 |---|---|---:|---:|---|---|
-| `shell.cookieswrap` | SHELL | 14 | 38 | `src/sections/CookiesWrap.jsx` | Appears on all 38 routes. |
-| `shell.footer-main` | SHELL | 14 | 38 | `src/sections/FooterMain.jsx` | Appears on all 38 routes. |
-| `shell.header` | SHELL | 14 | 38 | `src/pages/HomePage.jsx` | Appears on all 38 routes. |
+| `shell.footer-main` | SHELL | 14 | 38 | `src/sections/FooterMain20.jsx` | Appears on all 38 routes. |
+| `shell.header` | SHELL | 14 | 38 | `src/sections/Header6.jsx` | Appears on all 38 routes. |
 | `hero.main-inner` | HERO | 1 | 17 | `src/sections/MainInner.jsx` | Appears on 17 routes. |
 | `content.post-related` | CONTENT | 3 | 10 | `src/sections/PostRelated.jsx` | Appears on 10 routes. |
 | `hero.module-coverstacked` | HERO | 8 | 9 | `src/sections/ModuleCoverStacked.jsx` | Appears on 9 routes. |
@@ -81,7 +80,7 @@ component library or stays local to its page.
 | `hero.module-covercolumns` | HERO | 1 | 1 | `src/sections/ModuleCoverColumns.jsx` | Appears on 1 route. |
 | `shell.post-header` | SHELL | 1 | 1 | `src/sections/PostHeader.jsx` | Appears on 1 route. |
 
-**21 shared sections** appear in more than one template and belong in a component library.
+**20 shared sections** appear in more than one template and belong in a component library.
 
 **21 single-use sections** appear in exactly one template. Building these
 as "reusable" components up front would be speculative — keep them page-local
@@ -107,7 +106,6 @@ until a second caller actually appears.
 | 10 | CONTENT | `content.module-news` | shared ×5 |
 | 11 | CONTENT | `content.module-download` | shared ×7 |
 | 12 | SHELL | `shell.footer-main` | shared ×14 |
-| 13 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Security — `template.security`
 
@@ -123,7 +121,6 @@ until a second caller actually appears.
 | 6 | CONTENT | `content.module-download` | shared ×7 |
 | 7 | SUPPORT | `support.module-faq` | shared ×6 |
 | 8 | SHELL | `shell.footer-main` | shared ×14 |
-| 9 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Company — `template.company`
 
@@ -139,7 +136,6 @@ until a second caller actually appears.
 | 6 | CONTENT | `content.module-mediasingle` | shared ×4 |
 | 7 | CONTENT | `content.module-news` | shared ×5 |
 | 8 | SHELL | `shell.footer-main` | shared ×14 |
-| 9 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Careers — `template.careers`
 
@@ -154,7 +150,6 @@ until a second caller actually appears.
 | 5 | PROOF | `proof.module-quotes` | shared ×3 |
 | 6 | CONTENT | `content.current-roles` | page-local |
 | 7 | SHELL | `shell.footer-main` | shared ×14 |
-| 8 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Blog — `template.blog`
 
@@ -167,7 +162,6 @@ until a second caller actually appears.
 | 3 | CONTENT | `content.filter-news` | page-local |
 | 4 | CONTENT | `content.newsroom-grid-inner` | page-local |
 | 5 | SHELL | `shell.footer-main` | shared ×14 |
-| 6 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Group — `template.group-2`
 
@@ -178,7 +172,6 @@ until a second caller actually appears.
 | 1 | SHELL | `shell.header` | shared ×14 |
 | 2 | HERO | `hero.main-inner` | page-local |
 | 3 | SHELL | `shell.footer-main` | shared ×14 |
-| 4 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Brand os — `template.brand-os`
 
@@ -201,7 +194,6 @@ until a second caller actually appears.
 | 13 | CONTENT | `content.module-download` | shared ×7 |
 | 14 | CONTENT | `content.module-news` | shared ×5 |
 | 15 | SHELL | `shell.footer-main` | shared ×14 |
-| 16 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Brand studio — `template.brand-studio`
 
@@ -220,7 +212,6 @@ until a second caller actually appears.
 | 9 | SUPPORT | `support.module-faq` | shared ×6 |
 | 10 | CONTENT | `content.module-news` | shared ×5 |
 | 11 | SHELL | `shell.footer-main` | shared ×14 |
-| 12 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Product — `template.product`
 
@@ -245,7 +236,6 @@ until a second caller actually appears.
 | 15 | SUPPORT | `support.module-faq` | shared ×6 |
 | 16 | CONTENT | `content.module-news` | shared ×5 |
 | 17 | SHELL | `shell.footer-main` | shared ×14 |
-| 18 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Enterprise — `template.enterprise`
 
@@ -266,7 +256,6 @@ until a second caller actually appears.
 | 11 | SUPPORT | `support.module-faq` | shared ×6 |
 | 12 | CONTENT | `content.module-mediasingle` | shared ×4 |
 | 13 | SHELL | `shell.footer-main` | shared ×14 |
-| 14 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Teams — `template.teams`
 
@@ -284,21 +273,8 @@ until a second caller actually appears.
 | 8 | SUPPORT | `support.module-faq` | shared ×6 |
 | 9 | CONTENT | `content.module-mediasingle` | shared ×4 |
 | 10 | SHELL | `shell.footer-main` | shared ×14 |
-| 11 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ### Blog pages — `template.blog-2`
-
-6 routes · `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`, `/blog/post/why-most-ai-pilots-never-leave-the-lab`, `/blog/post/welcome-to-brand-ai`, `/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now`, `/blog/post/how-teams-are-using-brand-ai`, `/blog/post/how-brand-engineering-is-shaping-modern-brands` · chrome: **full**
-
-| # | category | section | |
-|---:|---|---|---|
-| 1 | SHELL | `shell.header` | shared ×14 |
-| 2 | HERO | `hero.page-wrapper` | page-local |
-| 3 | CONTENT | `content.post-related` | shared ×3 |
-| 4 | SHELL | `shell.footer-main` | shared ×14 |
-| 5 | SHELL | `shell.cookieswrap` | shared ×14 |
-
-### Blog pages — `template.blog-3`
 
 3 routes · `/blog/post/your-cmo-s-days-are-numbered`, `/blog/post/your-brand-is-more-valuable-than-you-can-measure`, `/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf` · chrome: **full**
 
@@ -309,7 +285,17 @@ until a second caller actually appears.
 | 3 | CONTENT | `content.page-content-meta` | shared ×2 |
 | 4 | CONTENT | `content.post-related` | shared ×3 |
 | 5 | SHELL | `shell.footer-main` | shared ×14 |
-| 6 | SHELL | `shell.cookieswrap` | shared ×14 |
+
+### Blog pages — `template.blog-3`
+
+6 routes · `/blog/post/why-most-ai-pilots-never-leave-the-lab`, `/blog/post/welcome-to-brand-ai`, `/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now`, `/blog/post/how-teams-are-using-brand-ai`, `/blog/post/how-brand-engineering-is-shaping-modern-brands`, `/blog/post/why-katie-dreke-is-betting-on-the-human-touch` · chrome: **full**
+
+| # | category | section | |
+|---:|---|---|---|
+| 1 | SHELL | `shell.header` | shared ×14 |
+| 2 | HERO | `hero.page-wrapper` | page-local |
+| 3 | CONTENT | `content.post-related` | shared ×3 |
+| 4 | SHELL | `shell.footer-main` | shared ×14 |
 
 ### Brands of loving grace and humans who us — `template.brands-of-loving-grace-and-humans-who-us`
 
@@ -323,7 +309,6 @@ until a second caller actually appears.
 | 4 | CONTENT | `content.page-content-meta` | shared ×2 |
 | 5 | CONTENT | `content.post-related` | shared ×3 |
 | 6 | SHELL | `shell.footer-main` | shared ×14 |
-| 7 | SHELL | `shell.cookieswrap` | shared ×14 |
 
 ## Section reference
 
@@ -331,17 +316,13 @@ until a second caller actually appears.
 
 _Site chrome: navigation, header, footer, announcement bars and other elements carried across pages._
 
-**`shell.cookieswrap`** — "cookiesWrap" — a <div> block named by its id. Typically 51px tall at 1440px wide.
-
-· Appears on all 38 routes. · appears on 38 routes · implemented by `src/sections/CookiesWrap.jsx`
-
 **`shell.footer-main`** — "footer-main" — a <footer> block named by its CSS class. Typically 900px tall at 1440px wide.
 
-· Appears on all 38 routes. · appears on 38 routes · implemented by `src/sections/FooterMain.jsx`
+· Appears on all 38 routes. · appears on 38 routes · implemented by `src/sections/FooterMain20.jsx`
 
 **`shell.header`** — "header" — a <header> block named by its CSS class. Typically 100px tall at 1440px wide.
 
-· Appears on all 38 routes. · appears on 38 routes · implemented by `src/pages/HomePage.jsx`
+· Appears on all 38 routes. · appears on 38 routes · implemented by `src/sections/Header6.jsx`
 
 **`shell.post-header`** — "post-header" — a <header> block named by its CSS class; first heading: "Brands of loving grace, and humans who use AI for good". Typically 1051px tall at 1440px wide.
 

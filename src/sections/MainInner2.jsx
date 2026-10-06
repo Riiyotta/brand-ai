@@ -1,3 +1,4 @@
+// IA section(s): hero.main-inner (ia/ia.json, design-repo/sections/)
 // main-inner — the section's real markup, read from the rendered page (route /faq, section 1).
 export default function MainInner2() {
   return (
@@ -6,11 +7,11 @@ export default function MainInner2() {
         <div className="modules-wrapper">
           <section className="module-faq-groups module-split module" data-scheme="light" data-next-scheme="light" data-prev-scheme="light" module-index="0" data-scroll="false" data-hidden="false">
             <div className="module-inner">
-              <div className="module-heading faq-heading">
-                <h3 className="heading">FAQ</h3>
-                <h1 className="headline">
-                  <div className="rich-text rich-text-format">
-                    <p>
+              <div className="module-heading faq-heading" data-reveal="">
+                <h3 className="heading" data-reveal="">FAQ</h3>
+                <h1 className="headline" data-reveal="">
+                  <div className="rich-text rich-text-format" data-reveal="">
+                    <p data-reveal="">
                       Have questions?
                       <br />
                       Ask us.
@@ -19,23 +20,23 @@ export default function MainInner2() {
                 </h1>
               </div>
               <div className="module-content faq-groups-content">
-                <div className="faq-group">
-                  <h2 className="faq-group-title">Core Features</h2>
-                  <div className="faq-group-items">
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">What is Brandspace?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                <div className="faq-group" data-reveal="">
+                  <h2 className="faq-group-title" data-reveal="">Core Features</h2>
+                  <div className="faq-group-items" data-reveal="">
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">What is Brandspace?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>Brandspace is your brand’s central nervous system. It contains 25 modules organized into five comprehensive categories: Brand Foundation, Verbal Identity, Identity Systems, Visual Language, and Application Guidelines. Together this toolkit covers every dimension of your brand.</p>
-                              <p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">Brandspace is your brand’s central nervous system. It contains 25 modules organized into five comprehensive categories: Brand Foundation, Verbal Identity, Identity Systems, Visual Language, and Application Guidelines. Together this toolkit covers every dimension of your brand.</p>
+                              <p data-reveal="">
                                 {""}
                                 <br />
                                 {""}
@@ -45,20 +46,20 @@ export default function MainInner2() {
                         </div>
                       </div>
                     </div>
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">What is Brand Assistant?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">What is Brand Assistant?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>The AI Assistant is an always-on, intelligent expert who knows the ins and outs of your brand. It can help you work through roadblocks, generate documents, create content, and more.</p>
-                              <p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">The AI Assistant is an always-on, intelligent expert who knows the ins and outs of your brand. It can help you work through roadblocks, generate documents, create content, and more.</p>
+                              <p data-reveal="">
                                 {""}
                                 <br />
                                 {""}
@@ -68,37 +69,37 @@ export default function MainInner2() {
                         </div>
                       </div>
                     </div>
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">What is Brand Check?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">What is Brand Check?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>Instant AI content validation. It can analyze any marketing material (videos, documents, images, websites) against your brand guidelines and assess brand risk, offer specific recommendations for improvement, source citations showing logic, and generate shareable reports for team approval.</p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">Instant AI content validation. It can analyze any marketing material (videos, documents, images, websites) against your brand guidelines and assess brand risk, offer specific recommendations for improvement, source citations showing logic, and generate shareable reports for team approval.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">What is Canvas?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">What is Canvas?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>Canvas is a modular workspace where you organize AI-generated content, brainstorm ideas, and collaborate on campaigns spatially, all in one place. It features an easy drag-and-drop interface, smart grouping, integrated AI suggestions and support throughout, and version history tracking.</p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">Canvas is a modular workspace where you organize AI-generated content, brainstorm ideas, and collaborate on campaigns spatially, all in one place. It features an easy drag-and-drop interface, smart grouping, integrated AI suggestions and support throughout, and version history tracking.</p>
                             </div>
                           </div>
                         </div>
@@ -106,40 +107,40 @@ export default function MainInner2() {
                     </div>
                   </div>
                 </div>
-                <div className="faq-group">
-                  <h2 className="faq-group-title">Getting Started</h2>
-                  <div className="faq-group-items">
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">How quickly can I get started?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                <div className="faq-group" data-reveal="">
+                  <h2 className="faq-group-title" data-reveal="">Getting Started</h2>
+                  <div className="faq-group-items" data-reveal="">
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">How quickly can I get started?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>Our AI is able to complete tasks in no time, so you can dive in at full speed. Once you sign up and create your first brand space, you can start uploading existing brand materials, trigger your Brand Ontology report and start receiving incredible insights, check existing content for compliance, and generate a Brand Voice module—all within the first 5 minutes.</p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">Our AI is able to complete tasks in no time, so you can dive in at full speed. Once you sign up and create your first brand space, you can start uploading existing brand materials, trigger your Brand Ontology report and start receiving incredible insights, check existing content for compliance, and generate a Brand Voice module—all within the first 5 minutes.</p>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="faq-item">
-                      <div className="faq-item-inner">
-                        <header className="faq-item-header">
-                          <div className="question">Do I need technical expertise to use Brand.ai?</div>
-                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="">
-                            <span className="line-h" data-v-49d2a8c3=""></span>
-                            <span className="line-v" data-v-49d2a8c3=""></span>
+                    <div className="faq-item" data-reveal="">
+                      <div className="faq-item-inner" data-reveal="">
+                        <header className="faq-item-header" data-reveal="">
+                          <div className="question" data-reveal="">Do I need technical expertise to use Brand.ai?</div>
+                          <div role="button" className="toggle-plus" aria-label="Toggle answer" data-v-49d2a8c3="" data-reveal="">
+                            <span className="line-h" data-v-49d2a8c3="" data-reveal=""></span>
+                            <span className="line-v" data-v-49d2a8c3="" data-reveal=""></span>
                           </div>
                         </header>
-                        <div className="faq-item-content">
-                          <div className="faq-item-content-inner">
-                            <div className="rich-text rich-text-format">
-                              <p>None whatsoever. Brand.ai is designed for brand teams, marketers, creative professionals, and strategists. Our intuitive interface, library of tutorial videos, and user guides are at your fingertips, and the always-on AI Assistant can help answer questions that arise.</p>
+                        <div className="faq-item-content" data-reveal="">
+                          <div className="faq-item-content-inner" data-reveal="">
+                            <div className="rich-text rich-text-format" data-reveal="">
+                              <p data-reveal="">None whatsoever. Brand.ai is designed for brand teams, marketers, creative professionals, and strategists. Our intuitive interface, library of tutorial videos, and user guides are at your fingertips, and the always-on AI Assistant can help answer questions that arise.</p>
                             </div>
                           </div>
                         </div>

@@ -38,7 +38,6 @@
     "hero.page-wrapper",
     "proof.module-logos",
     "proof.module-quotes",
-    "shell.cookieswrap",
     "shell.footer-main",
     "shell.header",
     "shell.post-header",
@@ -541,10 +540,6 @@
     "proof.module-quotes": [
       "body",
       "images"
-    ],
-    "shell.cookieswrap": [
-      "body",
-      "ctas"
     ],
     "shell.footer-main": [
       "body",

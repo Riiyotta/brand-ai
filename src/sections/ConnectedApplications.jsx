@@ -1,3 +1,4 @@
+// IA section(s): content.connected-applications (ia/ia.json, design-repo/sections/)
 // Connected Applications — the section's real markup, read from the rendered page (route /brand-os, section 8).
 export default function ConnectedApplications() {
   return (

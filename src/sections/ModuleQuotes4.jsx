@@ -1,3 +1,4 @@
+// IA section(s): proof.module-quotes (ia/ia.json, design-repo/sections/)
 // module-quotes — the section's real markup, read from the rendered page (route /home, section 8).
 export default function ModuleQuotes4() {
   return (
@@ -23,7 +24,7 @@ export default function ModuleQuotes4() {
               <p className="module-quote-text" data-reveal="">{"\"As I build us into a global brand, brand.ai will help the entire global company become a global brand as it'll help ensure brand consistency across countries, languages etc.\""}</p>
               <div className="module-quote-author-wrapper" data-reveal="">
                 <div className="media image module-quote-author-image" data-orientation="landscape" data-reveal="">
-                  <img className="lazyload" data-sizes="false" sizes="auto" width="360" height="360" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__5c51af88.png" alt="" fetchPriority="auto" data-reveal="" />
+                  <img className="lazyload" data-sizes="false" sizes="auto" width="360" height="360" alt="" fetchPriority="auto" data-reveal="" />
                 </div>
                 <div className="module-quote-author" data-reveal="">
                   <span className="name" data-reveal="">David Corns</span>

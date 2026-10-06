@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediasingle (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-mediaSingle — the section's real markup, read from the rendered page (route /enterprise, section 11).

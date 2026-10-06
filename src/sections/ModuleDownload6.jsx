@@ -1,3 +1,4 @@
+// IA section(s): content.module-download (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-download — the section's real markup, read from the rendered page (route /teams, section 6).

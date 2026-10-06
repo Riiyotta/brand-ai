@@ -1,3 +1,4 @@
+// IA section(s): content.assistant (ia/ia.json, design-repo/sections/)
 // assistant — the section's real markup, read from the rendered page (route /brand-studio, section 3).
 export default function Assistant() {
   return (

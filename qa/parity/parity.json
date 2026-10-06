@@ -1,35 +1,33 @@
 {
   "gate": 0.8,
-  "average": 0.927,
+  "average": 0.931,
   "rows": [
     {
       "route": "/",
       "reference": "mirror",
-      "sections": 13,
-      "compared": 13,
-      "sectionsInClone": 13,
+      "sections": 12,
+      "compared": 12,
+      "sectionsInClone": 12,
       "mirrorPageHeight": 11662,
       "clonePageHeight": 11662,
-      "score": 0.962,
-      "below": [
-        "12:CookiesWrap 64%"
-      ],
+      "score": 0.968,
+      "below": [],
       "secRows": [
         {
           "idx": 0,
           "component": "Header",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "ModuleCoverStacked",
           "mirrorHeight": 1220,
           "cloneHeight": 1220,
-          "pixelMatch": 0.838,
-          "score": 0.838
+          "pixelMatch": 0.865,
+          "score": 0.865
         },
         {
           "idx": 2,
@@ -109,16 +107,8 @@
           "component": "FooterMain",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 0.877,
-          "score": 0.877
-        },
-        {
-          "idx": 12,
-          "component": "CookiesWrap",
-          "mirrorHeight": 51,
-          "cloneHeight": 51,
-          "pixelMatch": 0.639,
-          "score": 0.639
+          "pixelMatch": 0.9,
+          "score": 0.9
         }
       ],
       "pass": true
@@ -126,39 +116,37 @@
     {
       "route": "/brand-os",
       "reference": "mirror",
-      "sections": 16,
-      "compared": 16,
-      "sectionsInClone": 16,
+      "sections": 15,
+      "compared": 15,
+      "sectionsInClone": 15,
       "mirrorPageHeight": 13523,
       "clonePageHeight": 13523,
-      "score": 0.958,
-      "below": [
-        "15:CookiesWrap2 69%"
-      ],
+      "score": 0.948,
+      "below": [],
       "secRows": [
         {
           "idx": 0,
           "component": "Header7",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "ModuleCoverStacked4",
           "mirrorHeight": 1247,
           "cloneHeight": 1247,
-          "pixelMatch": 0.872,
-          "score": 0.872
+          "pixelMatch": 0.832,
+          "score": 0.832
         },
         {
           "idx": 2,
           "component": "ModuleHeadlineFloating",
           "mirrorHeight": 216,
           "cloneHeight": 216,
-          "pixelMatch": 0.993,
-          "score": 0.993
+          "pixelMatch": 0.988,
+          "score": 0.988
         },
         {
           "idx": 3,
@@ -189,16 +177,16 @@
           "component": "ModuleMediaFlexibleMediaWrapper2",
           "mirrorHeight": 1342,
           "cloneHeight": 1342,
-          "pixelMatch": 0.997,
-          "score": 0.997
+          "pixelMatch": 0.996,
+          "score": 0.996
         },
         {
           "idx": 7,
           "component": "Newsroom",
           "mirrorHeight": 1645,
           "cloneHeight": 1645,
-          "pixelMatch": 0.983,
-          "score": 0.983
+          "pixelMatch": 0.965,
+          "score": 0.965
         },
         {
           "idx": 8,
@@ -253,16 +241,8 @@
           "component": "FooterMain7",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 0.912,
-          "score": 0.912
-        },
-        {
-          "idx": 15,
-          "component": "CookiesWrap2",
-          "mirrorHeight": 51,
-          "cloneHeight": 51,
-          "pixelMatch": 0.693,
-          "score": 0.693
+          "pixelMatch": 0.879,
+          "score": 0.879
         }
       ],
       "pass": true
@@ -270,12 +250,12 @@
     {
       "route": "/legal/privacy",
       "reference": "original crawl screenshot",
-      "sections": 4,
-      "compared": 4,
-      "sectionsInClone": 4,
+      "sections": 3,
+      "compared": 3,
+      "sectionsInClone": 3,
       "mirrorPageHeight": 6702,
       "clonePageHeight": 6702,
-      "score": 1,
+      "score": 0.99,
       "below": [],
       "secRows": [
         {
@@ -283,32 +263,24 @@
           "component": "Header6",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "MainInner3",
           "mirrorHeight": 5802,
           "cloneHeight": 5802,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.995,
+          "score": 0.995
         },
         {
           "idx": 2,
           "component": "FooterMain13",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 0.999,
-          "score": 0.999
-        },
-        {
-          "idx": 3,
-          "component": "CookiesWrap3",
-          "mirrorHeight": 51,
-          "cloneHeight": 51,
-          "pixelMatch": 0.983,
-          "score": 0.983
+          "pixelMatch": 0.979,
+          "score": 0.979
         }
       ],
       "pass": true
@@ -316,37 +288,37 @@
     {
       "route": "/careers/brand-support-specialist",
       "reference": "original crawl screenshot",
-      "sections": 4,
+      "sections": 3,
       "compared": 3,
       "sectionsInClone": 3,
       "mirrorPageHeight": 3125,
       "clonePageHeight": 3125,
-      "score": 1,
+      "score": 0.983,
       "below": [],
       "secRows": [
         {
           "idx": 0,
-          "component": "Header7",
+          "component": "Header6",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "MainInner10",
           "mirrorHeight": 2225,
           "cloneHeight": 2225,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.992,
+          "score": 0.992
         },
         {
           "idx": 2,
-          "component": "FooterMain17",
+          "component": "FooterMain20",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.979,
+          "score": 0.979
         }
       ],
       "pass": true
@@ -354,62 +326,53 @@
     {
       "route": "/blog/company",
       "reference": "original crawl screenshot",
-      "sections": 4,
-      "compared": 4,
-      "sectionsInClone": 4,
+      "sections": 3,
+      "compared": 3,
+      "sectionsInClone": 3,
       "mirrorPageHeight": 1986,
       "clonePageHeight": 1986,
-      "score": 0.915,
+      "score": 0.888,
       "below": [],
       "secRows": [
         {
           "idx": 0,
-          "component": "Header10",
+          "component": "Header14",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "MainInner16",
           "mirrorHeight": 1086,
           "cloneHeight": 1086,
-          "pixelMatch": 0.917,
-          "score": 0.917
+          "pixelMatch": 0.901,
+          "score": 0.901
         },
         {
           "idx": 2,
-          "component": "FooterMain22",
+          "component": "FooterMain25",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 0.899,
-          "score": 0.899
-        },
-        {
-          "idx": 3,
-          "component": "CookiesWrap",
-          "mirrorHeight": 51,
-          "cloneHeight": 51,
-          "pixelMatch": 0.983,
-          "score": 0.983
+          "pixelMatch": 0.88,
+          "score": 0.88
         }
       ],
       "pass": true
     },
     {
-      "route": "/blog/post/welcome-to-brand-ai",
+      "route": "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
       "reference": "original crawl screenshot",
-      "sections": 5,
-      "compared": 5,
-      "sectionsInClone": 5,
-      "mirrorPageHeight": 7835,
-      "clonePageHeight": 7835,
-      "score": 0.726,
+      "sections": 4,
+      "compared": 4,
+      "sectionsInClone": 4,
+      "mirrorPageHeight": 7418,
+      "clonePageHeight": 7418,
+      "score": 0.811,
       "below": [
-        "1:PageWrapper3 71%",
-        "3:FooterMain26 68%",
-        "4:CookiesWrap 27%"
+        "2:PostRelated4 79%",
+        "3:FooterMain20 67%"
       ],
       "secRows": [
         {
@@ -417,44 +380,36 @@
           "component": "Header6",
           "mirrorHeight": 100,
           "cloneHeight": 100,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.821,
+          "score": 0.821
         },
         {
           "idx": 1,
           "component": "PageWrapper3",
-          "mirrorHeight": 5614,
-          "cloneHeight": 5614,
-          "pixelMatch": 0.706,
-          "score": 0.706
+          "mirrorHeight": 5196,
+          "cloneHeight": 5197,
+          "pixelMatch": 0.837,
+          "score": 0.837
         },
         {
           "idx": 2,
           "component": "PostRelated4",
           "mirrorHeight": 571,
           "cloneHeight": 571,
-          "pixelMatch": 1,
-          "score": 1
+          "pixelMatch": 0.789,
+          "score": 0.789
         },
         {
           "idx": 3,
-          "component": "FooterMain26",
+          "component": "FooterMain20",
           "mirrorHeight": 900,
           "cloneHeight": 900,
-          "pixelMatch": 0.675,
-          "score": 0.675
-        },
-        {
-          "idx": 4,
-          "component": "CookiesWrap",
-          "mirrorHeight": 51,
-          "cloneHeight": 51,
-          "pixelMatch": 0.273,
-          "score": 0.273
+          "pixelMatch": 0.671,
+          "score": 0.671
         }
       ],
-      "pass": false
+      "pass": true
     }
   ],
-  "pass": false
+  "pass": true
 }

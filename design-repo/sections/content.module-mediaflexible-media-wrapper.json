@@ -56,17 +56,22 @@
       "columns": 4
     },
     "mobile": {
-      "heightPx": 2831,
+      "heightPx": 2984,
       "columns": 1,
       "hiddenShare": 0
     },
     "changes": [
-      "4 columns collapse to a single column"
+      "4 columns collapse to a single column",
+      "grows taller on mobile (content stacks)"
     ]
   },
   "assetRoles": [
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/ModuleMediaFlexibleMediaWrapper.jsx"
+  "implementedBy": "src/sections/ModuleMediaFlexibleMediaWrapper.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleMediaFlexibleMediaWrapper.jsx",
+    "src/sections/ModuleMediaFlexibleMediaWrapper2.jsx"
+  ]
 }

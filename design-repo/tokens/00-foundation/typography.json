@@ -9,7 +9,7 @@
     "fontFamily.02": {
       "$type": "fontFamily",
       "$value": "ABC Monument Grotesk",
-      "usage": 1829
+      "usage": 1827
     },
     "fontSize.12": {
       "$type": "dimension",
@@ -44,7 +44,7 @@
     "fontSize.28": {
       "$type": "dimension",
       "$value": "28px",
-      "usage": 246
+      "usage": 244
     },
     "fontSize.44": {
       "$type": "dimension",
@@ -69,7 +69,7 @@
     "fontWeight.400": {
       "$type": "fontWeight",
       "$value": "400",
-      "usage": 3580
+      "usage": 3578
     },
     "fontWeight.500": {
       "$type": "fontWeight",
@@ -154,7 +154,7 @@
     "lineHeight.39_2": {
       "$type": "dimension",
       "$value": "39.2px",
-      "usage": 245
+      "usage": 243
     },
     "lineHeight.48_4": {
       "$type": "dimension",

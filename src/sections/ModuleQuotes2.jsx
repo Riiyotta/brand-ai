@@ -1,3 +1,4 @@
+// IA section(s): proof.module-quotes (ia/ia.json, design-repo/sections/)
 // module-quotes — the section's real markup, read from the rendered page (route /careers, section 4).
 export default function ModuleQuotes2() {
   return (

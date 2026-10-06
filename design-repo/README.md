@@ -6,12 +6,12 @@ for what a generator may and may not reproduce.
 
 ## Counts
 
-- Sections: 42
+- Sections: 41
 - Templates: 14
 - Routes: 38
 - Primitives: 11
 - Components: 288
-- Assets: 1429
+- Assets: 1460
 - Foundation tokens: 117
 - Semantic tokens: 18
 - Rules: 7

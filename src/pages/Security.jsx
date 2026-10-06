@@ -8,7 +8,6 @@ import ModuleFeaturesUnpacked from "../sections/ModuleFeaturesUnpacked.jsx";
 import ModuleDownload2 from "../sections/ModuleDownload2.jsx";
 import ModuleFaq from "../sections/ModuleFaq.jsx";
 import FooterMain2 from "../sections/FooterMain2.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-28.css?inline"; // only this page loads it
@@ -26,7 +25,7 @@ import css13 from "../styles/inline-33.css?inline"; // only this page loads it
 import css14 from "../styles/inline-34.css?inline"; // only this page loads it
 import css15 from "../styles/inline-35.css?inline"; // only this page loads it
 
-// Route /security — 9 section(s), in page order.
+// Route /security — 8 section(s), in page order.
 export default function Security() {
   usePageChrome({ title: "SOC 2 certified, zero training on your data | brand.ai", html: { "lang": "en", "class": "is-dark", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -59,7 +58,7 @@ export default function Security() {
                 <ModuleFeaturesInline />
                 <ModuleFeaturesUnpacked />
                 <section className="module-quotes module" data-scheme="dark" data-next-scheme="dark" data-prev-scheme="dark" module-index="4" data-scroll="false" data-hidden="true">
-                  <div className="module-quotes-inner" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 32px)", "opacity": "0", "visibility": "hidden" }}>
+                  <div className="module-quotes-inner">
                     <div className="module-quotes-items">
                       <div className="module-quotes-item is-largest is-active">
                         <div className="modules-quotes-item-inner">
@@ -83,7 +82,16 @@ export default function Security() {
         </main>
         <FooterMain2 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

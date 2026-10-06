@@ -18,16 +18,16 @@
   "sourceProject": {
     "url": "https://brand.ai/",
     "framework": "Vite-like (ESM module scripts)",
-    "scrapedAt": "2026-10-05T11:30:42Z"
+    "scrapedAt": "2026-10-06T09:30:12Z"
   },
   "generatedBy": "website-builder (heuristic extraction; see README)",
   "counts": {
-    "sections": 42,
+    "sections": 41,
     "templates": 14,
     "routes": 38,
     "primitives": 11,
     "components": 288,
-    "assets": 1429,
+    "assets": 1460,
     "tokens": {
       "foundation": 117,
       "semantic": 18,

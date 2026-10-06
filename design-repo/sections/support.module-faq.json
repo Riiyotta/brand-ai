@@ -64,5 +64,13 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/ModuleFaq.jsx"
+  "implementedBy": "src/sections/ModuleFaq.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFaq.jsx",
+    "src/sections/ModuleFaq2.jsx",
+    "src/sections/ModuleFaq3.jsx",
+    "src/sections/ModuleFaq4.jsx",
+    "src/sections/ModuleFaq5.jsx",
+    "src/sections/ModuleFaq6.jsx"
+  ]
 }

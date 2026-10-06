@@ -68,5 +68,17 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/PostRelated.jsx"
+  "implementedBy": "src/sections/PostRelated.jsx",
+  "implementedByAll": [
+    "src/sections/PostRelated.jsx",
+    "src/sections/PostRelated10.jsx",
+    "src/sections/PostRelated2.jsx",
+    "src/sections/PostRelated3.jsx",
+    "src/sections/PostRelated4.jsx",
+    "src/sections/PostRelated5.jsx",
+    "src/sections/PostRelated6.jsx",
+    "src/sections/PostRelated7.jsx",
+    "src/sections/PostRelated8.jsx",
+    "src/sections/PostRelated9.jsx"
+  ]
 }

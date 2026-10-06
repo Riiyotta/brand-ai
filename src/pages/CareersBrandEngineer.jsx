@@ -1,8 +1,8 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header9 from "../sections/Header9.jsx";
+import Header13 from "../sections/Header13.jsx";
 import MainInner11 from "../sections/MainInner11.jsx";
-import FooterMain18 from "../sections/FooterMain18.jsx";
+import FooterMain20 from "../sections/FooterMain20.jsx";
 import css0 from "../styles/16-_slug_.KoadpnJY.css?inline"; // only this page loads it
 import css1 from "../styles/inline-56.css?inline"; // only this page loads it
 import css2 from "../styles/inline-19.css?inline"; // only this page loads it
@@ -21,20 +21,20 @@ export default function CareersBrandEngineer() {
       <style>{css4}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header9 />
+        <Header13 />
         <main id="main" role="main">
           <MainInner11 />
         </main>
-        <FooterMain18 />
+        <FooterMain20 />
         <div className="controller-page-scroll"></div>
-        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
-          <div className="message">
-            <p>
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
               {"This site uses "}
               <A href="/legal/privacy" className="">cookies</A>
               .
             </p>
-            <div className="close">Accept</div>
+            <div className="close" data-reveal="">Accept</div>
           </div>
         </div>
       </div>

@@ -84,5 +84,16 @@
     "hero-image",
     "video"
   ],
-  "implementedBy": "src/sections/ModuleCoverStacked.jsx"
+  "implementedBy": "src/sections/ModuleCoverStacked.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleCoverStacked.jsx",
+    "src/sections/ModuleCoverStacked2.jsx",
+    "src/sections/ModuleCoverStacked3.jsx",
+    "src/sections/ModuleCoverStacked4.jsx",
+    "src/sections/ModuleCoverStacked5.jsx",
+    "src/sections/ModuleCoverStacked6.jsx",
+    "src/sections/ModuleCoverStacked7.jsx",
+    "src/sections/ModuleCoverStacked8.jsx",
+    "src/sections/ModuleCoverStacked9.jsx"
+  ]
 }

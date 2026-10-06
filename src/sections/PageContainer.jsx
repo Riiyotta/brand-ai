@@ -1,3 +1,4 @@
+// IA section(s): hero.page-container (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // page-container — the section's real markup, read from the rendered page (route /blog/post/your-cmo-s-days-are-numbered, section 1).
@@ -5,35 +6,35 @@ export default function PageContainer() {
   return (
     <div className="page-container" data-v-3d1fee30="" data-clone-section="PageContainer">
       <header className="post-header" data-v-3d1fee30="">
-        <div className="post-meta" data-v-3d1fee30="">
-          <div className="post-reading-time" data-v-3d1fee30="">
+        <div className="post-meta" data-v-3d1fee30="" data-reveal="">
+          <div className="post-reading-time" data-v-3d1fee30="" data-reveal="">
             8m read
-            <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
+            <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
           </div>
-          <div className="post-tag" data-v-3d1fee30="">
-            <A href="/blog/insights" className="" data-v-3d1fee30="">Insights</A>
-            <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
+          <div className="post-tag" data-v-3d1fee30="" data-reveal="">
+            <A href="/blog/insights" className="" data-v-3d1fee30="" data-reveal="">Insights</A>
+            <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
           </div>
-          <div className="post-date" data-v-3d1fee30="">May 2026</div>
+          <div className="post-date" data-v-3d1fee30="" data-reveal="">May 2026</div>
         </div>
-        <h1 className="post-title" data-v-3d1fee30="">{"Your CMO's days are numbered"}</h1>
-        <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="">
-          <div className="news-keyCollaborators-inner">
-            <div className="news-keyCollaborators-item">
-              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape">
-                <img className=" lazyloaded" data-sizes="false" sizes="false" width="360" height="360" alt="" fetchPriority="auto" />
+        <h1 className="post-title" data-v-3d1fee30="" data-reveal="">{"Your CMO's days are numbered"}</h1>
+        <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="" data-reveal="">
+          <div className="news-keyCollaborators-inner" data-reveal="">
+            <div className="news-keyCollaborators-item" data-reveal="">
+              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape" data-reveal="">
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="360" height="360" alt="" fetchPriority="auto" data-reveal="" />
               </div>
-              <div className="news-keyCollaborators-item-author">
-                <span className="name">brand.ai</span>
+              <div className="news-keyCollaborators-item-author" data-reveal="">
+                <span className="name" data-reveal="">brand.ai</span>
               </div>
             </div>
-            <div className="news-keyCollaborators-item">
-              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape">
-                <img className=" lazyloaded" data-sizes="false" sizes="false" width="800" height="800" alt="" fetchPriority="auto" />
+            <div className="news-keyCollaborators-item" data-reveal="">
+              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape" data-reveal="">
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="800" height="800" alt="" fetchPriority="auto" data-reveal="" />
               </div>
-              <div className="news-keyCollaborators-item-author">
-                <span className="name">Eugene Healey</span>
-                <span className="position">Brand strategy consultant</span>
+              <div className="news-keyCollaborators-item-author" data-reveal="">
+                <span className="name" data-reveal="">Eugene Healey</span>
+                <span className="position" data-reveal="">Brand strategy consultant</span>
               </div>
             </div>
           </div>

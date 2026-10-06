@@ -1,3 +1,4 @@
+// IA section(s): features.module-featuresapp (ia/ia.json, design-repo/sections/)
 // module-featuresApp — the section's real markup, read from the rendered page (route /teams, section 5).
 export default function ModuleFeaturesApp2() {
   return (
@@ -24,7 +25,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">Figma</h3>
                   </div>
                   <div className="media image image" data-orientation="portrait" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="18" height="27" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="18" height="27" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -34,7 +35,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">Google Drive</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -44,7 +45,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">{"Notion "}</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -54,7 +55,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">{"Linear "}</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -94,7 +95,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">Salesforce</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="27" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="27" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -104,7 +105,7 @@ export default function ModuleFeaturesApp2() {
                     <h3 data-reveal="">Frontify</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="27" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="27" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+// IA section(s): content.textblock (ia/ia.json, design-repo/sections/)
 // textBlock — the section's real markup, read from the rendered page (route /brand-os, section 3).
 export default function TextBlock() {
   return (

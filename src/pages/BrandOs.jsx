@@ -15,7 +15,6 @@ import ModuleFaq2 from "../sections/ModuleFaq2.jsx";
 import ModuleDownload from "../sections/ModuleDownload.jsx";
 import ModuleNews3 from "../sections/ModuleNews3.jsx";
 import FooterMain7 from "../sections/FooterMain7.jsx";
-import CookiesWrap2 from "../sections/CookiesWrap2.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -34,7 +33,7 @@ import css14 from "../styles/inline-25.css?inline"; // only this page loads it
 import css15 from "../styles/inline-23.css?inline"; // only this page loads it
 import css16 from "../styles/inline-24.css?inline"; // only this page loads it
 
-// Route /brand-os — 16 section(s), in page order.
+// Route /brand-os — 15 section(s), in page order.
 export default function BrandOs() {
   usePageChrome({ title: "Turn brand guidelines into intelligent systems | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -86,7 +85,16 @@ export default function BrandOs() {
         </main>
         <FooterMain7 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap2 />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

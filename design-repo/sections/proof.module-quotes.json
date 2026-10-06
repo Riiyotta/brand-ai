@@ -67,5 +67,11 @@
     "avatar"
   ],
   "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars.",
-  "implementedBy": "src/sections/ModuleQuotes.jsx"
+  "implementedBy": "src/sections/ModuleQuotes.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleQuotes.jsx",
+    "src/sections/ModuleQuotes2.jsx",
+    "src/sections/ModuleQuotes3.jsx",
+    "src/sections/ModuleQuotes4.jsx"
+  ]
 }

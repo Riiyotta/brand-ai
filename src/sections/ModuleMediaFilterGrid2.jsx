@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediafiltergrid (ia/ia.json, design-repo/sections/)
 // module-mediaFilterGrid — the section's real markup, read from the rendered page (route /enterprise, section 4).
 export default function ModuleMediaFilterGrid2() {
   return (
@@ -61,7 +62,7 @@ export default function ModuleMediaFilterGrid2() {
             </div>
             <div className="module-mediaFilterGrid-media module-mediaFilterGrid-media--quarter">
               <div className="media image bento-style-after" data-orientation="portrait">
-                <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="2010" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__b31158bd.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__520c86ad.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__b31158bd.png 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3903f573e34b34fb8a6e0e962d18bf74538f445f-1620x2010__07385d44.png 1620w" />
+                <img className="lazyload" data-sizes="false" sizes="auto" width="1620" height="2010" alt="" fetchPriority="auto" />
                 <div className="bentoText-wrapper bentoText-after">
                   <div className="bentoText-heading">Cultural trend integration</div>
                   <div className="bentoText-text">

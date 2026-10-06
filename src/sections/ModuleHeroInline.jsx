@@ -1,16 +1,17 @@
+// IA section(s): hero.module-hero-inline (ia/ia.json, design-repo/sections/)
 // module-hero-inline — the section's real markup, read from the rendered page (route /, section 3).
 export default function ModuleHeroInline() {
   return (
     <section className="module-hero-inline module" data-intersecting="false" style={{ "--headline-height": "145px" }} data-scheme="light" data-next-scheme="light" data-prev-scheme="light" data-scroll="false" data-hidden="false" data-clone-section="ModuleHeroInline">
       <div className="hero-section hero-section-1">
         <div className="module-hero-text" style={{ "opacity": "1", "visibility": "inherit" }}>
-          <h2 className="headline headline--small">
+          <h2 className="headline headline--small" data-reveal="">
             <span style={{ "--sm-margin-top": "1.2em" }}>Brand is your most valuable asset. brand.ai makes it machine-readable so every team, tool, and agent gets it right.</span>
           </h2>
         </div>
       </div>
       <div className="hero-section hero-section-2">
-        <div className="module-hero-grid is-loaded" aria-hidden="true">
+        <div className="module-hero-grid is-loaded" aria-hidden="true" data-reveal="">
           <div className="hero-allwrapper">
             <div className="hero3 hero-three">
               <div className="hero3-container">
@@ -20,7 +21,7 @@ export default function ModuleHeroInline() {
                 <div data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(0px, 0px, 0px)" }} style={{ width: 1440, height: 900, maxWidth: "100%" }} data-still-empty="" />
               </div>
             </div>
-            <div className="module-hero-grid-images" style={{ "opacity": "0", "visibility": "hidden" }}>
+            <div className="module-hero-grid-images">
               {" "}
               {" "}
               <div className="red-div hero-img hero-img-0" data-index="0" xpos="-730" ypos="-1000" zpos="200" aria-hidden="true">
@@ -125,24 +126,24 @@ export default function ModuleHeroInline() {
           </div>
         </div>
       </div>
-      <div className="hero-cta"></div>
+      <div className="hero-cta" data-reveal=""></div>
       <div className="hero-ghost" aria-hidden="true">
-        <div className="ghost-img ghost-img-0" style={{ "width": "24vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(1.6524px, 1.7405px, 0px)" }} aria-hidden="true">
+        <div className="ghost-img ghost-img-0" style={{ "width": "24vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(1.353px, -2.2116px, 0px)" }} aria-hidden="true">
           <div className="ghost-img-inner" style={{ "opacity": "0.8", "transform": "translate(0px, 320px)", "translate": "none", "rotate": "none", "scale": "none", "visibility": "inherit" }}>
             <img src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__13469b18.png" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__13469b18.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__bf171f27.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__b5ded40d.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__4db141cf.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__589682b2.png 1600w" sizes="24vw" width="1008" height="666" alt="Brand.AI" />
           </div>
         </div>
-        <div className="ghost-img ghost-img-1" style={{ "width": "17vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(1.4224px, 1.23px, 0px)" }} aria-hidden="true">
+        <div className="ghost-img ghost-img-1" style={{ "width": "17vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(2.7677px, 1.7847px, 0px)" }} aria-hidden="true">
           <div className="ghost-img-inner" style={{ "opacity": "0.8", "transform": "translate(0px, 320px)", "translate": "none", "rotate": "none", "scale": "none", "visibility": "inherit" }}>
             <img src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__13469b18.png" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__13469b18.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__bf171f27.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__b5ded40d.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__4db141cf.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f3cde09739f49bebf5ab9a69b0931cc316adc84e-740x920__589682b2.png 1600w" sizes="17vw" width="740" height="920" alt="Brand.AI" />
           </div>
         </div>
-        <div className="ghost-img ghost-img-2" style={{ "width": "17vw" }} aria-hidden="true" data-reveal="">
+        <div className="ghost-img ghost-img-2" style={{ "width": "17vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(-1.5273px, -1.5906px, 0px)" }} aria-hidden="true">
           <div className="ghost-img-inner" style={{ "opacity": "0.8", "transform": "translate(0px, 320px)", "translate": "none", "rotate": "none", "scale": "none", "visibility": "inherit" }}>
             <img src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__13469b18.png" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__13469b18.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__bf171f27.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__b5ded40d.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__4db141cf.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__589682b2.png 1600w" sizes="17vw" width="738" height="926" alt="Brand.AI" />
           </div>
         </div>
-        <div className="ghost-img ghost-img-3" style={{ "width": "22vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(0.7178px, -1.8572px, 0px)" }} aria-hidden="true">
+        <div className="ghost-img ghost-img-3" style={{ "width": "22vw", "translate": "none", "rotate": "none", "scale": "none", "transform": "translate3d(2.6499px, -2.6964px, 0px)" }} aria-hidden="true">
           <div className="ghost-img-inner" style={{ "opacity": "0.8", "transform": "translate(0px, 320px)", "translate": "none", "rotate": "none", "scale": "none", "visibility": "inherit" }}>
             <img src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__13469b18.png" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__13469b18.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__bf171f27.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__b5ded40d.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__4db141cf.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__589682b2.png 1600w" sizes="22vw" width="1014" height="842" alt="Brand.AI" />
           </div>

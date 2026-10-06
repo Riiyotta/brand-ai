@@ -2,7 +2,7 @@ import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
 import Header6 from "../sections/Header6.jsx";
 import MainInner12 from "../sections/MainInner12.jsx";
-import FooterMain17 from "../sections/FooterMain17.jsx";
+import FooterMain21 from "../sections/FooterMain21.jsx";
 import css0 from "../styles/16-_slug_.KoadpnJY.css?inline"; // only this page loads it
 import css1 from "../styles/inline-56.css?inline"; // only this page loads it
 import css2 from "../styles/inline-19.css?inline"; // only this page loads it
@@ -25,16 +25,16 @@ export default function CareersAccountExecutive() {
         <main id="main" role="main">
           <MainInner12 />
         </main>
-        <FooterMain17 />
+        <FooterMain21 />
         <div className="controller-page-scroll"></div>
-        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
-          <div className="message">
-            <p>
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
               {"This site uses "}
               <A href="/legal/privacy" className="">cookies</A>
               .
             </p>
-            <div className="close">Accept</div>
+            <div className="close" data-reveal="">Accept</div>
           </div>
         </div>
       </div>

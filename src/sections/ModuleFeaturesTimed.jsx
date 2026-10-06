@@ -1,3 +1,4 @@
+// IA section(s): features.module-featurestimed (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-featuresTimed — the section's real markup, read from the rendered page (route /, section 5; shared by 2 routes).

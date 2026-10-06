@@ -1,3 +1,4 @@
+// IA section(s): content.post-content (ia/ia.json, design-repo/sections/)
 // post-content — the section's real markup, read from the rendered page (route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good, section 2).
 export default function PostContent() {
   return (

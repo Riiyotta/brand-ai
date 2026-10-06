@@ -4,7 +4,7 @@
     "breakpoint.767.98": {
       "$type": "dimension",
       "$value": "767.98px",
-      "usage": 9839,
+      "usage": 9840,
       "source": "CSS @media width conditions"
     },
     "breakpoint.820": {

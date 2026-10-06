@@ -1,3 +1,4 @@
+// IA section(s): content.projects (ia/ia.json, design-repo/sections/)
 // projects — the section's real markup, read from the rendered page (route /brand-studio, section 5).
 export default function Projects() {
   return (
@@ -51,7 +52,7 @@ export default function Projects() {
         </div>
         <div className="module-mediaFlexible-media module-mediaFlexible-media--third">
           <div className="media image bento-style-after" data-orientation="landscape">
-            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__4cbfb401.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__4cbfb401.png 1800w" />
+            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__4cbfb401.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__4cbfb401.png 1800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/af250e2057bcd3dcb72fdc661251d11c90725578-1170x1170__c3fbbfad.png 1170w" />
             <div className="bentoText-wrapper bentoText-after">
               <div className="bentoText-heading">Permission control</div>
               <div className="bentoText-text">

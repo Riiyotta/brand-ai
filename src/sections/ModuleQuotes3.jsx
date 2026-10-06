@@ -1,3 +1,4 @@
+// IA section(s): proof.module-quotes (ia/ia.json, design-repo/sections/)
 // module-quotes — the section's real markup, read from the rendered page (route /product, section 7).
 export default function ModuleQuotes3() {
   return (
@@ -51,7 +52,7 @@ export default function ModuleQuotes3() {
               <p className="module-quote-text" data-reveal="">{"\"The project is a testament to our growing need for brands to become aware of their surroundings. To evolve past traditional management, and into a new frontier altogether.\""}</p>
               <div className="module-quote-author-wrapper" data-reveal="">
                 <div className="media image module-quote-author-image" data-orientation="landscape" data-reveal="">
-                  <img className="lazyload" data-sizes="false" sizes="auto" width="200" height="200" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__5c51af88.jpg" alt="" fetchPriority="auto" data-reveal="" />
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="200" height="200" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__4cbfb401.jpg" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__a80b8a21.jpg 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__c9d274c0.jpg 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__20ab9b9d.jpg 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__0ff6edc9.jpg 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__4cbfb401.jpg 1800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__a80b8a21.jpg 200w" data-reveal="" />
                 </div>
                 <div className="module-quote-author" data-reveal="">
                   <span className="name" data-reveal="">Mouthwash Studio</span>
@@ -64,7 +65,7 @@ export default function ModuleQuotes3() {
               <p className="module-quote-text" data-reveal="">{"\"Brand.ai is the first tool I've seen that actually understands the brand and culture and powers better, faster work for marketers and partners.\""}</p>
               <div className="module-quote-author-wrapper" data-reveal="">
                 <div className="media image module-quote-author-image" data-orientation="landscape" data-reveal="">
-                  <img className="lazyload" data-sizes="false" sizes="auto" width="400" height="400" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__5c51af88.jpg" alt="" fetchPriority="auto" data-reveal="" />
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="400" height="400" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__b31158bd.jpg" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__a80b8a21.jpg 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__776fcd47.jpg 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__7b2bace0.jpg 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__520c86ad.jpg 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__b31158bd.jpg 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__776fcd47.jpg 400w" data-reveal="" />
                 </div>
                 <div className="module-quote-author" data-reveal="">
                   <span className="name" data-reveal="">Brian Irving</span>

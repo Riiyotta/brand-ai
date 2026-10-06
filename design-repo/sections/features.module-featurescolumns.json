@@ -66,5 +66,8 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/ModuleFeaturesColumns.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesColumns.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesColumns.jsx"
+  ]
 }

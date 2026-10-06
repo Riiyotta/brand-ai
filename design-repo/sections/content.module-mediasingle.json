@@ -87,5 +87,12 @@
     "hero-image",
     "video"
   ],
-  "implementedBy": "src/sections/ModuleMediaSingle.jsx"
+  "implementedBy": "src/sections/ModuleMediaSingle.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleMediaSingle.jsx",
+    "src/sections/ModuleMediaSingle2.jsx",
+    "src/sections/ModuleMediaSingle3.jsx",
+    "src/sections/ModuleMediaSingle4.jsx",
+    "src/sections/ModuleMediaSingle5.jsx"
+  ]
 }

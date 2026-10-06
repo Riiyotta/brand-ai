@@ -1,6 +1,7 @@
+// IA section(s): hero.page-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// page-wrapper — the section's real markup, read from the rendered page (route /blog/post/brand-engineers-the-role-that-didn-t-exist-until-now, section 1).
+// page-wrapper — the section's real markup, read from the rendered page (route /blog/post/how-teams-are-using-brand-ai, section 1).
 export default function PageWrapper4() {
   return (
     <div className="page-wrapper" data-v-3d1fee30="" data-clone-section="PageWrapper4">
@@ -13,12 +14,12 @@ export default function PageWrapper4() {
                 <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
               </div>
               <div className="post-tag" data-v-3d1fee30="">
-                <A href="/blog/infrastructure" className="" data-v-3d1fee30="">Infrastructure</A>
+                <A href="/blog/product" className="" data-v-3d1fee30="">Product</A>
                 <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
               </div>
               <div className="post-date" data-v-3d1fee30="">Mar 2026</div>
             </div>
-            <h1 className="post-title" data-v-3d1fee30="">{"Brand engineers: The role that didn't exist until now"}</h1>
+            <h1 className="post-title" data-v-3d1fee30="">How teams are using brand.ai</h1>
             <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="">
               <div className="news-keyCollaborators-inner">
                 <div className="news-keyCollaborators-item">
@@ -39,35 +40,79 @@ export default function PageWrapper4() {
           </header>
           <div className="post-content" data-v-3d1fee30="" data-reveal="">
             <div className="rich-text rich-text-format is-blog" data-v-3d1fee30="" data-reveal="">
-              <p data-reveal="">{"AI is already representing your brand. Whether a customer asks ChatGPT to compare you with a competitor, or a salesperson uses Claude to draft a pitch deck, or a support agent runs a reply through an AI writing tool, your brand is being interpreted by systems that were never briefed on your positioning, your tone, or your visual language. They're working from whatever signals they can find from your website copy, social posts, job listings, fragments of press coverage. And they're filling in the gaps with guesses."}</p>
-              <p data-reveal="">
-                <strong data-reveal="">{"That's the problem brand engineers solve."}</strong>
-              </p>
-              <p data-reveal="">{"A brand engineer makes brand intelligence operational. They take the principles, positioning, and standards that define a brand and structure them so that every system touching the customer (AI tools, employee workflows, customer-facing platforms) can apply them consistently. The work often starts with content production, because that's where most teams feel the pain first. But the power of brand engineering extends across the business, branching into areas like employee training, customer experience, competitive intelligence, and how AI platforms represent you to buyers."}</p>
-              <h3 data-reveal="">The Case for Brand Engineers</h3>
+              <p data-reveal="">{"There's one question we get more than any other: \"What are people actually doing with brand.ai?\""}</p>
+              <p data-reveal="">{"So we analyzed thousands of production sessions across our enterprise deployments to find out. The top use cases center on strategic messaging refinement, rapid campaign asset generation, and brand-aware summarization. But the real story is the breadth: thirteen distinct roles use brand.ai across twenty-three active workflows, from a CMO pressure-testing taglines late at night to a designer generating sixty campaign variants before lunch. It isn't a single-purpose tool. It's operating infrastructure for brand work."}</p>
+              <p data-reveal="">Our analysis is based on anonymized, aggregated usage data, collected only with explicit customer approval. Classifiers grouped all interactions into use cases and practice areas automatically, so the analysis never touches raw queries or content.</p>
               <p data-reveal="">{""}</p>
-              <p data-reveal="">While content is usually the entry point, the scope of this work is highly strategic and cross-functional.</p>
-              <p data-reveal="">{"Consider what happens when ambiguous brand guidelines meet AI tools. A directive like \"our tone is friendly, but not casual\" is clear enough for a human who already understands the brand. But different AI tools will interpret it in different ways. \"Friendly\" could mean exclamation points and first names, or warm sentence structure with formal vocabulary. \"Not casual\" could mean no contractions, or no slang. A brand engineer makes that guidance specific enough that an AI-drafted email, a customer service script, and an employee onboarding module all feel like they came from the same company."}</p>
-              <p data-reveal="">{"When you zoom out to larger businesses, brand touches every facet of product, marketing, operations, and experience. A Fortune 100 client of ours recently presented the concept of brand engineering to their incoming CMO, and content wasn't even in the top four priorities. The conversation centered on voice-enabled training systems, real-time brand compliance on video ad content, concierge-level personalization, and integration into operational tools. For a global outdoor brand we work with, the priority was standardizing creative briefs across regional teams so strategic insights from headquarters actually shaped local execution."}</p>
-              <p data-reveal="">
-                {"At scale, brand engineering becomes less about producing better content and more about building the conditions for what we call "}
-                <em data-reveal="">swarm marketing</em>
-                {": every team, tool, and agent operating from the same brand intelligence at once, with fewer handoffs and bottlenecks. That's a fundamentally different posture from how most marketing organizations still operate, where brand decisions move sequentially through briefs, reviews, and approvals like a relay race. Brand engineering replaces that sequential model with infrastructure that enables perpetual, parallel, on-brand execution. And the impact is measurable well beyond content efficiency. One of our enterprise clients is already tying brand engineering directly to revenue attribution."}
-              </p>
-              <p data-reveal="">{"But aligning your own teams and tools is only half the problem. AI-mediated discovery is rapidly becoming the primary way prospective buyers evaluate and compare options, which means your brand is being represented in conversations you're not part of and aren’t actively shaping. When a prospective buyer asks ChatGPT, Claude, or Gemini to recommend \"a fashion-forward shoe brand for design-conscious men in their 30s,\" the model pulls from whatever structured information it can find about your company. If those signals are vague or contradictory, you may not surface at all, or you may show up described in terms that don't match your actual positioning. A brand engineer makes sure that doesn't happen."}</p>
-              <h3 data-reveal="">Where Does This Role Sit?</h3>
-              <p data-reveal="">Where brand engineering lives depends on size, structure, and how broadly the company scopes the role. It can sit within brand, content, marketing ops, or design, but the most sophisticated teams are placing it closer to the C-suite.</p>
-              <p data-reveal="">{"The reason is scope. When brand engineering covers content production alone, it naturally reports into a content or marketing ops lead. But when the work extends into customer experience, employee training, and external brand perception (which it increasingly does), the role gravitates toward whoever owns the coherence of the entire customer experience. In companies where marketing and customer experience report to the same leader, that's often where brand engineering lands. This is what we call the brand wheel, illustrated below. Brand radiates outward from a central set of principles into every function it touches, from marketing to customer service to employee experience to product. The brand engineer is the person who makes that wheel operational."}</p>
-              <div className="richtext-media media--narrow" data-count="1" _key="e3d43f232dee" _type="media" isinline="false" index="13" data-reveal="">
+              <h3 data-reveal="">Who’s doing what</h3>
+              <p data-reveal="">We started by looking at individual roles and specific use cases. One thing became immediately clear: brand.ai is being used across the entire org chart. From a first-year digital marketer to the head of brand or CMO, entire orgs are aligned on a single platform.</p>
+              <p data-reveal="">Their needs are different, but they all use brand.ai as essential operating infrastructure. It’s a conversational engine, not a one-and-done generator. Whether it’s a designer generating sixty campaign variants before lunch or a CMO pressure-testing taglines late at night, the platform powers thirteen distinct roles across twenty-three active workflows to keep the entire brand engine running.</p>
+              <div className="richtext-media" data-count="1" _key="2b6efd689d03" _type="media" isinline="false" index="7" data-reveal="">
                 <div className="media image" data-orientation="landscape" data-reveal="">
-                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="2160" height="1614" alt="A circular diagram titled “Your brand” shows concentric rings mapping brand activities, with inner segments for Product, CX, Sales, Marketing, and Corporate, and outer wedges detailing specific channels and functions such as digital marketing, advertising, public relations, e‑commerce, HR, finance, and IT." fetchPriority="auto" data-reveal="" />
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="2880" height="2136" alt="Role-by-use-case heatmap showing where each role concentrates their brand.ai usage." fetchPriority="auto" data-reveal="" />
+                  <div className="media-caption" data-reveal="">
+                    <p data-reveal="">Role-by-use-case heatmap showing where each role concentrates their brand.ai usage.</p>
+                  </div>
                 </div>
               </div>
-              <p data-reveal="">{"What matters more than reporting structure is that the role has access to both the strategic inputs (positioning, messaging, brand guidelines) and the operational systems where brand intelligence gets applied. A brand engineer who only has access to brand strategy but can't touch the tools and workflows where the brand comes to life will produce documentation that nobody uses. A brand engineer who only has access to the tools but doesn't understand the brand deeply will build systems that are functional but strategically empty."}</p>
-              <h3 data-reveal="">When to Hire a Brand Engineer</h3>
-              <p data-reveal="">{"The timeline for hiring a brand engineer comes down to two realities: internal AI adoption and external AI discovery. If your employees are using AI in their daily workflows, you already have a brand consistency problem to solve. But even if you're willing to tolerate some internal drift, external AI models are already summarizing, comparing, and recommending your brand to buyers right now. If you want to control how you show up in those generated answers (and if you want your internal teams producing cohesive work) you need someone dedicated to making your brand machine-readable, whether you call them a brand engineer or not."}</p>
-              <p data-reveal="">{"Brand engineering is new enough as a discipline that the people doing this work come from a range of backgrounds. Some are brand strategists who taught themselves how to structure AI inputs. Others are content ops leads, designers, or customer experience leaders who realized their tools needed better source material. Whatever path they took, they're solving a problem that didn't exist five years ago and won't be optional five years from now."}</p>
-              <p data-reveal="">{"The question most leaders ask next is practical: what does brand engineering work actually look like, day to day? The role plays out across four phases (discovery, infrastructure, adoption, measurement), each with its own deliverables and challenges. We'll break that down in detail in a companion piece."}</p>
+              <h3 data-reveal="">Five modes of working</h3>
+              <p data-reveal="">
+                {"Next, we mapped every interaction to one of five clusters. The distribution tells you where brand-aware AI is driving the most impact. Here’s where we see people using "}
+                {" the most."}
+              </p>
+              <div className="richtext-media media--narrow" data-count="1" _key="23b7650ee787" _type="media" isinline="false" index="10" data-reveal="">
+                <div className="media image" data-orientation="landscape" data-reveal="">
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="2880" height="1620" alt="Five usage clusters showing how teams distribute their AI-assisted brand work." fetchPriority="auto" data-reveal="" />
+                  <div className="media-caption" data-reveal="">
+                    <p data-reveal="">Five usage clusters showing how teams distribute their AI-assisted brand work.</p>
+                  </div>
+                </div>
+              </div>
+              <p data-reveal="">
+                <strong data-reveal="">Strategy and Messaging — 34%</strong>
+              </p>
+              <p data-reveal="">{"About one in three tasks involve this upstream work that shapes everything else. It’s the foundation of how you talk, covering messaging frameworks and strategic positioning. It’s also where campaign briefs and brand documentation lives. These are the living systems that keep the team aligned. This is where senior leaders spend their time. They're less focused on automating busy work and more on refining their judgment and getting to better recommendations faster."}</p>
+              <p data-reveal="">
+                <strong data-reveal="">Content Creation — 28%</strong>
+              </p>
+              <p data-reveal="">Next comes web copy, email campaigns, and turning info into quick summaries or presentations. This cluster captures the customers who adapt their messaging so it works perfectly across channels.</p>
+              <p data-reveal="">
+                <strong data-reveal="">Creative Production — 26%</strong>
+              </p>
+              <p data-reveal="">The third cluster is where the brand comes to life. It includes generating assets and iterating on designs to see what sticks. This work is really about speeding up reviews so you can get your ideas out the door faster.</p>
+              <p data-reveal="">
+                <strong data-reveal="">Competitive Intelligence — 7%</strong>
+              </p>
+              <p data-reveal="">This fourth cluster of use cases involves market research and analysis to see how you stack up against the rest. Using dashboards helps you stay on top of what’s happening in your industry.</p>
+              <p data-reveal="">
+                <strong data-reveal="">Brand Governance — 4%</strong>
+              </p>
+              <p data-reveal="">{"The fifth and final cluster involves audits and voice templates so the brand doesn't lose its identity. It also covers enforcement and regional adaptation, making sure everything stays on-brand while still working for local audiences. While this is currently the smallest category, it’s packed with untapped potential. Areas like M&A integration, workflow automation, and benchmarking haven't been fully explored yet. And we're already seeing a spark in regional adaptation, where teams use AI to craft city-specific messages aligned with a global framework."}</p>
+              <h3 data-reveal="">Three archetypes</h3>
+              <p data-reveal="">As we looked closer at the data, three kinds of users started appearing. They each have their own sets of needs, and they’re using the platform in different ways. We see these as equally important audiences as our tool continues to grow. And some users span more than one.</p>
+              <p data-reveal="">
+                <strong data-reveal="">The Architect</strong>
+              </p>
+              <p data-reveal="">{"Think CMOs and campaign planners. For them, the main goal isn't churning out volume. They're using Brand.ai to sharpen their judgment. They spend about a third of their time refining strategic messaging and positioning. Instead of just generating ideas, they’re using the tech to build a stronger case for their recommendations, like quickly distilling why a specific tagline is the right \"wrapper\" for a new campaign."}</p>
+              <p data-reveal="">
+                <strong data-reveal="">The Maker</strong>
+              </p>
+              <p data-reveal="">{"Creative designers are doing much more than just making images. While they’re focused on rapid asset generation, nearly half of their work actually involves research, strategy docs, and briefs. It’s a tight, back-and-forth dialogue where the designer is steering the ship—requesting specific angles, horizontal reflections, or layout changes—rather than just \"prompting and praying\" for a result."}</p>
+              <p data-reveal="">
+                <strong data-reveal="">The Analyst</strong>
+              </p>
+              <p data-reveal="">Strategists and insight teams use the platform as a massive synthesis engine to distill complex info. They spend about 30% of their time summarizing research, meeting notes, and competitive briefings into actionable bites that keep the brand’s nuance intact. Roles like Marketing Ops and Sales are also leaning in to handle everything from campaign briefs to creative reviews.</p>
+              <div className="richtext-quote" _key="c332ca1f1beb" _type="quote" textsize="medium" isinline="false" index="29" data-v-f5c9e111="" data-reveal="">
+                <p className="quote quote--large" data-v-f5c9e111="" data-reveal="">{"\"That breadth is the point. The infrastructure of brand.ai is designed to serve everyone, all the time.\" "}</p>
+              </div>
+              <h3 data-reveal="">Reliability at scale</h3>
+              <p data-reveal="">The most common tasks—like summarization, copywriting, and generating assets—boast a massive 95–99% success rate. More complex work, like building messaging frameworks or creative reviews, still hits a solid 75-89% completion rate. What’s interesting is that users aren’t giving up. They’re averaging four prompts per session, which is much higher than the industry norm. It shows they’re sticking around to iterate and get the details just right.</p>
+              <h3 data-reveal="">What the best teams have in common</h3>
+              <p data-reveal="">{"The brands seeing the most value don't just use AI for low-stakes \"busy work.\" Instead, they dive straight into the most critical needs, like strategic messaging and campaign production. They've realized that the real wins happen when you apply the tech to your most important projects first."}</p>
+              <p data-reveal="">
+                {"They also don't try to force everyone into a single box. Whether it’s a CMO refining a tagline or a designer spinning up sixty different campaign variants, the platform is flexible enough to handle both. It works because it’s treated as shared infrastructure for the whole team rather than a niche tool that only solves one specific problem. That breadth is the point. The infrastructure of "}
+                {" is designed to serve everyone, all the time."}
+              </p>
             </div>
           </div>
           <div className="news-audio-player post-audio is-fixed" data-v-3d1fee30="">
@@ -111,7 +156,7 @@ export default function PageWrapper4() {
               <div className="post-footer-section post-footer-section-tags" data-v-3d1fee30="">
                 <ul data-v-3d1fee30="">
                   <li data-v-3d1fee30="">
-                    <A href="/blog/infrastructure" className="" data-v-3d1fee30="">Infrastructure</A>
+                    <A href="/blog/product" className="" data-v-3d1fee30="">Product</A>
                   </li>
                 </ul>
               </div>

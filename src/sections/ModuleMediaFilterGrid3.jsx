@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediafiltergrid (ia/ia.json, design-repo/sections/)
 // module-mediaFilterGrid — the section's real markup, read from the rendered page (route /teams, section 3).
 export default function ModuleMediaFilterGrid3() {
   return (
@@ -74,7 +75,7 @@ export default function ModuleMediaFilterGrid3() {
           <div className="module-mediaFilterGrid-group">
             <div className="module-mediaFilterGrid-media module-mediaFilterGrid-media--quarter">
               <div className="media image bento-style-after" data-orientation="portrait">
-                <img className="lazyload" data-sizes="false" sizes="auto" width="1620" height="2010" alt="Text about social and EDM assets being ready for review, above three overlapping screens depicting a motion-blurred runner in ads and a video player." fetchPriority="auto" />
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="2010" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__b31158bd.png" alt="Text about social and EDM assets being ready for review, above three overlapping screens depicting a motion-blurred runner in ads and a video player." fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__520c86ad.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__b31158bd.png 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/86074b488b1585fe6bafc54d8c108b3178c7507c-1620x2010__07385d44.png 1620w" />
                 <div className="bentoText-wrapper bentoText-after">
                   <div className="bentoText-heading">Multi-channel production</div>
                   <div className="bentoText-text">
@@ -85,7 +86,7 @@ export default function ModuleMediaFilterGrid3() {
             </div>
             <div className="module-mediaFilterGrid-media module-mediaFilterGrid-media--quarter">
               <div className="media image bento-style-after" data-orientation="portrait">
-                <img className="lazyload" data-sizes="false" sizes="auto" width="1620" height="2010" alt="" fetchPriority="auto" />
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="2010" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__b31158bd.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__7b2bace0.png 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__520c86ad.png 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__b31158bd.png 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/cfc088366e7d2cf8348510df8622ed805c873453-1620x2010__07385d44.png 1620w" />
                 <div className="bentoText-wrapper bentoText-after">
                   <div className="bentoText-heading">{"Campaign strategy & briefs"}</div>
                   <div className="bentoText-text">
@@ -96,7 +97,7 @@ export default function ModuleMediaFilterGrid3() {
             </div>
             <div className="module-mediaFilterGrid-media module-mediaFilterGrid-media--quarter">
               <div className="media image bento-style-after" data-orientation="portrait">
-                <img className="lazyload" data-sizes="false" sizes="auto" width="1620" height="2010" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/a60439e4bef60bbc65a2a3f44c342cbec9ee0cf3-1620x2010__5c51af88.png" alt="" fetchPriority="auto" />
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="1620" height="2010" alt="" fetchPriority="auto" />
                 <div className="bentoText-wrapper bentoText-after">
                   <div className="bentoText-heading">{"Annual planning & resource allocation"}</div>
                   <div className="bentoText-text">

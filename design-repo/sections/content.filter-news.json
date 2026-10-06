@@ -53,5 +53,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/FilterNews.jsx"
+  "implementedBy": "src/sections/FilterNews.jsx",
+  "implementedByAll": [
+    "src/sections/FilterNews.jsx"
+  ]
 }

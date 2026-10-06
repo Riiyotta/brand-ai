@@ -1967,48 +1967,6 @@
         "body"
       ]
     },
-    "content.shell.cookieswrap": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "body": {
-          "type": "array",
-          "maxItems": 1,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 4
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 1,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 1
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "body",
-        "ctas"
-      ]
-    },
     "content.shell.footer-main": {
       "type": "object",
       "additionalProperties": false,
@@ -2234,7 +2192,6 @@
             "hero.page-wrapper",
             "proof.module-logos",
             "proof.module-quotes",
-            "shell.cookieswrap",
             "shell.footer-main",
             "shell.header",
             "shell.post-header",
@@ -2948,25 +2905,6 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.proof.module-quotes"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "shell.cookieswrap"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.shell.cookieswrap"
               }
             }
           }

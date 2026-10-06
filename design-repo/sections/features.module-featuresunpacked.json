@@ -78,5 +78,10 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/ModuleFeaturesUnpacked.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesUnpacked.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesUnpacked.jsx",
+    "src/sections/ModuleFeaturesUnpacked2.jsx",
+    "src/sections/ModuleFeaturesUnpacked3.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): features.module-featurescolumns (ia/ia.json, design-repo/sections/)
 // module-featuresColumns — the section's real markup, read from the rendered page (route /product, section 6).
 export default function ModuleFeaturesColumns() {
   return (

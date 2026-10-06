@@ -66,5 +66,9 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/ModuleFeaturesNumbered.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesNumbered.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesNumbered.jsx",
+    "src/sections/ModuleFeaturesNumbered2.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): features.module-featuresnumbered (ia/ia.json, design-repo/sections/)
 // module-featuresNumbered — the section's real markup, read from the rendered page (route /careers, section 3).
 export default function ModuleFeaturesNumbered2() {
   return (

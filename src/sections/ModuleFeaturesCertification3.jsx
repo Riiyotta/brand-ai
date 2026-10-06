@@ -1,3 +1,4 @@
+// IA section(s): features.module-featurescertification (ia/ia.json, design-repo/sections/)
 // module-featuresCertification — the section's real markup, read from the rendered page (route /enterprise, section 5).
 export default function ModuleFeaturesCertification3() {
   return (

@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header7 from "../sections/Header7.jsx";
+import Header8 from "../sections/Header8.jsx";
 import ModuleCoverStacked5 from "../sections/ModuleCoverStacked5.jsx";
 import ModuleHeadlineFloating2 from "../sections/ModuleHeadlineFloating2.jsx";
 import Assistant from "../sections/Assistant.jsx";
@@ -11,7 +11,6 @@ import ModuleDownload3 from "../sections/ModuleDownload3.jsx";
 import ModuleFaq3 from "../sections/ModuleFaq3.jsx";
 import ModuleNews4 from "../sections/ModuleNews4.jsx";
 import FooterMain8 from "../sections/FooterMain8.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -28,7 +27,7 @@ import css12 from "../styles/inline-35.css?inline"; // only this page loads it
 import css13 from "../styles/inline-23.css?inline"; // only this page loads it
 import css14 from "../styles/inline-24.css?inline"; // only this page loads it
 
-// Route /brand-studio — 12 section(s), in page order.
+// Route /brand-studio — 11 section(s), in page order.
 export default function BrandStudio() {
   usePageChrome({ title: "Where brand intelligence meets execution | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -50,7 +49,7 @@ export default function BrandStudio() {
       <style>{css14}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header7 />
+        <Header8 />
         <main id="main" role="main">
           <div id="main-inner">
             <div className="page page-slug">
@@ -70,7 +69,16 @@ export default function BrandStudio() {
         </main>
         <FooterMain8 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

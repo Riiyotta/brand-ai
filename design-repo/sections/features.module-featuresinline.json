@@ -80,5 +80,12 @@
   "assetRoles": [
     "icon"
   ],
-  "implementedBy": "src/sections/ModuleFeaturesInline.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesInline.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesInline.jsx",
+    "src/sections/ModuleFeaturesInline2.jsx",
+    "src/sections/ModuleFeaturesInline3.jsx",
+    "src/sections/ModuleFeaturesInline4.jsx",
+    "src/sections/ModuleFeaturesInline5.jsx"
+  ]
 }

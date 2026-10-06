@@ -69,5 +69,8 @@
   "assetRoles": [
     "video"
   ],
-  "implementedBy": "src/sections/ModuleCoverColumns.jsx"
+  "implementedBy": "src/sections/ModuleCoverColumns.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleCoverColumns.jsx"
+  ]
 }

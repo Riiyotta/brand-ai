@@ -1,8 +1,9 @@
+// IA section(s): hero.module-coverstacked (ia/ia.json, design-repo/sections/)
 // module-coverStacked — the section's real markup, read from the rendered page (route /careers, section 1).
 export default function ModuleCoverStacked3() {
   return (
     <section className="module-coverStacked module" data-scheme="light" data-next-scheme="light" data-prev-scheme="light" data-scroll="false" data-hidden="false" data-clone-section="ModuleCoverStacked3">
-      <div className="textBlock module-coverStacked-textBlock">
+      <div className="textBlock module-coverStacked-textBlock" data-reveal="">
         <div className="textBlock-inner">
           <h1 className="headline">Build the tools for those who build the brands</h1>
           <div className="paragraph">

@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediaflexible (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-mediaFlexible — the section's real markup, read from the rendered page (route /product, section 9).

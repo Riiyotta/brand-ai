@@ -72,5 +72,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/Projects.jsx"
+  "implementedBy": "src/sections/Projects.jsx",
+  "implementedByAll": [
+    "src/sections/Projects.jsx"
+  ]
 }

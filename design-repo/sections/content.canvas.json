@@ -72,5 +72,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/Canvas.jsx"
+  "implementedBy": "src/sections/Canvas.jsx",
+  "implementedByAll": [
+    "src/sections/Canvas.jsx"
+  ]
 }

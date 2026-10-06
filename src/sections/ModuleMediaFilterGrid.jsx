@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediafiltergrid (ia/ia.json, design-repo/sections/)
 // module-mediaFilterGrid — the section's real markup, read from the rendered page (route /, section 7; shared by 2 routes).
 export default function ModuleMediaFilterGrid() {
   return (

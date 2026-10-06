@@ -74,5 +74,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/PostContent.jsx"
+  "implementedBy": "src/sections/PostContent.jsx",
+  "implementedByAll": [
+    "src/sections/PostContent.jsx"
+  ]
 }

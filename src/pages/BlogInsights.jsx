@@ -1,8 +1,8 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header10 from "../sections/Header10.jsx";
+import Header14 from "../sections/Header14.jsx";
 import MainInner14 from "../sections/MainInner14.jsx";
-import FooterMain20 from "../sections/FooterMain20.jsx";
+import FooterMain23 from "../sections/FooterMain23.jsx";
 import css0 from "../styles/15-_slug_.BC6yS-M8.css?inline"; // only this page loads it
 import css1 from "../styles/14-_slug_.C1n5o3pd.css?inline"; // only this page loads it
 import css2 from "../styles/inline-39.css?inline"; // only this page loads it
@@ -27,13 +27,13 @@ export default function BlogInsights() {
       <style>{css7}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header10 />
+        <Header14 />
         <main id="main" role="main">
           <MainInner14 />
         </main>
-        <FooterMain20 />
+        <FooterMain23 />
         <div className="controller-page-scroll"></div>
-        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
           <div className="message">
             <p>
               {"This site uses "}

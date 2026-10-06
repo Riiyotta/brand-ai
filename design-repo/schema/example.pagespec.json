@@ -90,7 +90,7 @@
       "type": "shell.footer-main",
       "content": {
         "body": [
-          "Your brand is a garden. Let it grow.",
+          "Embrace chaos, maintain",
           "© 2026 Access to Tools, Inc."
         ],
         "ctas": [
@@ -160,24 +160,6 @@
           },
           {
             "label": "Operational"
-          }
-        ]
-      },
-      "motion": {
-        "pattern": "css-transition",
-        "reducedMotionFallback": "disable-animation"
-      }
-    },
-    {
-      "type": "shell.cookieswrap",
-      "content": {
-        "body": [
-          "This site uses cookies."
-        ],
-        "ctas": [
-          {
-            "label": "cookies",
-            "href": "/legal/privacy/"
           }
         ]
       },

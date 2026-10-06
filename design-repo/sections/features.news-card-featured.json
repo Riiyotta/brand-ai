@@ -59,5 +59,8 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/NewsCardFeatured.jsx"
+  "implementedBy": "src/sections/NewsCardFeatured.jsx",
+  "implementedByAll": [
+    "src/sections/NewsCardFeatured.jsx"
+  ]
 }

@@ -72,5 +72,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/Brandcheck.jsx"
+  "implementedBy": "src/sections/Brandcheck.jsx",
+  "implementedByAll": [
+    "src/sections/Brandcheck.jsx"
+  ]
 }

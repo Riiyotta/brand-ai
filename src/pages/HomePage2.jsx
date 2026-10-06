@@ -1,7 +1,7 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header7 from "../sections/Header7.jsx";
-import ModuleCoverStacked from "../sections/ModuleCoverStacked.jsx";
+import Header16 from "../sections/Header16.jsx";
+import ModuleCoverStacked9 from "../sections/ModuleCoverStacked9.jsx";
 import ModuleLogos from "../sections/ModuleLogos.jsx";
 import ModuleHeroInline2 from "../sections/ModuleHeroInline2.jsx";
 import ModuleCenteredHeadline from "../sections/ModuleCenteredHeadline.jsx";
@@ -11,8 +11,7 @@ import ModuleMediaFilterGrid from "../sections/ModuleMediaFilterGrid.jsx";
 import ModuleQuotes4 from "../sections/ModuleQuotes4.jsx";
 import ModuleNews from "../sections/ModuleNews.jsx";
 import ModuleDownload from "../sections/ModuleDownload.jsx";
-import FooterMain25 from "../sections/FooterMain25.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
+import FooterMain28 from "../sections/FooterMain28.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -31,7 +30,7 @@ import css14 from "../styles/inline-23.css?inline"; // only this page loads it
 import css15 from "../styles/inline-24.css?inline"; // only this page loads it
 import css16 from "../styles/inline-25.css?inline"; // only this page loads it
 
-// Route /home — 13 section(s), in page order.
+// Route /home — 12 section(s), in page order.
 export default function HomePage2() {
   usePageChrome({ title: "brand.ai | AI for brand management", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 900px;" }, body: { "style": "" } });
   return (
@@ -55,12 +54,12 @@ export default function HomePage2() {
       <style>{css16}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header7 />
+        <Header16 />
         <main id="main" role="main">
           <div id="main-inner">
             <div className="page page-slug">
               <div className="modules-wrapper">
-                <ModuleCoverStacked />
+                <ModuleCoverStacked9 />
                 <ModuleLogos />
                 <ModuleHeroInline2 />
                 <ModuleCenteredHeadline />
@@ -74,9 +73,18 @@ export default function HomePage2() {
             </div>
           </div>
         </main>
-        <FooterMain25 />
+        <FooterMain28 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

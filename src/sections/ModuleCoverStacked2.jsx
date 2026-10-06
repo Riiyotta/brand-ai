@@ -1,3 +1,4 @@
+// IA section(s): hero.module-coverstacked (ia/ia.json, design-repo/sections/)
 // module-coverStacked — the section's real markup, read from the rendered page (route /company, section 1).
 export default function ModuleCoverStacked2() {
   return (

@@ -77,5 +77,8 @@
     "icon",
     "video"
   ],
-  "implementedBy": "src/sections/PostHeader.jsx"
+  "implementedBy": "src/sections/PostHeader.jsx",
+  "implementedByAll": [
+    "src/sections/PostHeader.jsx"
+  ]
 }

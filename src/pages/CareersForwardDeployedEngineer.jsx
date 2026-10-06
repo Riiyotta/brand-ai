@@ -1,16 +1,15 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header8 from "../sections/Header8.jsx";
+import Header12 from "../sections/Header12.jsx";
 import MainInner6 from "../sections/MainInner6.jsx";
 import FooterMain16 from "../sections/FooterMain16.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/16-_slug_.KoadpnJY.css?inline"; // only this page loads it
 import css1 from "../styles/inline-56.css?inline"; // only this page loads it
 import css2 from "../styles/inline-19.css?inline"; // only this page loads it
 import css3 from "../styles/inline-55.css?inline"; // only this page loads it
 import css4 from "../styles/inline-57.css?inline"; // only this page loads it
 
-// Route /careers/forward-deployed-engineer — 4 section(s), in page order.
+// Route /careers/forward-deployed-engineer — 3 section(s), in page order.
 export default function CareersForwardDeployedEngineer() {
   usePageChrome({ title: "Forward Deployed Engineer - Remote (USA) | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 900px;" }, body: { "style": "" } });
   return (
@@ -22,13 +21,22 @@ export default function CareersForwardDeployedEngineer() {
       <style>{css4}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header8 />
+        <Header12 />
         <main id="main" role="main">
           <MainInner6 />
         </main>
         <FooterMain16 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

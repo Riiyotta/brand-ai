@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header7 from "../sections/Header7.jsx";
+import Header6 from "../sections/Header6.jsx";
 import MainInner8 from "../sections/MainInner8.jsx";
 import FooterMain18 from "../sections/FooterMain18.jsx";
 import css0 from "../styles/16-_slug_.KoadpnJY.css?inline"; // only this page loads it
@@ -21,20 +21,20 @@ export default function CareersDigitalDesigner() {
       <style>{css4}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header7 />
+        <Header6 />
         <main id="main" role="main">
           <MainInner8 />
         </main>
         <FooterMain18 />
         <div className="controller-page-scroll"></div>
-        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
-          <div className="message">
-            <p>
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
               {"This site uses "}
               <A href="/legal/privacy" className="">cookies</A>
               .
             </p>
-            <div className="close">Accept</div>
+            <div className="close" data-reveal="">Accept</div>
           </div>
         </div>
       </div>

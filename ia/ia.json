@@ -3,7 +3,7 @@
   "meta": {
     "source": "https://brand.ai/",
     "status": "measured-from-mirror",
-    "mirror": "website-builder crawl, 2026-10-05T11:30:42Z",
+    "mirror": "website-builder crawl, 2026-10-06T09:30:12Z",
     "productionApproved": false,
     "totalRoutes": 38,
     "totalTemplates": 14,
@@ -22,253 +22,511 @@
       "category": "CONTENT",
       "description": "\"assistant\" — a <section> block named by its id; first heading: \"Assistant Your brand expert, always on\". Typically 1483px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/Assistant.jsx"
+      "implementedBy": "src/sections/Assistant.jsx",
+      "implementedByAll": [
+        "src/sections/Assistant.jsx"
+      ]
     },
     "content.brandcheck": {
       "category": "CONTENT",
       "description": "\"brandcheck\" — a <section> block named by its id; first heading: \"Brand Check Confidence before launch\". Typically 1621px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/Brandcheck.jsx"
+      "implementedBy": "src/sections/Brandcheck.jsx",
+      "implementedByAll": [
+        "src/sections/Brandcheck.jsx"
+      ]
     },
     "content.canvas": {
       "category": "CONTENT",
       "description": "\"canvas\" — a <section> block named by its id; first heading: \"Canvas Visual strategy sandbox\". Typically 2755px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/Canvas.jsx"
+      "implementedBy": "src/sections/Canvas.jsx",
+      "implementedByAll": [
+        "src/sections/Canvas.jsx"
+      ]
     },
     "content.connected-applications": {
       "category": "CONTENT",
       "description": "\"Connected Applications\" — a <section> block named by its id; first heading: \"Connected Applications Updates as you work\". Typically 897px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/ConnectedApplications.jsx"
+      "implementedBy": "src/sections/ConnectedApplications.jsx",
+      "implementedByAll": [
+        "src/sections/ConnectedApplications.jsx"
+      ]
     },
     "content.current-roles": {
       "category": "CONTENT",
       "description": "\"current-roles\" — a <section> block named by its id; first heading: \"Open roles\". Typically 921px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/CurrentRoles.jsx"
+      "implementedBy": "src/sections/CurrentRoles.jsx",
+      "implementedByAll": [
+        "src/sections/CurrentRoles.jsx"
+      ]
     },
     "content.filter-news": {
       "category": "CONTENT",
       "description": "\"Filter news\" — a <div> block named by a data attribute. Typically 44px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/FilterNews.jsx"
+      "implementedBy": "src/sections/FilterNews.jsx",
+      "implementedByAll": [
+        "src/sections/FilterNews.jsx"
+      ]
     },
     "content.module-centeredheadline": {
       "category": "CONTENT",
       "description": "\"module-centeredHeadline\" — a <section> block named by its CSS class; first heading: \"As AI agents proliferate across your organization, they all need brand context. Brand OS structures your brand into machine-readable intelligence. Brand Studio turns that intelligence into on-brand wo\". Typically 216px tall at 1440px wide.",
       "scope": "Appears on 5 routes.",
-      "implementedBy": "src/sections/ModuleCenteredHeadline.jsx"
+      "implementedBy": "src/sections/ModuleCenteredHeadline.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleCenteredHeadline.jsx",
+        "src/sections/ModuleCenteredHeadline2.jsx",
+        "src/sections/ModuleCenteredHeadline3.jsx",
+        "src/sections/ModuleCenteredHeadline4.jsx"
+      ]
     },
     "content.module-download": {
       "category": "CONTENT",
       "description": "\"module-download\" — a <section> block named by its CSS class; first heading: \"Get a personalized demo for your brand\". Typically 383px tall at 1440px wide.",
       "scope": "Appears on 8 routes.",
-      "implementedBy": "src/sections/ModuleDownload.jsx"
+      "implementedBy": "src/sections/ModuleDownload.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleDownload.jsx",
+        "src/sections/ModuleDownload2.jsx",
+        "src/sections/ModuleDownload3.jsx",
+        "src/sections/ModuleDownload4.jsx",
+        "src/sections/ModuleDownload5.jsx",
+        "src/sections/ModuleDownload6.jsx"
+      ]
     },
     "content.module-headlinefloating": {
       "category": "CONTENT",
       "description": "\"module-headlineFloating\" — a <section> block named by its CSS class. Typically 216px tall at 1440px wide.",
       "scope": "Appears on 2 routes.",
-      "implementedBy": "src/sections/ModuleHeadlineFloating.jsx"
+      "implementedBy": "src/sections/ModuleHeadlineFloating.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleHeadlineFloating.jsx",
+        "src/sections/ModuleHeadlineFloating2.jsx"
+      ]
     },
     "content.module-mediafiltergrid": {
       "category": "CONTENT",
       "description": "\"module-mediaFilterGrid\" — a <section> block named by its CSS class; first heading: \"One truth. Every team. Every time.\". Typically 697px tall at 1440px wide.",
       "scope": "Appears on 4 routes.",
-      "implementedBy": "src/sections/ModuleMediaFilterGrid.jsx"
+      "implementedBy": "src/sections/ModuleMediaFilterGrid.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleMediaFilterGrid.jsx",
+        "src/sections/ModuleMediaFilterGrid2.jsx",
+        "src/sections/ModuleMediaFilterGrid3.jsx"
+      ]
     },
     "content.module-mediaflexible": {
       "category": "CONTENT",
       "description": "\"module-mediaFlexible\" — a <section> block named by its CSS class; first heading: \"Shift how you collaborate\". Typically 1396px tall at 1440px wide.",
       "scope": "Appears on 3 routes.",
-      "implementedBy": "src/sections/ModuleMediaFlexible.jsx"
+      "implementedBy": "src/sections/ModuleMediaFlexible.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleMediaFlexible.jsx",
+        "src/sections/ModuleMediaFlexible2.jsx",
+        "src/sections/ModuleMediaFlexible3.jsx",
+        "src/sections/ModuleMediaFlexible4.jsx",
+        "src/sections/ModuleMediaFlexible5.jsx",
+        "src/sections/ModuleMediaFlexible6.jsx"
+      ]
     },
     "content.module-mediaflexible-media-wrapper": {
       "category": "CONTENT",
       "description": "\"module-mediaFlexible-media-wrapper\" — a <div> block named by its CSS class. Typically 2214px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/ModuleMediaFlexibleMediaWrapper.jsx"
+      "implementedBy": "src/sections/ModuleMediaFlexibleMediaWrapper.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleMediaFlexibleMediaWrapper.jsx",
+        "src/sections/ModuleMediaFlexibleMediaWrapper2.jsx"
+      ]
     },
     "content.module-mediasingle": {
       "category": "CONTENT",
       "description": "\"module-mediaSingle\" — a <section> block named by its CSS class; first heading: \"Work with us\". Typically 945px tall at 1440px wide.",
       "scope": "Appears on 4 routes.",
-      "implementedBy": "src/sections/ModuleMediaSingle.jsx"
+      "implementedBy": "src/sections/ModuleMediaSingle.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleMediaSingle.jsx",
+        "src/sections/ModuleMediaSingle2.jsx",
+        "src/sections/ModuleMediaSingle3.jsx",
+        "src/sections/ModuleMediaSingle4.jsx",
+        "src/sections/ModuleMediaSingle5.jsx"
+      ]
     },
     "content.module-news": {
       "category": "CONTENT",
       "description": "\"module-news\" — a <section> block named by its CSS class; first heading: \"Updates and insights\". Typically 580px tall at 1440px wide.",
       "scope": "Appears on 6 routes.",
-      "implementedBy": "src/sections/ModuleNews.jsx"
+      "implementedBy": "src/sections/ModuleNews.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleNews.jsx",
+        "src/sections/ModuleNews2.jsx",
+        "src/sections/ModuleNews3.jsx",
+        "src/sections/ModuleNews4.jsx",
+        "src/sections/ModuleNews5.jsx"
+      ]
     },
     "content.newsroom": {
       "category": "CONTENT",
       "description": "\"Newsroom\" — a <section> block named by its id; first heading: \"Newsroom From noise to strategy\". Typically 1645px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/Newsroom.jsx"
+      "implementedBy": "src/sections/Newsroom.jsx",
+      "implementedByAll": [
+        "src/sections/Newsroom.jsx"
+      ]
     },
     "content.newsroom-grid-inner": {
       "category": "CONTENT",
       "description": "\"newsroom-grid-inner\" — a <div> block named by its CSS class. Typically 2147px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/NewsroomGridInner.jsx"
+      "implementedBy": "src/sections/NewsroomGridInner.jsx",
+      "implementedByAll": [
+        "src/sections/NewsroomGridInner.jsx"
+      ]
     },
     "content.page-content-meta": {
       "category": "CONTENT",
       "description": "\"page-content-meta\" — a <div> block named by its CSS class; first heading: \"Citations (17)\". Typically 901px tall at 1440px wide.",
       "scope": "Appears on 4 routes.",
-      "implementedBy": "src/sections/PageContentMeta.jsx"
+      "implementedBy": "src/sections/PageContentMeta.jsx",
+      "implementedByAll": [
+        "src/sections/PageContentMeta.jsx",
+        "src/sections/PageContentMeta2.jsx",
+        "src/sections/PageContentMeta3.jsx",
+        "src/sections/PageContentMeta4.jsx"
+      ]
     },
     "content.post-content": {
       "category": "CONTENT",
       "description": "\"post-content\" — a <div> block named by its CSS class. Typically 19259px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/PostContent.jsx"
+      "implementedBy": "src/sections/PostContent.jsx",
+      "implementedByAll": [
+        "src/sections/PostContent.jsx"
+      ]
     },
     "content.post-related": {
       "category": "CONTENT",
       "description": "\"post-related\" — a <section> block named by its CSS class; first heading: \"Related Articles\". Typically 571px tall at 1440px wide.",
       "scope": "Appears on 10 routes.",
-      "implementedBy": "src/sections/PostRelated.jsx"
+      "implementedBy": "src/sections/PostRelated.jsx",
+      "implementedByAll": [
+        "src/sections/PostRelated.jsx",
+        "src/sections/PostRelated10.jsx",
+        "src/sections/PostRelated2.jsx",
+        "src/sections/PostRelated3.jsx",
+        "src/sections/PostRelated4.jsx",
+        "src/sections/PostRelated5.jsx",
+        "src/sections/PostRelated6.jsx",
+        "src/sections/PostRelated7.jsx",
+        "src/sections/PostRelated8.jsx",
+        "src/sections/PostRelated9.jsx"
+      ]
     },
     "content.projects": {
       "category": "CONTENT",
       "description": "\"projects\" — a <section> block named by its id; first heading: \"Projects Smart workspaces that learn\". Typically 1442px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/Projects.jsx"
+      "implementedBy": "src/sections/Projects.jsx",
+      "implementedByAll": [
+        "src/sections/Projects.jsx"
+      ]
     },
     "content.textblock": {
       "category": "CONTENT",
       "description": "\"textBlock\" — a <div> block named by its CSS class; first heading: \"Brand Foundation Your brand becomes structured intelligence\". Typically 261px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/TextBlock.jsx"
+      "implementedBy": "src/sections/TextBlock.jsx",
+      "implementedByAll": [
+        "src/sections/TextBlock.jsx",
+        "src/sections/TextBlock2.jsx"
+      ]
     },
     "features.module-featuresapp": {
       "category": "FEATURES",
       "description": "\"module-featuresApp\" — a <section> block named by its CSS class; first heading: \"Secure integrations add to company knowledge\". Typically 819px tall at 1440px wide.",
       "scope": "Appears on 2 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesApp.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesApp.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesApp.jsx",
+        "src/sections/ModuleFeaturesApp2.jsx"
+      ]
     },
     "features.module-featurescertification": {
       "category": "FEATURES",
       "description": "\"module-featuresCertification\" — a <section> block named by its CSS class; first heading: \"We maintain compliance withthe most rigorous international security standards\". Typically 670px tall at 1440px wide.",
       "scope": "Appears on 3 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesCertification.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesCertification.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesCertification.jsx",
+        "src/sections/ModuleFeaturesCertification2.jsx",
+        "src/sections/ModuleFeaturesCertification3.jsx"
+      ]
     },
     "features.module-featurescolumns": {
       "category": "FEATURES",
       "description": "\"module-featuresColumns\" — a <section> block named by its CSS class; first heading: \"How teams are using brand.ai today\". Typically 630px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/ModuleFeaturesColumns.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesColumns.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesColumns.jsx"
+      ]
     },
     "features.module-featuresinline": {
       "category": "FEATURES",
       "description": "\"module-featuresInline\" — a <section> block named by its CSS class; first heading: \"Supported connections\". Typically 512px tall at 1440px wide.",
       "scope": "Appears on 5 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesInline.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesInline.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesInline.jsx",
+        "src/sections/ModuleFeaturesInline2.jsx",
+        "src/sections/ModuleFeaturesInline3.jsx",
+        "src/sections/ModuleFeaturesInline4.jsx",
+        "src/sections/ModuleFeaturesInline5.jsx"
+      ]
     },
     "features.module-featuresnumbered": {
       "category": "FEATURES",
       "description": "\"module-featuresNumbered\" — a <section> block named by its CSS class; first heading: \"Working here\". Typically 864px tall at 1440px wide.",
       "scope": "Appears on 2 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesNumbered.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesNumbered.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesNumbered.jsx",
+        "src/sections/ModuleFeaturesNumbered2.jsx"
+      ]
     },
     "features.module-featurestimed": {
       "category": "FEATURES",
       "description": "\"module-featuresTimed\" — a <section> block named by its CSS class; first heading: \"Brand OS The structured intelligence layer for your brand\". Typically 935px tall at 1440px wide.",
       "scope": "Appears on 2 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesTimed.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesTimed.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesTimed.jsx",
+        "src/sections/ModuleFeaturesTimed2.jsx"
+      ]
     },
     "features.module-featuresunpacked": {
       "category": "FEATURES",
       "description": "\"module-featuresUnpacked\" — a <section> block named by its CSS class; first heading: \"Most companies separate the \"Creatives\" from the \"Technical.\" We believe that gap is where the product dies.\". Typically 917px tall at 1440px wide.",
       "scope": "Appears on 3 routes.",
-      "implementedBy": "src/sections/ModuleFeaturesUnpacked.jsx"
+      "implementedBy": "src/sections/ModuleFeaturesUnpacked.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFeaturesUnpacked.jsx",
+        "src/sections/ModuleFeaturesUnpacked2.jsx",
+        "src/sections/ModuleFeaturesUnpacked3.jsx"
+      ]
     },
     "features.news-card-featured": {
       "category": "FEATURES",
       "description": "\"news-card-featured\" — a <a> block named by its CSS class. Typically 808px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/NewsCardFeatured.jsx"
+      "implementedBy": "src/sections/NewsCardFeatured.jsx",
+      "implementedByAll": [
+        "src/sections/NewsCardFeatured.jsx"
+      ]
     },
     "hero.main-inner": {
       "category": "HERO",
       "description": "\"main-inner\" — a <div> block named by its id; first heading: \"Blog\". Typically 2225px tall at 1440px wide.",
       "scope": "Appears on 17 routes.",
-      "implementedBy": "src/sections/MainInner.jsx"
+      "implementedBy": "src/sections/MainInner.jsx",
+      "implementedByAll": [
+        "src/sections/MainInner.jsx",
+        "src/sections/MainInner10.jsx",
+        "src/sections/MainInner11.jsx",
+        "src/sections/MainInner12.jsx",
+        "src/sections/MainInner13.jsx",
+        "src/sections/MainInner14.jsx",
+        "src/sections/MainInner15.jsx",
+        "src/sections/MainInner16.jsx",
+        "src/sections/MainInner17.jsx",
+        "src/sections/MainInner2.jsx",
+        "src/sections/MainInner3.jsx",
+        "src/sections/MainInner4.jsx",
+        "src/sections/MainInner5.jsx",
+        "src/sections/MainInner6.jsx",
+        "src/sections/MainInner7.jsx",
+        "src/sections/MainInner8.jsx",
+        "src/sections/MainInner9.jsx"
+      ]
     },
     "hero.module-covercolumns": {
       "category": "HERO",
       "description": "\"module-coverColumns\" — a <section> block named by its CSS class; first heading: \"Enterprise-grade security for your brand intelligence\". Typically 1070px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/ModuleCoverColumns.jsx"
+      "implementedBy": "src/sections/ModuleCoverColumns.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleCoverColumns.jsx"
+      ]
     },
     "hero.module-coverstacked": {
       "category": "HERO",
       "description": "\"module-coverStacked\" — a <section> block named by its CSS class; first heading: \"Your brand, as source code\". Typically 1222px tall at 1440px wide.",
       "scope": "Appears on 9 routes.",
-      "implementedBy": "src/sections/ModuleCoverStacked.jsx"
+      "implementedBy": "src/sections/ModuleCoverStacked.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleCoverStacked.jsx",
+        "src/sections/ModuleCoverStacked2.jsx",
+        "src/sections/ModuleCoverStacked3.jsx",
+        "src/sections/ModuleCoverStacked4.jsx",
+        "src/sections/ModuleCoverStacked5.jsx",
+        "src/sections/ModuleCoverStacked6.jsx",
+        "src/sections/ModuleCoverStacked7.jsx",
+        "src/sections/ModuleCoverStacked8.jsx",
+        "src/sections/ModuleCoverStacked9.jsx"
+      ]
     },
     "hero.module-hero-inline": {
       "category": "HERO",
       "description": "\"module-hero-inline\" — a <section> block named by its CSS class; first heading: \"Brand is your most valuable asset. brand.ai makes it machine-readable so every team, tool, and agent gets it right.\". Typically 3150px tall at 1440px wide.",
       "scope": "Appears on 2 routes.",
-      "implementedBy": "src/sections/ModuleHeroInline.jsx"
+      "implementedBy": "src/sections/ModuleHeroInline.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleHeroInline.jsx",
+        "src/sections/ModuleHeroInline2.jsx"
+      ]
     },
     "hero.page-container": {
       "category": "HERO",
       "description": "\"page-container\" — a <div> block named by its CSS class; first heading: \"Every brand needs a living operating system, not a PDF\". Typically 6957px tall at 1440px wide.",
       "scope": "Appears on 3 routes.",
-      "implementedBy": "src/sections/PageContainer.jsx"
+      "implementedBy": "src/sections/PageContainer.jsx",
+      "implementedByAll": [
+        "src/sections/PageContainer.jsx",
+        "src/sections/PageContainer2.jsx",
+        "src/sections/PageContainer3.jsx"
+      ]
     },
     "hero.page-wrapper": {
       "category": "HERO",
       "description": "\"page-wrapper\" — a <div> block named by its CSS class; first heading: \"Brand engineers: The role that didn't exist until now\". Typically 5778px tall at 1440px wide.",
       "scope": "Appears on 6 routes.",
-      "implementedBy": "src/sections/PageWrapper.jsx"
+      "implementedBy": "src/sections/PageWrapper.jsx",
+      "implementedByAll": [
+        "src/sections/PageWrapper.jsx",
+        "src/sections/PageWrapper2.jsx",
+        "src/sections/PageWrapper3.jsx",
+        "src/sections/PageWrapper4.jsx",
+        "src/sections/PageWrapper5.jsx",
+        "src/sections/PageWrapper6.jsx"
+      ]
     },
     "proof.module-logos": {
       "category": "PROOF",
       "description": "\"module-logos\" — a <section> block named by its CSS class; first heading: \"Built with brand leaders from\". Typically 140px tall at 1440px wide.",
       "scope": "Appears on 4 routes.",
-      "implementedBy": "src/sections/ModuleLogos.jsx"
+      "implementedBy": "src/sections/ModuleLogos.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleLogos.jsx",
+        "src/sections/ModuleLogos2.jsx"
+      ]
     },
     "proof.module-quotes": {
       "category": "PROOF",
       "description": "\"module-quotes\" — a <section> block named by its CSS class. Typically 785px tall at 1440px wide.",
       "scope": "Appears on 4 routes.",
-      "implementedBy": "src/sections/ModuleQuotes.jsx"
-    },
-    "shell.cookieswrap": {
-      "category": "SHELL",
-      "description": "\"cookiesWrap\" — a <div> block named by its id. Typically 51px tall at 1440px wide.",
-      "scope": "Appears on all 38 routes.",
-      "implementedBy": "src/sections/CookiesWrap.jsx"
+      "implementedBy": "src/sections/ModuleQuotes.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleQuotes.jsx",
+        "src/sections/ModuleQuotes2.jsx",
+        "src/sections/ModuleQuotes3.jsx",
+        "src/sections/ModuleQuotes4.jsx"
+      ]
     },
     "shell.footer-main": {
       "category": "SHELL",
       "description": "\"footer-main\" — a <footer> block named by its CSS class. Typically 900px tall at 1440px wide.",
       "scope": "Appears on all 38 routes.",
-      "implementedBy": "src/sections/FooterMain.jsx"
+      "implementedBy": "src/sections/FooterMain20.jsx",
+      "implementedByAll": [
+        "src/sections/FooterMain20.jsx",
+        "src/sections/FooterMain27.jsx",
+        "src/sections/FooterMain31.jsx",
+        "src/sections/FooterMain.jsx",
+        "src/sections/FooterMain10.jsx",
+        "src/sections/FooterMain11.jsx",
+        "src/sections/FooterMain12.jsx",
+        "src/sections/FooterMain13.jsx",
+        "src/sections/FooterMain14.jsx",
+        "src/sections/FooterMain15.jsx",
+        "src/sections/FooterMain16.jsx",
+        "src/sections/FooterMain17.jsx",
+        "src/sections/FooterMain18.jsx",
+        "src/sections/FooterMain19.jsx",
+        "src/sections/FooterMain2.jsx",
+        "src/sections/FooterMain21.jsx",
+        "src/sections/FooterMain22.jsx",
+        "src/sections/FooterMain23.jsx",
+        "src/sections/FooterMain24.jsx",
+        "src/sections/FooterMain25.jsx",
+        "src/sections/FooterMain26.jsx",
+        "src/sections/FooterMain28.jsx",
+        "src/sections/FooterMain29.jsx",
+        "src/sections/FooterMain3.jsx",
+        "src/sections/FooterMain30.jsx",
+        "src/sections/FooterMain32.jsx",
+        "src/sections/FooterMain33.jsx",
+        "src/sections/FooterMain34.jsx",
+        "src/sections/FooterMain4.jsx",
+        "src/sections/FooterMain5.jsx",
+        "src/sections/FooterMain6.jsx",
+        "src/sections/FooterMain7.jsx",
+        "src/sections/FooterMain8.jsx",
+        "src/sections/FooterMain9.jsx"
+      ]
     },
     "shell.header": {
       "category": "SHELL",
       "description": "\"header\" — a <header> block named by its CSS class. Typically 100px tall at 1440px wide.",
       "scope": "Appears on all 38 routes.",
-      "implementedBy": "src/pages/HomePage.jsx"
+      "implementedBy": "src/sections/Header6.jsx",
+      "implementedByAll": [
+        "src/sections/Header6.jsx",
+        "src/sections/Header14.jsx",
+        "src/sections/Header15.jsx",
+        "src/sections/Header17.jsx",
+        "src/sections/Header.jsx",
+        "src/sections/Header10.jsx",
+        "src/sections/Header11.jsx",
+        "src/sections/Header12.jsx",
+        "src/sections/Header13.jsx",
+        "src/sections/Header16.jsx",
+        "src/sections/Header18.jsx",
+        "src/sections/Header19.jsx",
+        "src/sections/Header2.jsx",
+        "src/sections/Header3.jsx",
+        "src/sections/Header4.jsx",
+        "src/sections/Header5.jsx",
+        "src/sections/Header7.jsx",
+        "src/sections/Header8.jsx",
+        "src/sections/Header9.jsx"
+      ]
     },
     "shell.post-header": {
       "category": "SHELL",
       "description": "\"post-header\" — a <header> block named by its CSS class; first heading: \"Brands of loving grace, and humans who use AI for good\". Typically 1051px tall at 1440px wide.",
       "scope": "Appears on 1 route.",
-      "implementedBy": "src/sections/PostHeader.jsx"
+      "implementedBy": "src/sections/PostHeader.jsx",
+      "implementedByAll": [
+        "src/sections/PostHeader.jsx"
+      ]
     },
     "support.module-faq": {
       "category": "SUPPORT",
       "description": "\"module-faq\" — a <section> block named by its CSS class; first heading: \"Have questions? Ask us.\". Typically 393px tall at 1440px wide.",
       "scope": "Appears on 6 routes.",
-      "implementedBy": "src/sections/ModuleFaq.jsx"
+      "implementedBy": "src/sections/ModuleFaq.jsx",
+      "implementedByAll": [
+        "src/sections/ModuleFaq.jsx",
+        "src/sections/ModuleFaq2.jsx",
+        "src/sections/ModuleFaq3.jsx",
+        "src/sections/ModuleFaq4.jsx",
+        "src/sections/ModuleFaq5.jsx",
+        "src/sections/ModuleFaq6.jsx"
+      ]
     }
   },
   "templates": [
@@ -293,8 +551,7 @@
         "proof.module-quotes",
         "content.module-news",
         "content.module-download",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -315,8 +572,7 @@
         "features.module-featuresunpacked",
         "content.module-download",
         "support.module-faq",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -337,8 +593,7 @@
         "content.module-mediasingle",
         "content.module-mediasingle",
         "content.module-news",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -358,8 +613,7 @@
         "features.module-featuresnumbered",
         "proof.module-quotes",
         "content.current-roles",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -377,8 +631,7 @@
         "features.news-card-featured",
         "content.filter-news",
         "content.newsroom-grid-inner",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -410,8 +663,7 @@
       "sections": [
         "shell.header",
         "hero.main-inner",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -439,8 +691,7 @@
         "support.module-faq",
         "content.module-download",
         "content.module-news",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -464,8 +715,7 @@
         "content.module-download",
         "support.module-faq",
         "content.module-news",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -495,8 +745,7 @@
         "content.module-mediasingle",
         "support.module-faq",
         "content.module-news",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -522,8 +771,7 @@
         "content.module-download",
         "support.module-faq",
         "content.module-mediasingle",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -546,37 +794,13 @@
         "content.module-download",
         "support.module-faq",
         "content.module-mediasingle",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
     },
     {
       "id": "template.blog-2",
-      "name": "Blog pages",
-      "routeCount": 6,
-      "routes": [
-        "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
-        "/blog/post/why-most-ai-pilots-never-leave-the-lab",
-        "/blog/post/welcome-to-brand-ai",
-        "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
-        "/blog/post/how-teams-are-using-brand-ai",
-        "/blog/post/how-brand-engineering-is-shaping-modern-brands"
-      ],
-      "chrome": "full",
-      "sections": [
-        "shell.header",
-        "hero.page-wrapper",
-        "content.post-related",
-        "shell.footer-main",
-        "shell.cookieswrap"
-      ],
-      "generationEligible": true,
-      "evidenceOnly": false
-    },
-    {
-      "id": "template.blog-3",
       "name": "Blog pages",
       "routeCount": 3,
       "routes": [
@@ -590,8 +814,29 @@
         "hero.page-container",
         "content.page-content-meta",
         "content.post-related",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
+      ],
+      "generationEligible": true,
+      "evidenceOnly": false
+    },
+    {
+      "id": "template.blog-3",
+      "name": "Blog pages",
+      "routeCount": 6,
+      "routes": [
+        "/blog/post/why-most-ai-pilots-never-leave-the-lab",
+        "/blog/post/welcome-to-brand-ai",
+        "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
+        "/blog/post/how-teams-are-using-brand-ai",
+        "/blog/post/how-brand-engineering-is-shaping-modern-brands",
+        "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+      ],
+      "chrome": "full",
+      "sections": [
+        "shell.header",
+        "hero.page-wrapper",
+        "content.post-related",
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false
@@ -610,8 +855,7 @@
         "content.post-content",
         "content.page-content-meta",
         "content.post-related",
-        "shell.footer-main",
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "generationEligible": true,
       "evidenceOnly": false

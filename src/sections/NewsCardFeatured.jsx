@@ -1,3 +1,4 @@
+// IA section(s): features.news-card-featured (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // news-card-featured — the section's real markup, read from the rendered page (route /blog, section 1).

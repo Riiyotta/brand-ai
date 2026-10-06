@@ -72,5 +72,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/Newsroom.jsx"
+  "implementedBy": "src/sections/Newsroom.jsx",
+  "implementedByAll": [
+    "src/sections/Newsroom.jsx"
+  ]
 }

@@ -98,5 +98,24 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/MainInner.jsx"
+  "implementedBy": "src/sections/MainInner.jsx",
+  "implementedByAll": [
+    "src/sections/MainInner.jsx",
+    "src/sections/MainInner10.jsx",
+    "src/sections/MainInner11.jsx",
+    "src/sections/MainInner12.jsx",
+    "src/sections/MainInner13.jsx",
+    "src/sections/MainInner14.jsx",
+    "src/sections/MainInner15.jsx",
+    "src/sections/MainInner16.jsx",
+    "src/sections/MainInner17.jsx",
+    "src/sections/MainInner2.jsx",
+    "src/sections/MainInner3.jsx",
+    "src/sections/MainInner4.jsx",
+    "src/sections/MainInner5.jsx",
+    "src/sections/MainInner6.jsx",
+    "src/sections/MainInner7.jsx",
+    "src/sections/MainInner8.jsx",
+    "src/sections/MainInner9.jsx"
+  ]
 }

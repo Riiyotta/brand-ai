@@ -1,3 +1,4 @@
+// IA section(s): hero.module-covercolumns (ia/ia.json, design-repo/sections/)
 // module-coverColumns — the section's real markup, read from the rendered page (route /security, section 1).
 export default function ModuleCoverColumns() {
   return (

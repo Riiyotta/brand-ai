@@ -3,7 +3,7 @@
   "sourceProject": {
     "url": "https://brand.ai/",
     "framework": "Vite-like (ESM module scripts)",
-    "scrapedAt": "2026-10-05T11:30:42Z",
+    "scrapedAt": "2026-10-06T09:30:12Z",
     "snapshotFolder": "recon/mirror/src/"
   },
   "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under recon/mirror/src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
@@ -325,7 +325,7 @@
     "breakpoints": [
       [
         "767.98px",
-        9839
+        9840
       ],
       [
         "1179.98px",
@@ -624,16 +624,6 @@
           "anchor": "footer-main",
           "lines": [
             2296,
-            2410
-          ]
-        },
-        {
-          "idx": 12,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            2411,
             2427
           ]
         }
@@ -723,16 +713,6 @@
           "anchor": "footer-main",
           "lines": [
             605,
-            719
-          ]
-        },
-        {
-          "idx": 8,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            720,
             736
           ]
         }
@@ -822,16 +802,6 @@
           "anchor": "footer-main",
           "lines": [
             395,
-            509
-          ]
-        },
-        {
-          "idx": 8,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            510,
             526
           ]
         }
@@ -911,16 +881,6 @@
           "anchor": "footer-main",
           "lines": [
             453,
-            567
-          ]
-        },
-        {
-          "idx": 7,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            568,
             584
           ]
         }
@@ -980,16 +940,6 @@
           "anchor": "footer-main",
           "lines": [
             393,
-            585
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            586,
             602
           ]
         }
@@ -1029,16 +979,6 @@
           "anchor": "footer-main",
           "lines": [
             1299,
-            1413
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            1414,
             1430
           ]
         }
@@ -1198,16 +1138,6 @@
           "anchor": "footer-main",
           "lines": [
             1041,
-            1155
-          ]
-        },
-        {
-          "idx": 15,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            1156,
             1172
           ]
         }
@@ -1327,16 +1257,6 @@
           "anchor": "footer-main",
           "lines": [
             961,
-            1075
-          ]
-        },
-        {
-          "idx": 11,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            1076,
             1092
           ]
         }
@@ -1516,16 +1436,6 @@
           "anchor": "footer-main",
           "lines": [
             2090,
-            2204
-          ]
-        },
-        {
-          "idx": 17,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            2205,
             2221
           ]
         }
@@ -1665,16 +1575,6 @@
           "anchor": "footer-main",
           "lines": [
             2291,
-            2405
-          ]
-        },
-        {
-          "idx": 13,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            2406,
             2422
           ]
         }
@@ -1784,16 +1684,6 @@
           "anchor": "footer-main",
           "lines": [
             1261,
-            1375
-          ]
-        },
-        {
-          "idx": 10,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            1376,
             1392
           ]
         }
@@ -1833,16 +1723,6 @@
           "anchor": "footer-main",
           "lines": [
             577,
-            691
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            692,
             708
           ]
         }
@@ -1882,17 +1762,7 @@
           "anchor": "footer-main",
           "lines": [
             448,
-            640
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            641,
-            657
+            658
           ]
         }
       ]
@@ -1931,16 +1801,6 @@
           "anchor": "footer-main",
           "lines": [
             288,
-            480
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            481,
             497
           ]
         }
@@ -1980,16 +1840,6 @@
           "anchor": "footer-main",
           "lines": [
             237,
-            429
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            430,
             446
           ]
         }
@@ -2029,16 +1879,6 @@
           "anchor": "footer-main",
           "lines": [
             240,
-            432
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            433,
             449
           ]
         }
@@ -2078,16 +1918,6 @@
           "anchor": "footer-main",
           "lines": [
             241,
-            433
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            434,
             450
           ]
         }
@@ -2127,16 +1957,6 @@
           "anchor": "footer-main",
           "lines": [
             244,
-            436
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            437,
             453
           ]
         }
@@ -2176,16 +1996,6 @@
           "anchor": "footer-main",
           "lines": [
             252,
-            444
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            445,
             461
           ]
         }
@@ -2225,16 +2035,6 @@
           "anchor": "footer-main",
           "lines": [
             238,
-            430
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            431,
             447
           ]
         }
@@ -2274,16 +2074,6 @@
           "anchor": "footer-main",
           "lines": [
             264,
-            456
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            457,
             473
           ]
         }
@@ -2323,16 +2113,6 @@
           "anchor": "footer-main",
           "lines": [
             305,
-            497
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            498,
             514
           ]
         }
@@ -2372,16 +2152,6 @@
           "anchor": "footer-main",
           "lines": [
             267,
-            381
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            382,
             398
           ]
         }
@@ -2421,16 +2191,6 @@
           "anchor": "footer-main",
           "lines": [
             268,
-            460
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            461,
             477
           ]
         }
@@ -2470,16 +2230,6 @@
           "anchor": "footer-main",
           "lines": [
             225,
-            339
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            340,
             356
           ]
         }
@@ -2519,16 +2269,6 @@
           "anchor": "footer-main",
           "lines": [
             225,
-            339
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            340,
             356
           ]
         }
@@ -2568,76 +2308,7 @@
           "anchor": "footer-main",
           "lines": [
             205,
-            397
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            398,
             414
-          ]
-        }
-      ]
-    },
-    {
-      "route": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
-      "title": "Why Katie Dreke is betting on the human touch – brand.ai",
-      "h1": "Why Katie Dreke is betting on the human touch",
-      "template": "template.blog-2",
-      "file": "src/blog/post/why-katie-dreke-is-betting-on-the-human-touch/index.html",
-      "sections": [
-        {
-          "idx": 0,
-          "id": "shell.header",
-          "tag": "header",
-          "anchor": "header",
-          "lines": [
-            97,
-            147
-          ]
-        },
-        {
-          "idx": 1,
-          "id": "hero.page-wrapper",
-          "tag": "div",
-          "anchor": "page-wrapper",
-          "lines": [
-            148,
-            684
-          ]
-        },
-        {
-          "idx": 2,
-          "id": "content.post-related",
-          "tag": "section",
-          "anchor": "post-related",
-          "lines": [
-            685,
-            772
-          ]
-        },
-        {
-          "idx": 3,
-          "id": "shell.footer-main",
-          "tag": "footer",
-          "anchor": "footer-main",
-          "lines": [
-            773,
-            966
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            967,
-            983
           ]
         }
       ]
@@ -2646,7 +2317,7 @@
       "route": "/blog/post/your-cmo-s-days-are-numbered",
       "title": "Your CMO's days are numbered – brand.ai",
       "h1": "Your CMO's days are numbered",
-      "template": "template.blog-3",
+      "template": "template.blog-2",
       "file": "src/blog/post/your-cmo-s-days-are-numbered/index.html",
       "sections": [
         {
@@ -2696,16 +2367,6 @@
           "anchor": "footer-main",
           "lines": [
             632,
-            824
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            825,
             841
           ]
         }
@@ -2835,16 +2496,6 @@
           "anchor": "footer-main",
           "lines": [
             2302,
-            2494
-          ]
-        },
-        {
-          "idx": 12,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            2495,
             2511
           ]
         }
@@ -2854,7 +2505,7 @@
       "route": "/blog/post/why-most-ai-pilots-never-leave-the-lab",
       "title": "Why most AI pilots never leave the lab – brand.ai",
       "h1": "Why most AI pilots never leave the lab",
-      "template": "template.blog-2",
+      "template": "template.blog-3",
       "file": "src/blog/post/why-most-ai-pilots-never-leave-the-lab/index.html",
       "sections": [
         {
@@ -2894,16 +2545,6 @@
           "anchor": "footer-main",
           "lines": [
             420,
-            612
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            613,
             629
           ]
         }
@@ -2913,7 +2554,7 @@
       "route": "/blog/post/welcome-to-brand-ai",
       "title": "Welcome to brand.ai, the platform we always wanted",
       "h1": "Welcome to brand.ai, the platform we always wanted",
-      "template": "template.blog-2",
+      "template": "template.blog-3",
       "file": "src/blog/post/welcome-to-brand-ai/index.html",
       "sections": [
         {
@@ -2953,17 +2594,7 @@
           "anchor": "footer-main",
           "lines": [
             437,
-            629
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            630,
-            646
+            647
           ]
         }
       ]
@@ -2972,7 +2603,7 @@
       "route": "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
       "title": "Brand Engineers: The Role That Didn't Exist Until Now – brand.ai",
       "h1": "Brand engineers: The role that didn't exist until now",
-      "template": "template.blog-2",
+      "template": "template.blog-3",
       "file": "src/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now/index.html",
       "sections": [
         {
@@ -3012,16 +2643,6 @@
           "anchor": "footer-main",
           "lines": [
             395,
-            587
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            588,
             604
           ]
         }
@@ -3031,7 +2652,7 @@
       "route": "/blog/post/how-teams-are-using-brand-ai",
       "title": "Top brand.ai Use Cases",
       "h1": "How teams are using brand.ai",
-      "template": "template.blog-2",
+      "template": "template.blog-3",
       "file": "src/blog/post/how-teams-are-using-brand-ai/index.html",
       "sections": [
         {
@@ -3071,16 +2692,6 @@
           "anchor": "footer-main",
           "lines": [
             443,
-            635
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            636,
             652
           ]
         }
@@ -3090,7 +2701,7 @@
       "route": "/blog/post/how-brand-engineering-is-shaping-modern-brands",
       "title": "How brand engineering is shaping moderns brands – brand.ai",
       "h1": "How brand engineering is shaping modern brands",
-      "template": "template.blog-2",
+      "template": "template.blog-3",
       "file": "src/blog/post/how-brand-engineering-is-shaping-modern-brands/index.html",
       "sections": [
         {
@@ -3130,16 +2741,6 @@
           "anchor": "footer-main",
           "lines": [
             416,
-            608
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            609,
             625
           ]
         }
@@ -3149,7 +2750,7 @@
       "route": "/blog/post/your-brand-is-more-valuable-than-you-can-measure",
       "title": "Your brand is more valuable than you can measure – brand.ai",
       "h1": "Your brand is more valuable than you can measure",
-      "template": "template.blog-3",
+      "template": "template.blog-2",
       "file": "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html",
       "sections": [
         {
@@ -3158,8 +2759,8 @@
           "tag": "header",
           "anchor": "header",
           "lines": [
-            95,
-            147
+            97,
+            149
           ]
         },
         {
@@ -3168,8 +2769,8 @@
           "tag": "div",
           "anchor": "page-container",
           "lines": [
-            148,
-            410
+            150,
+            412
           ]
         },
         {
@@ -3178,8 +2779,8 @@
           "tag": "div",
           "anchor": "page-content-meta",
           "lines": [
-            411,
-            497
+            413,
+            499
           ]
         },
         {
@@ -3188,8 +2789,8 @@
           "tag": "section",
           "anchor": "post-related",
           "lines": [
-            498,
-            585
+            500,
+            587
           ]
         },
         {
@@ -3198,18 +2799,8 @@
           "tag": "footer",
           "anchor": "footer-main",
           "lines": [
-            586,
-            778
-          ]
-        },
-        {
-          "idx": 5,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            779,
-            795
+            588,
+            797
           ]
         }
       ]
@@ -3218,7 +2809,7 @@
       "route": "/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf",
       "title": "Every brand needs a living operating system, not a PDF – brand.ai",
       "h1": "Every brand needs a living operating system, not a PDF",
-      "template": "template.blog-3",
+      "template": "template.blog-2",
       "file": "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html",
       "sections": [
         {
@@ -3268,17 +2859,56 @@
           "anchor": "footer-main",
           "lines": [
             558,
-            750
+            767
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
+      "title": "Why Katie Dreke is betting on the human touch – brand.ai",
+      "h1": "Why Katie Dreke is betting on the human touch",
+      "template": "template.blog-3",
+      "file": "src/blog/post/why-katie-dreke-is-betting-on-the-human-touch/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.header",
+          "tag": "header",
+          "anchor": "header",
+          "lines": [
+            97,
+            147
           ]
         },
         {
-          "idx": 5,
-          "id": "shell.cookieswrap",
+          "idx": 1,
+          "id": "hero.page-wrapper",
           "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
+          "anchor": "page-wrapper",
           "lines": [
-            751,
-            767
+            148,
+            684
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "content.post-related",
+          "tag": "section",
+          "anchor": "post-related",
+          "lines": [
+            685,
+            772
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer-main",
+          "tag": "footer",
+          "anchor": "footer-main",
+          "lines": [
+            773,
+            982
           ]
         }
       ]
@@ -3347,16 +2977,6 @@
           "anchor": "footer-main",
           "lines": [
             704,
-            896
-          ]
-        },
-        {
-          "idx": 6,
-          "id": "shell.cookieswrap",
-          "tag": "div",
-          "anchor": "id=\"cookiesWrap\"",
-          "lines": [
-            897,
             913
           ]
         }

@@ -1,3 +1,4 @@
+// IA section(s): content.canvas (ia/ia.json, design-repo/sections/)
 // canvas — the section's real markup, read from the rendered page (route /brand-studio, section 4).
 export default function Canvas() {
   return (

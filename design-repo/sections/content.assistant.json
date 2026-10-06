@@ -72,5 +72,8 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/Assistant.jsx"
+  "implementedBy": "src/sections/Assistant.jsx",
+  "implementedByAll": [
+    "src/sections/Assistant.jsx"
+  ]
 }

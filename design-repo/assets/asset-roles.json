@@ -57,7 +57,7 @@
       "pinned": false,
       "description": "Other in-page imagery (screenshots, photos, cards).",
       "licensing": "May be regenerated; never include real customer data, names or proprietary UI.",
-      "observed": 1171
+      "observed": 1182
     },
     "animation": {
       "generationPolicy": "must-reuse-exact",
@@ -71,7 +71,7 @@
       "pinned": false,
       "description": "Video files or embeds.",
       "licensing": "Reuse only the supplied file; never fabricate footage of real products or people.",
-      "observed": 88
+      "observed": 108
     },
     "font": {
       "generationPolicy": "must-reuse-exact",
@@ -331,16 +331,6 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3a21f3bf326180b84c8bc812ec8c3a455d11355b-2880x1620__b31158bd.png",
-      "bytes": 9641914,
-      "role": "content-image",
-      "evidence": {
-        "route": "/blog",
-        "section": "content.newsroom-grid-inner",
-        "rendered": "387x387"
-      }
-    },
-    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1cf1bf2bfe905384c2910a8690ea7a155d57dcc1-1620x1620__0ff6edc9.png",
       "bytes": 9549738,
       "role": "content-image",
@@ -382,16 +372,6 @@
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/fbb8e30e4738ae6d06c584f6270a0931f9e095f5-2880x1944__b31158bd.png",
-      "bytes": 9195964,
-      "role": "hero-image",
-      "evidence": {
-        "route": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
-        "section": "hero.page-wrapper",
-        "rendered": "1054x711"
       }
     },
     {
@@ -953,16 +933,6 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/ea54e5b088d60627f37fbc2c80f356471d3222d7-1560x1950__21cef6a1.png",
-      "bytes": 5049144,
-      "role": "content-image",
-      "evidence": {
-        "route": "/product",
-        "section": "content.module-mediaflexible",
-        "rendered": "605x756"
-      }
-    },
-    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3a21f3bf326180b84c8bc812ec8c3a455d11355b-2880x1620__520c86ad.png",
       "bytes": 5025678,
       "role": "content-image",
@@ -1274,16 +1244,6 @@
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f1d891ebc0286417307203410705b0f69ef00fda-1170x1463__4cbfb401.png",
-      "bytes": 3972437,
-      "role": "content-image",
-      "evidence": {
-        "route": "/enterprise",
-        "section": "content.module-mediaflexible",
-        "rendered": "393x492"
       }
     },
     {
@@ -2009,6 +1969,16 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8cd15743765636bbf363dbdd028c6b28edf0351e-1560x1950__21cef6a1.png",
+      "bytes": 2516095,
+      "role": "content-image",
+      "evidence": {
+        "route": "/product",
+        "section": "content.module-mediaflexible",
+        "rendered": "393x492"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/fc1d8a8ebff22e018e896f2b18608d92678e9879-1170x1170__20ab9b9d.png",
       "bytes": 2473980,
       "role": "content-image",
@@ -2229,14 +2199,6 @@
     {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d975418229cdc15e84e65ef2bffb7282f51337b9-1620x2010__0ff6edc9.png",
       "bytes": 2204394,
-      "role": "content-image",
-      "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3b5831a432451faa38f30759eab2ba5ff2bb8526-1620x2010__b31158bd.png",
-      "bytes": 2200914,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -2520,16 +2482,6 @@
         "route": "/",
         "section": "content.module-news",
         "rendered": "387x387"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8ae32c6cfde4ae633f45c6db449a209208c815fd-1170x1170__4cbfb401.png",
-      "bytes": 1865626,
-      "role": "content-image",
-      "evidence": {
-        "route": "/brand-studio",
-        "section": "content.projects",
-        "rendered": "393x393"
       }
     },
     {
@@ -4049,6 +4001,16 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3a21f3bf326180b84c8bc812ec8c3a455d11355b-2880x1620__b31158bd.png",
+      "bytes": 914230,
+      "role": "content-image",
+      "evidence": {
+        "route": "/blog",
+        "section": "content.newsroom-grid-inner",
+        "rendered": "387x387"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/72b05538f3c3b924234e2a7765ddc0c1b28205c5-2880x1620__7b2bace0.png",
       "bytes": 898054,
       "role": "content-image",
@@ -4076,14 +4038,6 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/760acb791fe7a7e8cfe26caac8679663272635c1-1620x1620__20ab9b9d.png",
       "bytes": 895222,
       "role": "content-image",
-      "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/u01aA2026SvfL01Tam1Tl5Gt7kV4hjA8ybLZgoxYw01exxQzKJF1xxsq02hM5EpfthKg8tZYPGLavClQDVwKErNwNdD4i006su02a41/1__58843fc4.ts",
-      "bytes": 890744,
-      "role": "video",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
@@ -4595,6 +4549,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/IzfIfn01BfQSyr3CUkeIoEYH6tCrFQ005Bi02ULmWVtnH00N02xEcs7B6mBzCtY01cOHCIOK1lHs2c4N1fPR9qhPfNXTa02e9jacDqX/0__8c24bef3.ts",
+      "bytes": 722296,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8cd15743765636bbf363dbdd028c6b28edf0351e-1560x1950__c9d274c0.png",
       "bytes": 722008,
       "role": "content-image",
@@ -4804,6 +4766,14 @@
         "route": "/product",
         "section": "proof.module-quotes",
         "rendered": "50x50"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/2FPxTUm700mYvmR9AZkXJa1gmzB018mBeH3kcWOh7InO6kBmBRToMZu3Qw51wLp8Bl00PvGm9RiDBldBWAI4hg1IGeuYoaD4xJ5/0__cbc1478e.ts",
+      "bytes": 644088,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -5403,7 +5373,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__376cfced.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__42e1e8d2.ts",
       "bytes": 472632,
       "role": "video",
       "evidence": {
@@ -5411,7 +5381,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__376cfced.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__ed9f6d1c.ts",
       "bytes": 472632,
       "role": "video",
       "evidence": {
@@ -5499,6 +5469,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/JIWIzEoSNQ01iQ02X34xyfLuiLXuiYYzruFwfqJos02AYdtKdhl9w95l734Wzw3j1Mbw3bjCzrW4OaBnewv5ldoo2n4ZZoiDaFz/0__f6ba4a9c.ts",
+      "bytes": 457592,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/db96fda9b0c6ddbd639ab8df933badebdfa94db0-1560x1560__776fcd47.png",
       "bytes": 457349,
       "role": "content-image",
@@ -5571,7 +5549,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/KgRTE8Ss97djpi3cOInKs500x8hfIwuKL4PPvQ6TRIQV02jgUlCo3su2oPTCWD8x9hCL2JITUT8tS702Dh78NgEed02FCVUlCcsQ/0__5590bc25.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/KgRTE8Ss97djpi3cOInKs500x8hfIwuKL4PPvQ6TRIQV02jgUlCo3su2oPTCWD8x9hCL2JITUT8tS702Dh78NgEed02FCVUlCcsQ/0__beba99e6.ts",
       "bytes": 439544,
       "role": "video",
       "evidence": {
@@ -5839,16 +5817,6 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dc6ae5341b7e7970d39a0b48f355931d0794033b-656x282__4cbfb401.png",
-      "bytes": 384809,
-      "role": "content-image",
-      "evidence": {
-        "route": "/brand-studio",
-        "section": "content.module-headlinefloating",
-        "rendered": "252x108"
-      }
-    },
-    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2523b241d4bb95e48c39dac9981101daf45c9463-2880x2136__4cbfb401.png",
       "bytes": 384511,
       "role": "content-image",
@@ -5919,7 +5887,15 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__9296a18d.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__f1816d7e.ts",
+      "bytes": 367352,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__628339e0.ts",
       "bytes": 367352,
       "role": "video",
       "evidence": {
@@ -6201,6 +6177,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/F400iKo7wxcyF3mOT4tEuQ9V00n1DRB9lMDkboRkaqYZWLp02nmgU2CBBzQuMhDKkoJwO37rJOkLPgVzhFKHeIQZ2SLHNglibjM/0__0af307f0.ts",
+      "bytes": 331256,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f0ecc6669b727da48eaecf22e6e5418fc028bdd5-3840x2160__c9d274c0.png",
       "bytes": 330983,
       "role": "content-image",
@@ -6212,6 +6196,14 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c9c2c145112fe3ad71af0d24d1da7421e98540e3-1560x1560__c9d274c0.png",
       "bytes": 329236,
       "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/JAnllH6sxuvcmcyfpWMB00AJ01tvh02HnoEzmb9qwBW5rmEJzw00RCA6iyQ8SZJuOSBla9w1MTDYx01OWpYDM43RNWiAEakSlrb8T/0__e984af32.ts",
+      "bytes": 328248,
+      "role": "video",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
@@ -6605,6 +6597,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/9XcCCk1Z43bn6R8SDofqxpQizXcSJct6Jg6IAa4sYCKr3UVIsBU79JhqkgD7YsiVGiW2CQR56NkLxYnWTI4M5AZe02nZ73jCs/0__c2eb9b2f.ts",
+      "bytes": 265080,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/a3912665992fafdc024249255d5396dbacfc967a-2880x1620__0ff6edc9.png",
       "bytes": 264938,
       "role": "content-image",
@@ -6613,7 +6613,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/102pzA4ZBx4DtvQ100tLj3P2HTd2LbUNPI4PjdPUke5dOGhEbuEL7zfGFiGmzHs02vNS95ajOItCUtGKWUouht4tCcheDg6ZV7e/0__0c0e14da.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/102pzA4ZBx4DtvQ100tLj3P2HTd2LbUNPI4PjdPUke5dOGhEbuEL7zfGFiGmzHs02vNS95ajOItCUtGKWUouht4tCcheDg6ZV7e/0__977655c8.ts",
       "bytes": 262072,
       "role": "video",
       "evidence": {
@@ -6764,6 +6764,14 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c02412d66ce7667bd2799a4ba32d0477369b7cfe-656x282__20ab9b9d.png",
       "bytes": 227064,
       "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/f02iEzxs01rIM00lZPAmIAKRgZbenyp00qlWutZXXS9cB5Xlz8znCQdTIGNuLXRHd028pKYaB5ykE2fJUN7pqt0182BFEX00NO01PmhV/0__a3363d35.ts",
+      "bytes": 225976,
+      "role": "video",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
@@ -7041,6 +7049,24 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/OYqySuLsAGqYboAOiSa02dN1r01WfjhUR4s9aHebyrYc8NjLxoijJyimNPy5ARAte2019P4602DJft900Mm9w712fXTQbek02Gy2Jv/0__a715388c.ts",
+      "bytes": 195896,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/fbb8e30e4738ae6d06c584f6270a0931f9e095f5-2880x1944__b31158bd.png",
+      "bytes": 194855,
+      "role": "hero-image",
+      "evidence": {
+        "route": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
+        "section": "hero.page-wrapper",
+        "rendered": "1054x711"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/708dea2bf135cde61d3703b6f33ae61333d118c3-2880x1620__520c86ad.png",
       "bytes": 194340,
       "role": "content-image",
@@ -7113,6 +7139,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/yM00c665GmESfkikqZOBmN01UffrsUpnAIa8igjkVjSr48diO5oHkkK02FJppEyfY6P01ezhZqFI01PJn66snFN01iD8ZHQ1MbR2ni/0__6dd245f8.ts",
+      "bytes": 180856,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f7e273c7d7953bfbb2e6439ea8fe99968d78d5ff-738x926__bf171f27.png",
       "bytes": 180293,
       "role": "content-image",
@@ -7153,7 +7187,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01smuy01rdWqs02W02Hz4qqIyC6xI2DJBXi6XD3EG00HnEptlY2YbO02zhvLVRwYf2kqH02XhJjj5DnHG2QQyCeCQ21VruUGZpHH9WY/0__3da1e39e.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01smuy01rdWqs02W02Hz4qqIyC6xI2DJBXi6XD3EG00HnEptlY2YbO02zhvLVRwYf2kqH02XhJjj5DnHG2QQyCeCQ21VruUGZpHH9WY/0__a727ddb8.ts",
       "bytes": 174840,
       "role": "video",
       "evidence": {
@@ -7233,7 +7267,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/IKH59jcjs0000rKq6obo12Ge600nuRYTnoIsQgXWEo02ob01jp8odiIngStQX5GFSxpctKNH9sM93Z6U2pwWUeM00007c02nqT9ufaPL/0__a2155794.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/IKH59jcjs0000rKq6obo12Ge600nuRYTnoIsQgXWEo02ob01jp8odiIngStQX5GFSxpctKNH9sM93Z6U2pwWUeM00007c02nqT9ufaPL/0__10079130.ts",
       "bytes": 165816,
       "role": "video",
       "evidence": {
@@ -7541,6 +7575,30 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/zr01Mea5R02deULVsNUsRrTJKCO4633I2ucyOI7jcITbi3n52mh3vNAi8C3W2LIoVMyfK6BVzflmoxdtm124jLKmeDCgO00bfps/0__adfd2a39.ts",
+      "bytes": 141752,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/U00cOnGyEGgco3mSfOJOxxalW6C4WQ402a01FcVubbJuAC02psIKTL02fZznHebwICFv029XKH02zS8YY6ZiDHqR00r7vSHpmerpMR2D/0__a9166bb7.ts",
+      "bytes": 141752,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/K8U800YmFxy6MZmOj9pbSq01h4OtextPLZ5oS802KjTE2DK4u00Kn6XOyjR8swep25te26a5p009oMNQowZ6qOjRs7027hDE7wSLPL/0__e8afa153.ts",
+      "bytes": 141752,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/6c519df619a8d5f3cd75c835309aedd92da168f1-2880x1944__a80b8a21.png",
       "bytes": 141740,
       "role": "content-image",
@@ -7645,7 +7703,7 @@
       }
     },
     {
-      "path": "_ext/image.mux.com/WYkQXkGBYQ02QdicO2qUuEd2zthxxWq02tpQne2Gq4d7s/thumbnail__9a58980a.jpg",
+      "path": "_ext/image.mux.com/WYkQXkGBYQ02QdicO2qUuEd2zthxxWq02tpQne2Gq4d7s/thumbnail__e1a98d2e.jpg",
       "bytes": 132623,
       "role": "content-image",
       "evidence": {
@@ -7653,7 +7711,7 @@
       }
     },
     {
-      "path": "_ext/image.mux.com/WYkQXkGBYQ02QdicO2qUuEd2zthxxWq02tpQne2Gq4d7s/thumbnail__e1a98d2e.jpg",
+      "path": "_ext/image.mux.com/WYkQXkGBYQ02QdicO2qUuEd2zthxxWq02tpQne2Gq4d7s/thumbnail__9a58980a.jpg",
       "bytes": 132623,
       "role": "content-image",
       "evidence": {
@@ -7725,7 +7783,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/200MlvSjO9Dyc4FI7srqYtpffmXsWI01Bc01K5C9Z00QGIyKWGkXRK7VeoqK00VlRZ01fwWvgmtoiVc97sqoEsjksXVw/0__5f4c3a61.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/0__93bcdeb6.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7733,7 +7791,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/CqXTsU5i7DU8ZI4g84bMdZLIjqTagJYKdwhEid3eBU73oJq8vFOgo1gxoRy00mPIMdpWbu9UvGuhDYdl6OqgoIQ/1__b91840c1.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/1__be7f90c8.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7741,7 +7799,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/0__e0cb3db3.ts",
+      "path": "_ext/chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/5gtExkbITuFmBGBsH02BqVr8a003uSdlMLNIuJp2o2EWAXRof2wJBucOduk91NKc8on0283Gwls2q3GSWowwmYlZQ/0__ca82361b.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7749,7 +7807,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/1__699ed539.ts",
+      "path": "_ext/chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/5gtExkbITuFmBGBsH02BqVr8a003uSdlMLNIuJp2o2EWAXRof2wJBucOduk91NKc8on0283Gwls2q3GSWowwmYlZQ/1__2804843e.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7757,7 +7815,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/5gtExkbITuFmBGBsH02BqVr8a003uSdlMLNIuJp2o2EWAXRof2wJBucOduk91NKc8on0283Gwls2q3GSWowwmYlZQ/0__4af8554e.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/fk9C2wV5iuT7ULPHWI1zZMPmb9I3ltj6H4t02NxJkO6TjqnGR301rLIlZV1gjy8gIt5RyUkhsbvYguke3Yz3B4Jg/0__d9d5fefe.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7765,7 +7823,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-phoenix-1-vop1.fastly.mux.com/v1/chunk/5gtExkbITuFmBGBsH02BqVr8a003uSdlMLNIuJp2o2EWAXRof2wJBucOduk91NKc8on0283Gwls2q3GSWowwmYlZQ/1__0014e78e.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/fk9C2wV5iuT7ULPHWI1zZMPmb9I3ltj6H4t02NxJkO6TjqnGR301rLIlZV1gjy8gIt5RyUkhsbvYguke3Yz3B4Jg/1__20cf124b.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7773,7 +7831,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/fk9C2wV5iuT7ULPHWI1zZMPmb9I3ltj6H4t02NxJkO6TjqnGR301rLIlZV1gjy8gIt5RyUkhsbvYguke3Yz3B4Jg/0__d3b8a140.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/K02024302lptrRKv8jW1OFU9zga01HCP1nDP3BLl8zE6zp7YvwBXW7OvCQ6GXszrfEP4HFljIm7LZGqorOqHpmN025Q/0__c3a37813.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7781,7 +7839,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/fk9C2wV5iuT7ULPHWI1zZMPmb9I3ltj6H4t02NxJkO6TjqnGR301rLIlZV1gjy8gIt5RyUkhsbvYguke3Yz3B4Jg/1__cd77ce1d.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/K02024302lptrRKv8jW1OFU9zga01HCP1nDP3BLl8zE6zp7YvwBXW7OvCQ6GXszrfEP4HFljIm7LZGqorOqHpmN025Q/1__43f71e80.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7789,7 +7847,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/K02024302lptrRKv8jW1OFU9zga01HCP1nDP3BLl8zE6zp7YvwBXW7OvCQ6GXszrfEP4HFljIm7LZGqorOqHpmN025Q/0__dd568ecf.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/nliQTm902a902RRLnfwqxOkDeRY600fw01hFSteAZ3s15PuE4TCGn4xp017VZkL8KPbU8BBDLFzyHMcQWTxZ02zRlWrg/0__41393d9a.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7797,7 +7855,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/K02024302lptrRKv8jW1OFU9zga01HCP1nDP3BLl8zE6zp7YvwBXW7OvCQ6GXszrfEP4HFljIm7LZGqorOqHpmN025Q/1__f8926651.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/nliQTm902a902RRLnfwqxOkDeRY600fw01hFSteAZ3s15PuE4TCGn4xp017VZkL8KPbU8BBDLFzyHMcQWTxZ02zRlWrg/1__eff0b02e.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7805,7 +7863,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/nliQTm902a902RRLnfwqxOkDeRY600fw01hFSteAZ3s15PuE4TCGn4xp017VZkL8KPbU8BBDLFzyHMcQWTxZ02zRlWrg/0__36b6005e.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/200MlvSjO9Dyc4FI7srqYtpffmXsWI01Bc01K5C9Z00QGIyKWGkXRK7VeoqK00VlRZ01fwWvgmtoiVc97sqoEsjksXVw/0__4d0e4de0.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7813,7 +7871,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/nliQTm902a902RRLnfwqxOkDeRY600fw01hFSteAZ3s15PuE4TCGn4xp017VZkL8KPbU8BBDLFzyHMcQWTxZ02zRlWrg/1__fbc3dfe8.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/200MlvSjO9Dyc4FI7srqYtpffmXsWI01Bc01K5C9Z00QGIyKWGkXRK7VeoqK00VlRZ01fwWvgmtoiVc97sqoEsjksXVw/1__27688f46.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7821,7 +7879,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/200MlvSjO9Dyc4FI7srqYtpffmXsWI01Bc01K5C9Z00QGIyKWGkXRK7VeoqK00VlRZ01fwWvgmtoiVc97sqoEsjksXVw/1__52ddde7e.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01NVzCPUVCJk7wEpVYwSQmGrpuOnWKrejhwKay3zpN884kOq7YxB1Rzen9yIhLu01G5Z3zH02jH5qCJLkMOEY2802w/0__d2575a46.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7829,7 +7887,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01NVzCPUVCJk7wEpVYwSQmGrpuOnWKrejhwKay3zpN884kOq7YxB1Rzen9yIhLu01G5Z3zH02jH5qCJLkMOEY2802w/0__b56d4fd4.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01NVzCPUVCJk7wEpVYwSQmGrpuOnWKrejhwKay3zpN884kOq7YxB1Rzen9yIhLu01G5Z3zH02jH5qCJLkMOEY2802w/1__91a025dd.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7837,7 +7895,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01NVzCPUVCJk7wEpVYwSQmGrpuOnWKrejhwKay3zpN884kOq7YxB1Rzen9yIhLu01G5Z3zH02jH5qCJLkMOEY2802w/1__7f05cec2.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/CqXTsU5i7DU8ZI4g84bMdZLIjqTagJYKdwhEid3eBU73oJq8vFOgo1gxoRy00mPIMdpWbu9UvGuhDYdl6OqgoIQ/0__a1a2bcb2.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7845,7 +7903,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/CqXTsU5i7DU8ZI4g84bMdZLIjqTagJYKdwhEid3eBU73oJq8vFOgo1gxoRy00mPIMdpWbu9UvGuhDYdl6OqgoIQ/0__9a7cd7b0.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/CqXTsU5i7DU8ZI4g84bMdZLIjqTagJYKdwhEid3eBU73oJq8vFOgo1gxoRy00mPIMdpWbu9UvGuhDYdl6OqgoIQ/1__969a5ccb.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7853,7 +7911,7 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/lOPRVtcbk2jvz5lDvyHpTk1ySA01bRt02Jx9NYDYQiMJupX02vs6nstijP26A3e02vc01gDZsudToBGQTSRP00OUG02dg/0__3f49984c.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/lOPRVtcbk2jvz5lDvyHpTk1ySA01bRt02Jx9NYDYQiMJupX02vs6nstijP26A3e02vc01gDZsudToBGQTSRP00OUG02dg/0__85fd5074.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7861,7 +7919,23 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/lOPRVtcbk2jvz5lDvyHpTk1ySA01bRt02Jx9NYDYQiMJupX02vs6nstijP26A3e02vc01gDZsudToBGQTSRP00OUG02dg/1__dd8ca351.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/lOPRVtcbk2jvz5lDvyHpTk1ySA01bRt02Jx9NYDYQiMJupX02vs6nstijP26A3e02vc01gDZsudToBGQTSRP00OUG02dg/1__c14ec845.ts",
+      "bytes": 129720,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/0__6df60f9d.ts",
+      "bytes": 129720,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ULALdxWixqn4CjxSH8Qaix1pQxXCdqASqoayklWTCq1YjbdoL004GgVLpflLoQcPxE01sT1Q8pSkEgfc02K00faaLw/1__48d1b925.ts",
       "bytes": 129720,
       "role": "video",
       "evidence": {
@@ -7943,6 +8017,14 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/9sHVXQQSDLnKNeMV7KrlttpGw4Doxf2xGi5KZrlWvokVYew1Y3xf1mgCr3DVrt2n02PSdufeNRS8P00AISh5tn74cjYB1CxpZI/0__1f39d9cb.ts",
+      "bytes": 120696,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/097d7d5329fe57cdf797eb4ab90fe10726b621d6-1170x1170__776fcd47.png",
       "bytes": 120512,
       "role": "content-image",
@@ -7998,6 +8080,14 @@
         "route": "/",
         "section": "hero.module-hero-inline",
         "rendered": "346x228"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/AMiaIbsDV1rkgL3fkwFRQSksVX6PAOLf9OnqCcD008Isk1a1F9zmwlCii72Ioaxt5AE6xxDMcjwGWxXktKjYIHfMj01nXEXokz/0__a4659433.ts",
+      "bytes": 114680,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -8105,6 +8195,16 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f1d891ebc0286417307203410705b0f69ef00fda-1170x1463__4cbfb401.png",
+      "bytes": 107820,
+      "role": "content-image",
+      "evidence": {
+        "route": "/enterprise",
+        "section": "content.module-mediaflexible",
+        "rendered": "393x492"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c93d8d1fdc2dffe3f2ac20b5422dd26b4aa31008-2400x1200__776fcd47.png",
       "bytes": 106445,
       "role": "content-image",
@@ -8140,6 +8240,14 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/543bf8f6353758569db43afc30ffcd9a554c1544-1620x1620__c9d274c0.png",
       "bytes": 103607,
       "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/73B4sAoFQvFmPEig02oVFMOA02pBetKBdvYXQD00MjjLhvKdlNucjrOX8Y7014suaYdA1PzgCeQb76014enMmRfs2MwMLEkcvjQmA/0__207c9c2c.ts",
+      "bytes": 102648,
+      "role": "video",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
@@ -8183,9 +8291,9 @@
       "bytes": 100739,
       "role": "avatar",
       "evidence": {
-        "route": "/book-a-demo",
-        "section": "hero.main-inner",
-        "rendered": "40x40"
+        "route": "/product",
+        "section": "proof.module-quotes",
+        "rendered": "50x50"
       }
     },
     {
@@ -8224,6 +8332,14 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c02412d66ce7667bd2799a4ba32d0477369b7cfe-656x282__c9d274c0.png",
       "bytes": 96818,
       "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/ajeL7029OlzO7oRajHxFQoEFZ4I702glaDxZ78xzrKBCNQb01UIFls6UxMgl00p02isdjfLl1Kd7cqybn01g7uuhUYJnwxh7OJtQdn/0__d1525910.ts",
+      "bytes": 96632,
+      "role": "video",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
@@ -8295,7 +8411,15 @@
       }
     },
     {
-      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/3GNkuV9eXQ1hQh01s4ufQ8xy89lHaNxJW7fiUlsw1BbGRJIGE01nW02bq9n700TNWOJiycdoDu2d02eN00FlrQiVexTKHk87v4NbFf/0__63c65ac4.ts",
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/3GNkuV9eXQ1hQh01s4ufQ8xy89lHaNxJW7fiUlsw1BbGRJIGE01nW02bq9n700TNWOJiycdoDu2d02eN00FlrQiVexTKHk87v4NbFf/0__8e3fab03.ts",
+      "bytes": 93624,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/3GNkuV9eXQ1hQh01s4ufQ8xy89lHaNxJW7fiUlsw1BbGRJIGE01nW02bq9n700TNWOJiycdoDu2d02eN00FlrQiVexTKHk87v4NbFf/0__9f29ac51.ts",
       "bytes": 93624,
       "role": "video",
       "evidence": {
@@ -8329,6 +8453,14 @@
     {
       "path": "_ext/image.mux.com/p5016HT75hAeQl00B59EZoXfVCJAq7GxOhJ7uwUqiWVRA/thumbnail__02868ffc.jpg",
       "bytes": 92789,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2384ba12de2d410f2b58ae56b6fafae0265fc54b-739x684__4cbfb401.png",
+      "bytes": 92448,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -8403,9 +8535,9 @@
       "bytes": 88851,
       "role": "avatar",
       "evidence": {
-        "route": "/book-a-demo",
-        "section": "hero.main-inner",
-        "rendered": "40x40"
+        "route": "/product",
+        "section": "proof.module-quotes",
+        "rendered": "50x50"
       }
     },
     {
@@ -8631,8 +8763,24 @@
       }
     },
     {
+      "path": "_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/cXuL9Pv9cmlRTy1Gy19VBpXsHHIfzZDtp9qtZC00LE2RxJof00d6JiQ9d02801uPw02Q4qzOBWhe01Uv02QO7wXzJOWHeVOHo02GQ4Ib/0__2f53a755.ts",
+      "bytes": 72568,
+      "role": "video",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/75c7a853c92d83126053acbe2fdac27a27b47639-1170x1463__776fcd47.png",
       "bytes": 72210,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2189b6612b29be822ba07ada37a24e3fa3d9c00c-1340x720__b31158bd.png",
+      "bytes": 71874,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -8705,6 +8853,16 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/ea54e5b088d60627f37fbc2c80f356471d3222d7-1560x1950__21cef6a1.png",
+      "bytes": 68350,
+      "role": "content-image",
+      "evidence": {
+        "route": "/product",
+        "section": "content.module-mediaflexible",
+        "rendered": "605x756"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/59e16beeb7213f16e58354c1d142e4cea1fb146e-1170x1463__a80b8a21.png",
       "bytes": 68062,
       "role": "content-image",
@@ -8723,6 +8881,14 @@
     {
       "path": "_ext/image.mux.com/3WtFL02hrSrASpvkbXPTxhIB01cY9502dzEteFpcVaWGGI/thumbnail__8a49c50d.jpg",
       "bytes": 67701,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0a5ac5adc3c51293b48aa0c3ac0c1f4131970b94-739x684__4cbfb401.png",
+      "bytes": 67368,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -8979,16 +9145,6 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8cd15743765636bbf363dbdd028c6b28edf0351e-1560x1950__21cef6a1.png",
-      "bytes": 55106,
-      "role": "content-image",
-      "evidence": {
-        "route": "/product",
-        "section": "content.module-mediaflexible",
-        "rendered": "393x492"
-      }
-    },
-    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e0344e4c5e5af76eb6023fb53e9f24f180a8eb9-1170x1170__a80b8a21.png",
       "bytes": 54858,
       "role": "content-image",
@@ -9125,6 +9281,14 @@
       }
     },
     {
+      "path": "_ext/image.mux.com/01wWmJEd9BHwGQ02bSuZ02jotClX4Ln7y00kJEqNrysPoz4/thumbnail__8a49c50d.jpg",
+      "bytes": 47875,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4a024ecd15276c0cf211f100d1d338f0e9b5c9c3-555x113__bf171f27.png",
       "bytes": 46115,
       "role": "content-image",
@@ -9172,6 +9336,16 @@
         "route": "/",
         "section": "hero.module-hero-inline",
         "rendered": "259x321"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8ae32c6cfde4ae633f45c6db449a209208c815fd-1170x1170__4cbfb401.png",
+      "bytes": 44116,
+      "role": "content-image",
+      "evidence": {
+        "route": "/brand-studio",
+        "section": "content.projects",
+        "rendered": "393x393"
       }
     },
     {
@@ -9331,6 +9505,16 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dc6ae5341b7e7970d39a0b48f355931d0794033b-656x282__4cbfb401.png",
+      "bytes": 40042,
+      "role": "content-image",
+      "evidence": {
+        "route": "/brand-studio",
+        "section": "content.module-headlinefloating",
+        "rendered": "252x108"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/096ddfb03396f5ab240fefb14ea0d4bab45c3a8d-1080x1080__a80b8a21.png",
       "bytes": 39911,
       "role": "content-image",
@@ -9354,6 +9538,14 @@
         "route": "/",
         "section": "content.module-mediafiltergrid",
         "rendered": "288x357"
+      }
+    },
+    {
+      "path": "_ext/image.mux.com/GB6rnuqr00wyb01x13k6nPa8SvXHr4cIx901F1LHt5Kkrg/thumbnail__8a49c50d.jpg",
+      "bytes": 39606,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -9725,6 +9917,14 @@
       }
     },
     {
+      "path": "_ext/image.mux.com/rBI389AabbFS01QEdrp4a8cE200O8Vd9HHLkKM2mylToc/thumbnail__8a49c50d.jpg",
+      "bytes": 29476,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8ae32c6cfde4ae633f45c6db449a209208c815fd-1170x1170__a80b8a21.png",
       "bytes": 28923,
       "role": "content-image",
@@ -10059,6 +10259,14 @@
     {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2336ccd7ac9d6508a50c86811880781db4e833b0-333x335__5c51af88.png",
       "bytes": 20195,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/image.mux.com/3Eq6sROfYhzu2zYWZHH5S1SUaME00Iguqa9YQo62iwdk/thumbnail__8a49c50d.jpg",
+      "bytes": 20034,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -10445,25 +10653,9 @@
       "bytes": 11858,
       "role": "icon",
       "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__b31158bd.svg",
-      "bytes": 11858,
-      "role": "icon",
-      "evidence": {
         "route": "/enterprise",
         "section": "features.module-featuresapp",
         "rendered": "30x30"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__776fcd47.svg",
-      "bytes": 11858,
-      "role": "icon",
-      "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -10475,7 +10667,7 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__520c86ad.svg",
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__776fcd47.svg",
       "bytes": 11858,
       "role": "icon",
       "evidence": {
@@ -10484,6 +10676,22 @@
     },
     {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__24feb848.svg",
+      "bytes": 11858,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__b31158bd.svg",
+      "bytes": 11858,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__520c86ad.svg",
       "bytes": 11858,
       "role": "icon",
       "evidence": {
@@ -10743,6 +10951,14 @@
     {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__a80b8a21.png",
       "bytes": 8344,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/image.mux.com/Qc7gcbgBj0218qqK62aK00fT464kBdes9Rpn40200n01jLtw/thumbnail__8a49c50d.jpg",
+      "bytes": 8298,
       "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
@@ -11167,6 +11383,14 @@
       }
     },
     {
+      "path": "_ext/image.mux.com/AlncIVPTUIcAOz6w02gMJuc147DecYQ8R4K89023w1qQs/thumbnail__8a49c50d.jpg",
+      "bytes": 3663,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/files/3zwn2ers/fullsite/cd62d2abe7a93571f41b71adf771f2008935bdc7.svg",
       "bytes": 3459,
       "role": "icon",
@@ -11437,6 +11661,16 @@
       "bytes": 2298,
       "role": "icon",
       "evidence": {
+        "route": "/enterprise",
+        "section": "features.module-featuresapp",
+        "rendered": "30x30"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0c2b8c51018747e92a3826bce83f201f91ac52bd-27x27__520c86ad.svg",
+      "bytes": 2298,
+      "role": "icon",
+      "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
@@ -11445,9 +11679,15 @@
       "bytes": 2298,
       "role": "icon",
       "evidence": {
-        "route": "/enterprise",
-        "section": "features.module-featuresapp",
-        "rendered": "30x30"
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0c2b8c51018747e92a3826bce83f201f91ac52bd-27x27__24feb848.svg",
+      "bytes": 2298,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -11467,27 +11707,13 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0c2b8c51018747e92a3826bce83f201f91ac52bd-27x27__520c86ad.svg",
-      "bytes": 2298,
-      "role": "icon",
-      "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0c2b8c51018747e92a3826bce83f201f91ac52bd-27x27__24feb848.svg",
-      "bytes": 2298,
-      "role": "icon",
-      "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/456ab9f7fd96f5c9461dcdcfa89ab6b5fc2ac9a1-32x19__5c51af88.svg",
       "bytes": 2238,
       "role": "icon",
       "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+        "route": "/enterprise",
+        "section": "features.module-featuresapp",
+        "rendered": "30x30"
       }
     },
     {
@@ -11495,7 +11721,7 @@
       "bytes": 2238,
       "role": "icon",
       "evidence": {
-        "route": "/enterprise",
+        "route": "/teams",
         "section": "features.module-featuresapp",
         "rendered": "30x30"
       }
@@ -11550,6 +11776,14 @@
         "route": "/",
         "section": "proof.module-quotes",
         "rendered": "50x50"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2384ba12de2d410f2b58ae56b6fafae0265fc54b-739x684__5c51af88.png",
+      "bytes": 2093,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }
     },
     {
@@ -11647,6 +11881,14 @@
       }
     },
     {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/0a5ac5adc3c51293b48aa0c3ac0c1f4131970b94-739x684__5c51af88.png",
+      "bytes": 1694,
+      "role": "content-image",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8fa1c2c273039ea53898f7b5190543f7f24e1ebb-4096x4096__5c51af88.png",
       "bytes": 1570,
       "role": "content-image",
@@ -11693,21 +11935,13 @@
       "bytes": 1337,
       "role": "icon",
       "evidence": {
-        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
-      }
-    },
-    {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__b31158bd.svg",
-      "bytes": 1337,
-      "role": "icon",
-      "evidence": {
         "route": "/enterprise",
         "section": "features.module-featuresapp",
         "rendered": "30x30"
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__776fcd47.svg",
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__7b2bace0.svg",
       "bytes": 1337,
       "role": "icon",
       "evidence": {
@@ -11715,7 +11949,7 @@
       }
     },
     {
-      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__7b2bace0.svg",
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__776fcd47.svg",
       "bytes": 1337,
       "role": "icon",
       "evidence": {
@@ -11732,6 +11966,14 @@
     },
     {
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__24feb848.svg",
+      "bytes": 1337,
+      "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/9d621a361ef1ba3df75bc952cb2065b15262a1ba-27x27__b31158bd.svg",
       "bytes": 1337,
       "role": "icon",
       "evidence": {
@@ -11894,6 +12136,14 @@
       "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__e122351c.svg",
       "bytes": 1080,
       "role": "icon",
+      "evidence": {
+        "note": "not referenced by the rendered DOM (CSS or lazy reference)"
+      }
+    },
+    {
+      "path": "_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2189b6612b29be822ba07ada37a24e3fa3d9c00c-1340x720__5c51af88.png",
+      "bytes": 1034,
+      "role": "content-image",
       "evidence": {
         "note": "not referenced by the rendered DOM (CSS or lazy reference)"
       }

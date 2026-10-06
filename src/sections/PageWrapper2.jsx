@@ -1,6 +1,7 @@
+// IA section(s): hero.page-wrapper (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// page-wrapper — the section's real markup, read from the rendered page (route /blog/post/why-most-ai-pilots-never-leave-the-lab, section 1).
+// page-wrapper — the section's real markup, read from the rendered page (route /blog/post/welcome-to-brand-ai, section 1).
 export default function PageWrapper2() {
   return (
     <div className="page-wrapper" data-v-3d1fee30="" data-clone-section="PageWrapper2">
@@ -9,16 +10,16 @@ export default function PageWrapper2() {
           <header className="post-header" data-v-3d1fee30="">
             <div className="post-meta" data-v-3d1fee30="" data-reveal="">
               <div className="post-reading-time" data-v-3d1fee30="" data-reveal="">
-                9m read
+                4m read
                 <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
               </div>
               <div className="post-tag" data-v-3d1fee30="" data-reveal="">
-                <A href="/blog/infrastructure" className="" data-v-3d1fee30="" data-reveal="">Infrastructure</A>
+                <A href="/blog/company" className="" data-v-3d1fee30="" data-reveal="">Company</A>
                 <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
               </div>
-              <div className="post-date" data-v-3d1fee30="" data-reveal="">Apr 2026</div>
+              <div className="post-date" data-v-3d1fee30="" data-reveal="">Dec 2025</div>
             </div>
-            <h1 className="post-title" data-v-3d1fee30="" data-reveal="">Why most AI pilots never leave the lab</h1>
+            <h1 className="post-title" data-v-3d1fee30="" data-reveal="">Welcome to brand.ai, the platform we always wanted</h1>
             <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="" data-reveal="">
               <div className="news-keyCollaborators-inner" data-reveal="">
                 <div className="news-keyCollaborators-item" data-reveal="">
@@ -33,90 +34,64 @@ export default function PageWrapper2() {
             </div>
             <div className="post-featured-image" data-v-3d1fee30="">
               <div className="media image" data-orientation="landscape" data-v-3d1fee30="">
-                <img className=" ls-is-cached lazyloaded" data-sizes="false" sizes="false" width="2880" height="1620" alt="A computer cursor hovers over a rounded white button labeled “Delete” with a trash can icon on a light gradient background." fetchPriority="auto" />
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="2880" height="1620" alt="Abstract black 3D shapes resembling glossy, connected spheres form a symmetrical, organic pattern centered on a dark background." fetchPriority="auto" />
               </div>
             </div>
           </header>
           <div className="post-content" data-v-3d1fee30="" data-reveal="">
             <div className="rich-text rich-text-format is-blog" data-v-3d1fee30="" data-reveal="">
-              <p data-reveal="">As enterprises move from experimental chat interfaces to persistent agents that execute real work across systems, the cost of unstructured brand knowledge compounds. That cost is showing up in a massive wave of stalled AI deployments. Most of these initiatives never make it out of the lab because the brand knowledge feeding them was never built for machines.</p>
+              <p data-reveal="">For years, talented marketers spent their time policing brand guidelines instead of actually building brands. Internal teams worked from different versions of the truth. Agencies took months to get going. None of it was working the way it should.</p>
+              <p data-reveal="">When AI tools arrived, they created work that needed more fixing, not less. With faster creation tools but worse creative output. We knew we needed to create a new solution that could work for global brand work at scale.</p>
+              <h3 data-reveal="">The problem facing brand leaders</h3>
+              <p data-reveal="">Your brand guidelines live in a PDF. Your strategy lives in a deck. Your assets live in folders. Your actual work happens somewhere else entirely, spread across different teams using different tools. Every time someone needs to create something new, they’re working from memory, outdated docs, or a best guess. Every piece of content needs multiple rounds of feedback just to stay on brand.</p>
+              <div className="richtext-media" data-count="2" _key="bd4501056276" _type="media" isinline="false" index="4" data-reveal="">
+                <div className="media image" data-orientation="portrait" data-reveal="">
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="1080" height="1200" alt="" fetchPriority="auto" data-reveal="" />
+                </div>
+                <div className="media image" data-orientation="portrait" data-reveal="">
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="1080" height="1200" alt="" fetchPriority="auto" data-reveal="" />
+                </div>
+              </div>
+              <p data-reveal="">Now that AI tools offer faster outputs, workflows are getting worse. These tools don’t know your voice, your visual language, or your strategy. They produce work that looks polished but feels generic. So the burden shifts downstream, requiring others to interpret, correct, or redo the work entirely. Recent research found that 41% of workers encounter AI-generated content requiring rework, costing hours of lost time.</p>
+              <p data-reveal="">The promise was efficiency. The reality is that teams spend more time fixing AI outputs than creating the work themselves. What looks like productivity is actually more work. Speed doesn’t matter if the output is wrong.</p>
+              <p data-reveal="">The future of brand management isn’t about making things faster. It’s about giving brand teams the superpower to focus on what matters: strategy, creativity, and craft.</p>
+              <div className="richtext-media" data-count="1" _key="7100a760505a" _type="media" isinline="false" index="8" data-reveal="">
+                <div className="media image" data-orientation="landscape" data-reveal="">
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="1920" height="1080" alt="brand.ai prompt interface with text 'build a social narrative based on our content strategy for FW26' on green botanical background" fetchPriority="auto" data-reveal="" />
+                </div>
+              </div>
+              <h3 data-reveal="">A solution for modern brand work</h3>
               <p data-reveal="">
-                <a target="_blank" rel="noopener" className="richtext-link" _key="3ac818000b65" _type="link" data-reveal="">{"Deloitte's 2026 State of AI in the Enterprise"}</a>
-                {" surveyed 3,235 senior leaders across 24 countries. Only a quarter of organizations have moved even 40% of their AI experiments into production. "}
-                <a target="_blank" rel="noopener" className="richtext-link" _key="58174ea65e83" _type="link" data-reveal="">{"MIT's 2025 analysis"}</a>
-                {" of 300 public AI deployments puts it more starkly. Roughly 95% of generative AI pilots failed to deliver meaningful revenue impact."}
+                <A href="/product" className="richtext-link" _key="4cb33d976009" _type="link" nofollow="false" data-reveal="">The brand.ai platform</A>
+                {" is simple but powerful. You start by uploading everything you have: brand guidelines, strategy docs, past campaigns, assets, competitive audits, and more. It all gets turned into "}
+                <A href="/brand-os" className="richtext-link" _key="e7b25e6256bd" _type="link" nofollow="false" data-reveal="">a living operating system</A>
+                {" that actually understands your brand."}
               </p>
+              <p data-reveal="">{"Not just keywords and colors, but your positioning, your audience, your business, your tone, and your visual language. Built with Anthropic's Claude, our system understands brand rules and preserves the human essence that makes your brand special."}</p>
+              <p data-reveal="">From there, everyone who creates—your team, your agencies, your partners—can work from the same intelligent foundation. Generate briefs, write copy, or develop strategy that actually sounds like you and aligns with your goals. You get on-brand work from the start.</p>
               <p data-reveal="">
-                Yet
-                {"where AI is working, it's working fast. "}
-                <a target="_blank" rel="noopener" className="richtext-link" _key="74e9fabb13bc" _type="link" data-reveal="">{"a16z's recent analysis"}</a>
-                {" of Fortune 500 AI adoption found that 29% of the Fortune 500 are live, paying customers of an AI startup, with the strongest ROI in coding, support, and search. Each of those domains runs on structured, verifiable inputs. Code has strict syntax and predictable outcomes. Support teams operate from clearly articulated SOPs. Search retrieves against indexed, structured data."}
+                {"Before anything launches, you can run it through "}
+                <strong data-reveal="">Brand Check</strong>
+                . It scores work against your brand standards, flags cultural sensitivity issues, evaluates audience fit, and catches the kind of missteps that manual reviews miss. No more expensive mistakes.
               </p>
+              <h3 data-reveal="">Built by experts</h3>
+              <p data-reveal="">Generic tools don’t work for today’s top brands and most talented teams. Our team is a seasoned mix of strategists, marketers, creatives, and technologists who’ve led teams at companies like Airbnb, Apple, and Google. We know what works to build and scale global brands.</p>
+              <p data-reveal="">And we partner closely with entire organizations, from CMOs to creative directors to brand managers. Working together lets us solve problems that go far beyond training data and templates.</p>
+              <h3 data-reveal="">Designed to drive focus</h3>
+              <p data-reveal="">AI marks a fundamental shift in how brands will be built and managed. Brand teams can finally focus on strategy, creativity, and the judgment calls that shape culture. The work that makes this profession worthwhile. Our platform preserves what makes traditional brand management effective—clear strategy, thoughtful review, and human feedback. All while letting AI handle the analytical burden.</p>
+              <p data-reveal="">Instead of spending hours on compliance reviews or onboarding sessions, creative teams can now focus on shaping culture and building stronger brands. The overhead disappears. The creative work remains.</p>
+              <h3 data-reveal="">{"What's next"}</h3>
               <p data-reveal="">
-                {"For brand teams though, both the inputs and the quality criteria for outputs are interpretive. Most AI pilots for brand work feed on brand guidelines, competitive positioning, messaging frameworks, strategic briefs, and previously approved assets. All of it written for human interpretation. And unlike code that either runs or doesn't, there's no objective test for whether an output actually "}
-                <em data-reveal="">represents</em>
-                {" the brand."}
+                {"This is just the beginning. We’re "}
+                <A href="/book-a-demo" className="richtext-link" _key="9c934092e78a" _type="link" nofollow="false" data-reveal="">working with a select group of partners</A>
+                {" to refine the platform and push what’s possible when you combine deep brand understanding with powerful AI."}
               </p>
-              <p data-reveal="">{"The most common response has been to write longer style guides or craft more detailed prompts. Neither addresses the structural problem. Without a system that converts brand knowledge into machine-ready inputs and defines what \"on-brand\" means in terms a machine can evaluate against, every AI tool a brand team adopts is left to interpret ambiguous source material on its own."}</p>
-              <h3 data-reveal="">The interpretation gap</h3>
-              <p data-reveal="">{"The gap shows up everywhere, but tone and image-making are the easiest places to see it. Typical brand guides instruct teams to be “confident but not arrogant” or “warm without being casual.” An experienced writer can execute on these directives because they've internalized years of examples, feedback, and context about what those phrases mean in practice. An LLM doesn't carry that context. It approximates tone by pattern-matching against its training data, not by understanding what your brand actually sounds like. The same is true for visual work. A brief that says “elevated but accessible” means something specific to a creative director who's worked with the brand for years. To a model, it's ambiguous."}</p>
+              <p data-reveal="">At the core of all of everything is trust. Brands build their reputations on decades of consistency and quality. Marketing leaders build theirs through delivering excellent work under impossible timelines. To earn that trust, brand.ai will be transparent, secure, and aligned with how brands actually work.</p>
+              <p data-reveal="">{"The technology that powers tomorrow's brand work needs to be exceptional. We’re building experiences that matter, with teams that care just as deeply about the craft of brand building."}</p>
               <p data-reveal="">
-                <a target="_blank" rel="noopener" className="richtext-link" _key="677ceac1e303" _type="link" data-reveal="">{"Gartner's 2025 survey"}</a>
-                {" of 418 marketers confirmed what most brand teams already feel. Significant gaps remain in AI's ability to generate on-brand, commercially publishable content consistently. Only 44% of marketers exploring generative AI reported realizing significant benefits. While AI capability grows by the day, when inputs aren't structured for machine interpretation, humans end up bridging the gap manually to polish AI outputs for production."}
-              </p>
-              <p data-reveal="">
-                {"This is why AI "}
-                <em data-reveal="">pilots</em>
-                {" often work but the "}
-                <em data-reveal="">rollouts</em>
-                {" don't. During the pilot, the brand expert (copywriter, designer, strategist) was in the room. They caught drift in real time and corrected it. That human judgment compensated for everything the guidelines didn't spell out and the AI couldn't infer. At scale, that compensation needs to be built into the system itself, so that when a salesperson is building a deck, a regional marketer is launching a campaign, or a CX leader is designing a customer onboarding workflow, they shouldn't need the foremost brand expert in the room."}
-              </p>
-              <p data-reveal="">{"And this gap is widening. With agent frameworks like OpenClaw becoming standard infrastructure, AI will operate across channels and markets, generating and deploying production work without a human in the loop. These agents carry whatever brand context the system has been given, and an agent with loosely defined context doesn't produce one off-brand asset. It produces hundreds, across platforms the brand team isn't systematically monitoring for drift. The faster these systems move, the more critical it becomes to translate brand context into a form that agents can interpret."}</p>
-              <h3 data-reveal="">What the translation looks like</h3>
-              <p data-reveal="">{"Start with a single directive. “Confident but not arrogant” needs to become something a machine can apply consistently. That means breaking it down: use active voice, state claims directly, avoid hedging phrases like “we believe” or “we think,” don't use superlatives unless backed by a specific data point. Pair these rules with clear examples of what works, alongside “near-misses” that show where the boundary lies. This is what it takes to convert a single interpretive principle into discrete, testable rules with boundary-defining examples."}</p>
-              <p data-reveal="">{"The same problem applies to strategic decisions. How a brand positions against a competitor, how it evaluates a partnership opportunity, how it adapts messaging for a new market. These all depend on institutional context that lives in people's heads, not in any document AI can read."}</p>
-              <p data-reveal="">{"Now multiply this level of specificity across the entire brand. Competitive positioning is one dimension. Messaging architecture by market is another. Then there's visual identity, tone of voice, how to describe a product feature versus the company mission, how the logo behaves at 16 pixels versus on a billboard. Every one of these dimensions carries its own implicit rules, and most of them have never been written down in a form a machine can parse."}</p>
-              <p data-reveal="">Most brand leaders get why this specificity matters. The hard part is building it out across an entire organization. AI can accelerate the process significantly, but it still needs a system (and people) who can analyze, interpret, and codify this knowledge. In our experience, this upfront work is what determines whether an AI pilot moves to production or stalls in the lab.</p>
-              <h3 data-reveal="">How to make AI pilots for brand work</h3>
-              <p data-reveal="">
-                <a target="_blank" rel="noopener" className="richtext-link" _key="a4fa199fe57d" _type="link" data-reveal="">{"Gartner's Q1 2026 CMO Quarterly"}</a>
-                {" found that even advanced AI organizations struggle to achieve meaningful business results, largely because they adopt new technology and expect it to work without investing in the process and context to make sure it does. Our experience working with dozens of enterprise brands confirms this."}
-              </p>
-              <p data-reveal="">
-                <strong data-reveal="">Establishing brand truth.</strong>
-                {" The first step in any successful pilot is establishing what the brand actually "}
-                <em data-reveal="">is</em>
-                {" and codifying it. That means auditing everything that makes up the existing brand: guideline documents, frameworks, marketing calendars, strategies, assets sitting across cloud drives, websites, social channels. The brand team connects and ingests all of it to understand where the brand's knowledge actually lives, what state it's in, and where the gaps are."}
-              </p>
-              <p data-reveal="">
-                <strong data-reveal="">Building the rule layer.</strong>
-                {" Once the brand assets are ingested, the focus shifts to creating a structured rule set that sits on top of the brand's data and governs how AI interacts with it. This means breaking brand guidelines down into specific, machine-readable rules across every dimension: foundational strategy, verbal identity, visual identity systems, application guidelines, and more."}
-              </p>
-              <p data-reveal="">
-                {"The process also surfaces what's "}
-                <em data-reveal="">missing</em>
-                {" from the existing documentation. Brands regularly discover they have no defined text hierarchy, that tone of voice hasn't been specified for a particular platform or region, or that a partner framework for APAC has the wrong positioning statement because nobody's updated it in three years. The brand team surfaces and fills these blind spots, because if rules don't exist in a form AI can reference, models will improvise. And improvisation is exactly what you're trying to prevent."}
-              </p>
-              <p data-reveal="">
-                <strong data-reveal="">Building the Brand Ontology.</strong>
-                {" The rules govern how AI behaves when creating content (tone, format, output quality). The Brand Ontology informs the strategic alignment behind that work. We think of it as the brand's institutional memory, capturing the strategic decisions a company has made over time, the climate those decisions were made in, and the competitive environment they were navigating. It also maps how those decisions align with the brand's ethos, business model, and vision for the future."}
-              </p>
-              <p data-reveal="">Building the Ontology is an agentic research process that crawls and synthesizes millions of sources (SEC filings, earnings calls, press coverage, social media, competitor strategy, employee reviews, historical campaigns, even the specific photographers or agencies behind key creative work). These runs typically take days, sometimes upwards of a week for brands with large global footprints. What they produce is a living dataset that grows as new information emerges, giving every AI system and team member a single source of strategic context to work from.</p>
-              <p data-reveal="">
-                <strong data-reveal="">Connecting to live signals.</strong>
-                {" The rules and the Ontology are essential, but brand context is only as useful as it is current. A competitor launches an adversarial campaign, a cultural moment shifts consumer perception, a regional team sparks PR backlash. Staying current means connecting to a constant feed of real-world data: social channels, mention tracking, listening signals across Reddit, YouTube, Substack, traditional media. These signals surface sentiment shifts, emerging cultural themes, and brand risks as they develop, so the system (and the team) can adapt."}
-              </p>
-              <p data-reveal="">
-                {"None of these layers are set-and-forget. The work of building and maintaining this structure sits at the intersection of brand strategy and technical implementation, and somebody needs to own it. Most org charts don't have a role for it yet, but we've started calling it the "}
-                <A href="/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now" className="richtext-link" _key="419795ca4242" _type="link" data-reveal="">brand engineer</A>
-                {". The need for dedicated technical ownership isn't unique to brand. Across the enterprise, the most powerful applications of AI turn out to require more technical depth than expected, not less. The brand engineer role reflects the same pattern."}
-              </p>
-              <h3 data-reveal="">Looking ahead</h3>
-              <p data-reveal="">AI pilots die in the lab because brands feed unstructured human knowledge to software. And brand teams that keep treating AI models like intuitive human creatives who just need a slightly better prompt or a longer brand guideline will keep requiring a human safety net.</p>
-              <p data-reveal="">
-                {"Getting AI into production means accepting that the decades-old practice of passing around tone-of-voice documents and hoping for the best is incompatible with the way AI actually works. AI can accelerate your output, but it cannot guess your strategic intent. You have to build that into the system. The brands doing the unglamorous work of codifying their DNA are the ones whose AI will actually look, sound, think, and "}
-                <em data-reveal="">perform</em>
-                {" like them. The rest will keep running pilots."}
+                Welcome to the future of brand.
+                <br />
+                {""}
               </p>
             </div>
           </div>
@@ -161,13 +136,20 @@ export default function PageWrapper2() {
               <div className="post-footer-section post-footer-section-tags" data-v-3d1fee30="">
                 <ul data-v-3d1fee30="">
                   <li data-v-3d1fee30="">
-                    <A href="/blog/infrastructure" className="" data-v-3d1fee30="">Infrastructure</A>
+                    <A href="/blog/company" className="" data-v-3d1fee30="">Company</A>
                   </li>
                 </ul>
               </div>
-              <div className="post-footer-section post-footer-section-contributors" data-v-3d1fee30=""></div>
+              <div className="post-footer-section post-footer-section-contributors" data-v-3d1fee30="">
+                <h4 className="title" data-v-3d1fee30="">{" Contributors: "}</h4>
+                <ul data-v-3d1fee30="">
+                  <li data-v-3d1fee30="">
+                    <span data-v-3d1fee30="">brand.ai</span>
+                  </li>
+                </ul>
+              </div>
               <div className="post-footer-section post-footer-section-date" data-v-3d1fee30="">
-                <div className="post-date" data-v-3d1fee30="">{" Published Apr 2026"}</div>
+                <div className="post-date" data-v-3d1fee30="">{" Published Dec 2025"}</div>
               </div>
             </div>
           </footer>

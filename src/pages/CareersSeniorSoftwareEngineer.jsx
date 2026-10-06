@@ -3,14 +3,13 @@ import usePageChrome from "../lib/usePageChrome.js";
 import Header6 from "../sections/Header6.jsx";
 import MainInner5 from "../sections/MainInner5.jsx";
 import FooterMain15 from "../sections/FooterMain15.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/16-_slug_.KoadpnJY.css?inline"; // only this page loads it
 import css1 from "../styles/inline-56.css?inline"; // only this page loads it
 import css2 from "../styles/inline-19.css?inline"; // only this page loads it
 import css3 from "../styles/inline-55.css?inline"; // only this page loads it
 import css4 from "../styles/inline-57.css?inline"; // only this page loads it
 
-// Route /careers/senior-software-engineer — 4 section(s), in page order.
+// Route /careers/senior-software-engineer — 3 section(s), in page order.
 export default function CareersSeniorSoftwareEngineer() {
   usePageChrome({ title: "Senior Software Engineer - Remote | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 900px;" }, body: { "style": "" } });
   return (
@@ -28,7 +27,16 @@ export default function CareersSeniorSoftwareEngineer() {
         </main>
         <FooterMain15 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

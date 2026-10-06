@@ -1,3 +1,4 @@
+// IA section(s): proof.module-logos (ia/ia.json, design-repo/sections/)
 // module-logos — the section's real markup, read from the rendered page (route /product, section 2; shared by 2 routes).
 export default function ModuleLogos2() {
   return (

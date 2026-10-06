@@ -7,7 +7,6 @@ import ModuleFeaturesNumbered2 from "../sections/ModuleFeaturesNumbered2.jsx";
 import ModuleQuotes2 from "../sections/ModuleQuotes2.jsx";
 import CurrentRoles from "../sections/CurrentRoles.jsx";
 import FooterMain4 from "../sections/FooterMain4.jsx";
-import CookiesWrap2 from "../sections/CookiesWrap2.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -19,7 +18,7 @@ import css7 from "../styles/inline-36.css?inline"; // only this page loads it
 import css8 from "../styles/inline-22.css?inline"; // only this page loads it
 import css9 from "../styles/inline-38.css?inline"; // only this page loads it
 
-// Route /careers — 8 section(s), in page order.
+// Route /careers — 7 section(s), in page order.
 export default function Careers() {
   usePageChrome({ title: "Join toolmakers between code and craft | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -52,7 +51,16 @@ export default function Careers() {
         </main>
         <FooterMain4 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap2 />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

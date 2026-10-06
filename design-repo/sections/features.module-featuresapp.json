@@ -75,5 +75,9 @@
   "assetRoles": [
     "icon"
   ],
-  "implementedBy": "src/sections/ModuleFeaturesApp.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesApp.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesApp.jsx",
+    "src/sections/ModuleFeaturesApp2.jsx"
+  ]
 }

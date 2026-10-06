@@ -13,7 +13,7 @@
     "measuredFrom": [
       "src/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good/index.html:513-615",
       "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html:405-469",
-      "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html:411-497",
+      "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html:413-499",
       "src/blog/post/your-cmo-s-days-are-numbered/index.html:439-543"
     ]
   },
@@ -75,5 +75,11 @@
     ]
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/PageContentMeta.jsx"
+  "implementedBy": "src/sections/PageContentMeta.jsx",
+  "implementedByAll": [
+    "src/sections/PageContentMeta.jsx",
+    "src/sections/PageContentMeta2.jsx",
+    "src/sections/PageContentMeta3.jsx",
+    "src/sections/PageContentMeta4.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): features.module-featuresinline (ia/ia.json, design-repo/sections/)
 // module-featuresInline — the section's real markup, read from the rendered page (route /teams, section 2).
 export default function ModuleFeaturesInline5() {
   return (

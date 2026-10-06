@@ -77,5 +77,10 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/ModuleMediaFilterGrid.jsx"
+  "implementedBy": "src/sections/ModuleMediaFilterGrid.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleMediaFilterGrid.jsx",
+    "src/sections/ModuleMediaFilterGrid2.jsx",
+    "src/sections/ModuleMediaFilterGrid3.jsx"
+  ]
 }

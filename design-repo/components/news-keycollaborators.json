@@ -3,11 +3,10 @@
   "name": "news-keyCollaborators",
   "occurrences": 10,
   "composedOf": [
-    "image",
-    "link"
+    "image"
   ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+    "sampleRoute": "/blog/post/your-cmo-s-days-are-numbered"
   }
 }

@@ -29,7 +29,6 @@ export const routes = [
   { path: "/blog/product", title: "Product – brand.ai", Page: lazy(() => import("./pages/BlogProduct.jsx")) },
   { path: "/blog/company", title: "Company – brand.ai", Page: lazy(() => import("./pages/BlogCompany.jsx")) },
   { path: "/blog/interviews", title: "Interviews – brand.ai", Page: lazy(() => import("./pages/BlogInterviews.jsx")) },
-  { path: "/blog/post/why-katie-dreke-is-betting-on-the-human-touch", title: "Why Katie Dreke is betting on the human touch – brand.ai", Page: lazy(() => import("./pages/BlogPostWhyKatie.jsx")) },
   { path: "/blog/post/your-cmo-s-days-are-numbered", title: "Your CMO's days are numbered – brand.ai", Page: lazy(() => import("./pages/BlogPostYourCmo.jsx")) },
   { path: "/home", title: "brand.ai | AI for brand management", Page: lazy(() => import("./pages/HomePage2.jsx")) },
   { path: "/blog/post/why-most-ai-pilots-never-leave-the-lab", title: "Why most AI pilots never leave the lab – brand.ai", Page: lazy(() => import("./pages/BlogPostWhyMost.jsx")) },
@@ -39,6 +38,7 @@ export const routes = [
   { path: "/blog/post/how-brand-engineering-is-shaping-modern-brands", title: "How brand engineering is shaping moderns brands – brand.ai", Page: lazy(() => import("./pages/BlogPostHowBrand.jsx")) },
   { path: "/blog/post/your-brand-is-more-valuable-than-you-can-measure", title: "Your brand is more valuable than you can measure – brand.ai", Page: lazy(() => import("./pages/BlogPostYourBrand.jsx")) },
   { path: "/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf", title: "Every brand needs a living operating system, not a PDF – brand.ai", Page: lazy(() => import("./pages/BlogPostEveryBrand.jsx")) },
+  { path: "/blog/post/why-katie-dreke-is-betting-on-the-human-touch", title: "Why Katie Dreke is betting on the human touch – brand.ai", Page: lazy(() => import("./pages/BlogPostWhyKatie.jsx")) },
   { path: "/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good", title: "Brands of loving grace, and humans who use AI for good – brand.ai", Page: lazy(() => import("./pages/BlogPostBrandsOf.jsx")) },
 ];
 export const ROUTE_SET = new Set(routes.map((r) => r.path));

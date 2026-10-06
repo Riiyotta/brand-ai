@@ -66,5 +66,12 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/ModuleNews.jsx"
+  "implementedBy": "src/sections/ModuleNews.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleNews.jsx",
+    "src/sections/ModuleNews2.jsx",
+    "src/sections/ModuleNews3.jsx",
+    "src/sections/ModuleNews4.jsx",
+    "src/sections/ModuleNews5.jsx"
+  ]
 }

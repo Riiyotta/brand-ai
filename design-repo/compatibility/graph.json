@@ -29,7 +29,6 @@
         "content.module-news": 1,
         "content.module-download": 1,
         "shell.footer-main": 1,
-        "shell.cookieswrap": 1,
         "hero.module-covercolumns": 1,
         "features.module-featurescertification": 1,
         "features.module-featuresinline": 1,
@@ -54,10 +53,10 @@
         "content.module-mediaflexible": 4,
         "features.module-featurescolumns": 1,
         "features.module-featuresapp": 1,
-        "hero.page-wrapper": 1,
-        "content.post-related": 1,
         "hero.page-container": 1,
         "content.page-content-meta": 1,
+        "content.post-related": 1,
+        "hero.page-wrapper": 1,
         "shell.post-header": 1,
         "content.post-content": 1
       },
@@ -77,7 +76,7 @@
       "severity": "error",
       "kind": "mustBeLast",
       "sections": [
-        "shell.cookieswrap"
+        "shell.footer-main"
       ],
       "description": "Sections that closed every template they appear in must be the last node."
     },
@@ -99,10 +98,6 @@
         [
           "content.module-news",
           "content.module-download"
-        ],
-        [
-          "shell.footer-main",
-          "shell.cookieswrap"
         ],
         [
           "features.module-featurescertification",
@@ -207,7 +202,7 @@
       "id": "MOTION_BUDGET",
       "severity": "warn",
       "kind": "maxAnimatedSections",
-      "max": 14,
+      "max": 13,
       "description": "No page has more animated sections than the most animated measured page."
     }
   ]

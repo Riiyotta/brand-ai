@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediaflexible (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-mediaFlexible — the section's real markup, read from the rendered page (route /product, section 4).
@@ -54,7 +55,7 @@ export default function ModuleMediaFlexible() {
                 <p>Secure OAuth integrations with Figma, Notion, Google Drive, Slack, Shopify. Brand OS learns from actual work.</p>
               </div>
             </div>
-            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1560" height="1950" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/460f50c3ac70e6d78f823a0c9df0ebd42df1ff00-1560x1950__a80b8a21.png 200w" />
+            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1560" height="1950" alt="" fetchPriority="auto" />
           </div>
         </div>
         <div className="module-mediaFlexible-media module-mediaFlexible-media--half">

@@ -80,5 +80,13 @@
   "assetRoles": [
     "illustration"
   ],
-  "implementedBy": "src/sections/ModuleDownload.jsx"
+  "implementedBy": "src/sections/ModuleDownload.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleDownload.jsx",
+    "src/sections/ModuleDownload2.jsx",
+    "src/sections/ModuleDownload3.jsx",
+    "src/sections/ModuleDownload4.jsx",
+    "src/sections/ModuleDownload5.jsx",
+    "src/sections/ModuleDownload6.jsx"
+  ]
 }

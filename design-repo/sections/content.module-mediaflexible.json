@@ -83,5 +83,13 @@
     "content-image",
     "video"
   ],
-  "implementedBy": "src/sections/ModuleMediaFlexible.jsx"
+  "implementedBy": "src/sections/ModuleMediaFlexible.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleMediaFlexible.jsx",
+    "src/sections/ModuleMediaFlexible2.jsx",
+    "src/sections/ModuleMediaFlexible3.jsx",
+    "src/sections/ModuleMediaFlexible4.jsx",
+    "src/sections/ModuleMediaFlexible5.jsx",
+    "src/sections/ModuleMediaFlexible6.jsx"
+  ]
 }

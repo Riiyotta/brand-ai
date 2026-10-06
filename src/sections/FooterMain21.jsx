@@ -1,6 +1,7 @@
+// IA section(s): shell.footer-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// footer-main — the section's real markup, read from the rendered page (route /blog/product, section 2).
+// footer-main — the section's real markup, read from the rendered page (route /careers/account-executive, section 2).
 export default function FooterMain21() {
   return (
     <footer className="footer-main" data-clone-section="FooterMain21">
@@ -9,8 +10,8 @@ export default function FooterMain21() {
           <div className="footer-top-text">
             <div className="headline-rotate">
               <div className="headline-rotate-inner">
-                <span className="headline-rotate-text">{"Your "}</span>
-                <span className="cursor">|</span>
+                <span className="headline-rotate-text">Your b</span>
+                <span className="cursor" data-reveal="">|</span>
               </div>
             </div>
           </div>
@@ -22,7 +23,7 @@ export default function FooterMain21() {
           <div className="footer-three-inner">
             <div data-v-a370ce5e="" className="footer3">
               <div data-v-a370ce5e="" className="footer3-container">
-                <img src="/stills/78023f33.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
+                <img src="/stills/6b4594ff.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
               </div>
             </div>
           </div>
@@ -32,182 +33,74 @@ export default function FooterMain21() {
             <nav className="footer-bottom-nav">
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/product" className="">
-                      {" "}
-                      Product
-                      {" "}
-                    </A>
+                    <A href="/product" className="">Product</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/brand-os" className="">
-                      {" "}
-                      Brand OS
-                      {" "}
-                    </A>
+                    <A href="/brand-os" className="">Brand OS</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/brand-studio" className="">
-                      {" "}
-                      Brand Studio
-                      {" "}
-                    </A>
+                    <A href="/brand-studio" className="">Brand Studio</A>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/enterprise" className="">
-                      {" "}
-                      Enterprise
-                      {" "}
-                    </A>
+                    <A href="/enterprise" className="">Enterprise</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/teams" className="">
-                      {" "}
-                      Teams
-                      {" "}
-                    </A>
+                    <A href="/teams" className="">Teams</A>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/security" className="">
-                      {" "}
-                      Security
-                      {" "}
-                    </A>
+                    <A href="/security" className="">Security</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <a target="_blank" rel="noopener">
-                      {" "}
-                      Trust Center
-                      {" "}
-                    </a>
+                    <a target="_blank" rel="noopener">Trust Center</a>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/company" className="">
-                      {" "}
-                      Company
-                      {" "}
-                    </A>
+                    <A href="/company" className="">Company</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/blog" className="router-link-active">
-                      {" "}
-                      Blog
-                      {" "}
-                    </A>
+                    <A href="/blog" className="">Blog</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/careers" className="">
-                      {" "}
-                      Careers
-                      {" "}
-                    </A>
+                    <A href="/careers" className="">Careers</A>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/book-a-demo" className="">
-                      {" "}
-                      Book a demo
-                      {" "}
-                    </A>
+                    <A href="/book-a-demo" className="">Book a demo</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/faq" className="">
-                      {" "}
-                      FAQ
-                      {" "}
-                    </A>
+                    <A href="/faq" className="">FAQ</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/legal/privacy" className="">
-                      {" "}
-                      Privacy Policy
-                      {" "}
-                    </A>
+                    <A href="/legal/privacy" className="">Privacy Policy</A>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <A href="/legal/acceptable-use-policy" className="">
-                      {" "}
-                      Acceptable Use
-                      {" "}
-                    </A>
+                    <A href="/legal/acceptable-use-policy" className="">Acceptable Use</A>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
               <div className="footer-nav-column">
                 <ul>
-                  {" "}
-                  {" "}
                   <li>
-                    <a target="_blank" rel="noopener">
-                      {" "}
-                      Instagram
-                      {" "}
-                    </a>
+                    <a target="_blank" rel="noopener">Instagram</a>
                   </li>
-                  {" "}
-                  {" "}
                   <li>
-                    <a target="_blank" rel="noopener">
-                      {" "}
-                      LinkedIn
-                      {" "}
-                    </a>
+                    <a target="_blank" rel="noopener">LinkedIn</a>
                   </li>
-                  {" "}
-                  {" "}
                 </ul>
               </div>
             </nav>

@@ -1,3 +1,4 @@
+// IA section(s): content.brandcheck (ia/ia.json, design-repo/sections/)
 // brandcheck — the section's real markup, read from the rendered page (route /brand-studio, section 6).
 export default function Brandcheck() {
   return (
@@ -24,7 +25,7 @@ export default function Brandcheck() {
       <div className="module-mediaFlexible-media-wrapper" style={{ "--columns": "12" }}>
         <div className="module-mediaFlexible-media module-mediaFlexible-media--half">
           <div className="media video mux bento-style-after" data-orientation="false">
-            <video autoPlay loop muted playsInline preload="none" poster="/_ext/image.mux.com/LpM01sUr018V6yJbfUsHWFbI19S6iNbfNLtkbxywHTPRQ/thumbnail__84f7228a.jpg" className="" width="100" height="100" fetchPriority="auto"></video>
+            <video autoPlay loop muted playsInline preload="none" poster="/_ext/image.mux.com/LpM01sUr018V6yJbfUsHWFbI19S6iNbfNLtkbxywHTPRQ/thumbnail__84f7228a.jpg" className="" width="100" height="100" fetchPriority="auto" src="/_ext/stream.mux.com/LpM01sUr018V6yJbfUsHWFbI19S6iNbfNLtkbxywHTPRQ/high.mp4"></video>
             <div className="bentoText-wrapper bentoText-after">
               <div className="bentoText-heading">Upload everything</div>
               <div className="bentoText-text">
@@ -35,7 +36,7 @@ export default function Brandcheck() {
         </div>
         <div className="module-mediaFlexible-media module-mediaFlexible-media--half">
           <div className="media image bento-style-after" data-orientation="landscape">
-            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" alt="A person sitting on a chair reads a large newspaper with the headline “Delta x Chef José Andrés Announce New Tasty Collab,” while a digital dashboard on the right shows brand risk and overall grade metrics." fetchPriority="auto" />
+            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3285c5a9cfb0e77f19f94f59bbcf866a0b83b4fc-1170x1170__4cbfb401.png" alt="A person sitting on a chair reads a large newspaper with the headline “Delta x Chef José Andrés Announce New Tasty Collab,” while a digital dashboard on the right shows brand risk and overall grade metrics." fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3285c5a9cfb0e77f19f94f59bbcf866a0b83b4fc-1170x1170__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3285c5a9cfb0e77f19f94f59bbcf866a0b83b4fc-1170x1170__776fcd47.png 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3285c5a9cfb0e77f19f94f59bbcf866a0b83b4fc-1170x1170__4cbfb401.png 1800w" />
             <div className="bentoText-wrapper bentoText-after">
               <div className="bentoText-heading">Understand every asset</div>
               <div className="bentoText-text">
@@ -69,7 +70,7 @@ export default function Brandcheck() {
         </div>
         <div className="module-mediaFlexible-media module-mediaFlexible-media--third">
           <div className="media image bento-style-after" data-orientation="landscape">
-            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" alt="" fetchPriority="auto" />
+            <img className=" lazyloaded" data-sizes="false" sizes="false" width="1170" height="1170" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/097d7d5329fe57cdf797eb4ab90fe10726b621d6-1170x1170__a80b8a21.png 200w" />
             <div className="bentoText-wrapper bentoText-after">
               <div className="bentoText-heading">Approval audit trails</div>
               <div className="bentoText-text">

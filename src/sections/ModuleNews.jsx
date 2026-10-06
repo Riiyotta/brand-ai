@@ -1,3 +1,4 @@
+// IA section(s): content.module-news (ia/ia.json, design-repo/sections/)
 // module-news — the section's real markup, read from the rendered page (route /, section 9; shared by 2 routes).
 export default function ModuleNews() {
   return (

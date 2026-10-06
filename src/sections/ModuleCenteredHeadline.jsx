@@ -1,3 +1,4 @@
+// IA section(s): content.module-centeredheadline (ia/ia.json, design-repo/sections/)
 // module-centeredHeadline — the section's real markup, read from the rendered page (route /, section 4; shared by 2 routes).
 export default function ModuleCenteredHeadline() {
   return (

@@ -1,6 +1,7 @@
+// IA section(s): shell.footer-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// footer-main — the section's real markup, read from the rendered page (route /blog/post/welcome-to-brand-ai, section 3).
+// footer-main — the section's real markup, read from the rendered page (route /blog/interviews, section 2).
 export default function FooterMain26() {
   return (
     <footer className="footer-main" data-clone-section="FooterMain26">
@@ -9,7 +10,7 @@ export default function FooterMain26() {
           <div className="footer-top-text">
             <div className="headline-rotate">
               <div className="headline-rotate-inner">
-                <span className="headline-rotate-text">Break fre</span>
+                <span className="headline-rotate-text">Break free fr</span>
                 <span className="cursor">|</span>
               </div>
             </div>
@@ -22,7 +23,7 @@ export default function FooterMain26() {
           <div className="footer-three-inner">
             <div data-v-a370ce5e="" className="footer3">
               <div data-v-a370ce5e="" className="footer3-container">
-                <img src="/stills/0fffbee2.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
+                <img src="/stills/d39b651d.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
               </div>
             </div>
           </div>
@@ -69,7 +70,7 @@ export default function FooterMain26() {
                     <A href="/company" className="">Company</A>
                   </li>
                   <li>
-                    <A href="/blog" className="">Blog</A>
+                    <A href="/blog" className="router-link-active">Blog</A>
                   </li>
                   <li>
                     <A href="/careers" className="">Careers</A>

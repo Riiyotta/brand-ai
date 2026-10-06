@@ -67,5 +67,9 @@
     "content-image",
     "hero-image"
   ],
-  "implementedBy": "src/sections/ModuleHeroInline.jsx"
+  "implementedBy": "src/sections/ModuleHeroInline.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleHeroInline.jsx",
+    "src/sections/ModuleHeroInline2.jsx"
+  ]
 }

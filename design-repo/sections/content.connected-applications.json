@@ -58,7 +58,7 @@
       "columns": 1
     },
     "mobile": {
-      "heightPx": 413,
+      "heightPx": 588,
       "columns": 1,
       "hiddenShare": 0
     },
@@ -67,5 +67,8 @@
   "assetRoles": [
     "video"
   ],
-  "implementedBy": "src/sections/ConnectedApplications.jsx"
+  "implementedBy": "src/sections/ConnectedApplications.jsx",
+  "implementedByAll": [
+    "src/sections/ConnectedApplications.jsx"
+  ]
 }

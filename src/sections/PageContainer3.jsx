@@ -1,3 +1,4 @@
+// IA section(s): hero.page-container (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // page-container — the section's real markup, read from the rendered page (route /blog/post/every-brand-needs-a-living-operating-system-not-a-pdf, section 1).
@@ -5,26 +6,26 @@ export default function PageContainer3() {
   return (
     <div className="page-container" data-v-3d1fee30="" data-clone-section="PageContainer3">
       <header className="post-header" data-v-3d1fee30="">
-        <div className="post-meta" data-v-3d1fee30="">
-          <div className="post-reading-time" data-v-3d1fee30="">
+        <div className="post-meta" data-v-3d1fee30="" data-reveal="">
+          <div className="post-reading-time" data-v-3d1fee30="" data-reveal="">
             5m read
-            <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
+            <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
           </div>
-          <div className="post-tag" data-v-3d1fee30="">
-            <A href="/blog/infrastructure" className="" data-v-3d1fee30="">Infrastructure</A>
-            <span className="post-meta-separator" data-v-3d1fee30="">{" • "}</span>
+          <div className="post-tag" data-v-3d1fee30="" data-reveal="">
+            <A href="/blog/infrastructure" className="" data-v-3d1fee30="" data-reveal="">Infrastructure</A>
+            <span className="post-meta-separator" data-v-3d1fee30="" data-reveal="">{" • "}</span>
           </div>
-          <div className="post-date" data-v-3d1fee30="">Jan 2026</div>
+          <div className="post-date" data-v-3d1fee30="" data-reveal="">Jan 2026</div>
         </div>
-        <h1 className="post-title" data-v-3d1fee30="">Every brand needs a living operating system, not a PDF</h1>
-        <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="">
-          <div className="news-keyCollaborators-inner">
-            <div className="news-keyCollaborators-item">
-              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape">
-                <img className=" lazyloaded" data-sizes="false" sizes="false" width="360" height="360" alt="" fetchPriority="auto" />
+        <h1 className="post-title" data-v-3d1fee30="" data-reveal="">Every brand needs a living operating system, not a PDF</h1>
+        <div className="news-keyCollaborators post-keyCollaborators" data-v-3d1fee30="" data-reveal="">
+          <div className="news-keyCollaborators-inner" data-reveal="">
+            <div className="news-keyCollaborators-item" data-reveal="">
+              <div className="media image news-keyCollaborators-item-image" data-orientation="landscape" data-reveal="">
+                <img className=" lazyloaded" data-sizes="false" sizes="false" width="360" height="360" alt="" fetchPriority="auto" data-reveal="" />
               </div>
-              <div className="news-keyCollaborators-item-author">
-                <span className="name">brand.ai</span>
+              <div className="news-keyCollaborators-item-author" data-reveal="">
+                <span className="name" data-reveal="">brand.ai</span>
               </div>
             </div>
           </div>
@@ -221,32 +222,32 @@ export default function PageContainer3() {
           </p>
         </div>
       </div>
-      <div className="news-audio-player post-audio is-fixed" data-v-3d1fee30="">
-        <div className="news-audio-player-inner">
-          <div className="news-audio-player-controls">
-            <button className="news-audio-player-button" aria-label="Play audio">
-              <svg className="news-audio-player-icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14.525 7.15569L5.52 1.64694C5.36818 1.55398 5.19429 1.50322 5.0163 1.49993C4.83831 1.49663 4.66266 1.54091 4.5075 1.62819C4.35382 1.71412 4.2258 1.83943 4.1366 1.99124C4.04741 2.14305 4.00026 2.31587 4 2.49194V13.5082C4.00116 13.7723 4.10715 14.0252 4.29466 14.2111C4.48218 14.3971 4.73589 14.5011 5 14.5001C5.18435 14.5 5.36511 14.4492 5.5225 14.3532L14.525 8.84444C14.6697 8.75624 14.7893 8.63231 14.8723 8.48454C14.9553 8.33678 14.9989 8.17016 14.9989 8.00069C14.9989 7.83122 14.9553 7.6646 14.8723 7.51684C14.7893 7.36908 14.6697 7.24514 14.525 7.15694V7.15569ZM5 13.4963V2.50007L13.9894 8.00007L5 13.4963Z" fill="white" />
+      <div className="news-audio-player post-audio is-fixed" data-v-3d1fee30="" data-reveal="">
+        <div className="news-audio-player-inner" data-reveal="">
+          <div className="news-audio-player-controls" data-reveal="">
+            <button className="news-audio-player-button" aria-label="Play audio" data-reveal="">
+              <svg className="news-audio-player-icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-reveal="">
+                <path d="M14.525 7.15569L5.52 1.64694C5.36818 1.55398 5.19429 1.50322 5.0163 1.49993C4.83831 1.49663 4.66266 1.54091 4.5075 1.62819C4.35382 1.71412 4.2258 1.83943 4.1366 1.99124C4.04741 2.14305 4.00026 2.31587 4 2.49194V13.5082C4.00116 13.7723 4.10715 14.0252 4.29466 14.2111C4.48218 14.3971 4.73589 14.5011 5 14.5001C5.18435 14.5 5.36511 14.4492 5.5225 14.3532L14.525 8.84444C14.6697 8.75624 14.7893 8.63231 14.8723 8.48454C14.9553 8.33678 14.9989 8.17016 14.9989 8.00069C14.9989 7.83122 14.9553 7.6646 14.8723 7.51684C14.7893 7.36908 14.6697 7.24514 14.525 7.15694V7.15569ZM5 13.4963V2.50007L13.9894 8.00007L5 13.4963Z" fill="white" data-reveal="" />
               </svg>
               <svg className="news-audio-player-icon-pause" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M12.5 2H10C9.73478 2 9.48043 2.10536 9.29289 2.29289C9.10536 2.48043 9 2.73478 9 3V13C9 13.2652 9.10536 13.5196 9.29289 13.7071C9.48043 13.8946 9.73478 14 10 14H12.5C12.7652 14 13.0196 13.8946 13.2071 13.7071C13.3946 13.5196 13.5 13.2652 13.5 13V3C13.5 2.73478 13.3946 2.48043 13.2071 2.29289C13.0196 2.10536 12.7652 2 12.5 2ZM12.5 13H10V3H12.5V13ZM6 2H3.5C3.23478 2 2.98043 2.10536 2.79289 2.29289C2.60536 2.48043 2.5 2.73478 2.5 3V13C2.5 13.2652 2.60536 13.5196 2.79289 13.7071C2.98043 13.8946 3.23478 14 3.5 14H6C6.26522 14 6.51957 13.8946 6.70711 13.7071C6.89464 13.5196 7 13.2652 7 13V3C7 2.73478 6.89464 2.48043 6.70711 2.29289C6.51957 2.10536 6.26522 2 6 2ZM6 13H3.5V3H6V13Z" fill="white" />
+                <path d="M12.5 2H10C9.73478 2 9.48043 2.10536 9.29289 2.29289C9.10536 2.48043 9 2.73478 9 3V13C9 13.2652 9.10536 13.5196 9.29289 13.7071C9.48043 13.8946 9.73478 14 10 14H12.5C12.7652 14 13.0196 13.8946 13.2071 13.7071C13.3946 13.5196 13.5 13.2652 13.5 13V3C13.5 2.73478 13.3946 2.48043 13.2071 2.29289C13.0196 2.10536 12.7652 2 12.5 2ZM12.5 13H10V3H12.5V13ZM6 2H3.5C3.23478 2 2.98043 2.10536 2.79289 2.29289C2.60536 2.48043 2.5 2.73478 2.5 3V13C2.5 13.2652 2.60536 13.5196 2.79289 13.7071C2.98043 13.8946 3.23478 14 3.5 14H6C6.26522 14 6.51957 13.8946 6.70711 13.7071C6.89464 13.5196 7 13.2652 7 13V3C7 2.73478 6.89464 2.48043 6.70711 2.29289C6.51957 2.10536 6.26522 2 6 2ZM6 13H3.5V3H6V13Z" fill="white" data-reveal="" />
               </svg>
             </button>
-            <div className="news-audio-player-info">
-              <div className="news-audio-player-title-wrapper">
-                <div className="news-audio-player-title">Listen to this article</div>
+            <div className="news-audio-player-info" data-reveal="">
+              <div className="news-audio-player-title-wrapper" data-reveal="">
+                <div className="news-audio-player-title" data-reveal="">Listen to this article</div>
               </div>
               <div className="news-audio-player-speed-wrapper">
-                <div className="news-audio-player-speed">
-                  <button className="news-audio-player-speed-button">{"0.5x "}</button>
-                  <button className="is-active news-audio-player-speed-button">{"1x "}</button>
-                  <button className="news-audio-player-speed-button">{"1.5x "}</button>
+                <div className="news-audio-player-speed" data-reveal="">
+                  <button className="news-audio-player-speed-button" data-reveal="">{"0.5x "}</button>
+                  <button className="is-active news-audio-player-speed-button" data-reveal="">{"1x "}</button>
+                  <button className="news-audio-player-speed-button" data-reveal="">{"1.5x "}</button>
                 </div>
               </div>
               <div className="news-audio-player-time-wrapper">
-                <div className="news-audio-player-separator"></div>
-                <div className="news-audio-player-time">
-                  <span className="news-audio-player-time-duration">00:00</span>
+                <div className="news-audio-player-separator" data-reveal=""></div>
+                <div className="news-audio-player-time" data-reveal="">
+                  <span className="news-audio-player-time-duration" data-reveal="">00:00</span>
                   <span className="news-audio-player-time-current">00:00</span>
                 </div>
               </div>

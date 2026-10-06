@@ -63,5 +63,9 @@
   "assetRoles": [
     "content-image"
   ],
-  "implementedBy": "src/sections/ModuleHeadlineFloating.jsx"
+  "implementedBy": "src/sections/ModuleHeadlineFloating.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleHeadlineFloating.jsx",
+    "src/sections/ModuleHeadlineFloating2.jsx"
+  ]
 }

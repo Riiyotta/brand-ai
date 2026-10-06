@@ -94,5 +94,13 @@
     "icon",
     "video"
   ],
-  "implementedBy": "src/sections/PageWrapper.jsx"
+  "implementedBy": "src/sections/PageWrapper.jsx",
+  "implementedByAll": [
+    "src/sections/PageWrapper.jsx",
+    "src/sections/PageWrapper2.jsx",
+    "src/sections/PageWrapper3.jsx",
+    "src/sections/PageWrapper4.jsx",
+    "src/sections/PageWrapper5.jsx",
+    "src/sections/PageWrapper6.jsx"
+  ]
 }

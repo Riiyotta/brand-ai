@@ -12,7 +12,6 @@ import ModuleQuotes from "../sections/ModuleQuotes.jsx";
 import ModuleNews from "../sections/ModuleNews.jsx";
 import ModuleDownload from "../sections/ModuleDownload.jsx";
 import FooterMain from "../sections/FooterMain.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/inline-03.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -31,7 +30,7 @@ import css14 from "../styles/inline-23.css?inline"; // only this page loads it
 import css15 from "../styles/inline-24.css?inline"; // only this page loads it
 import css16 from "../styles/inline-25.css?inline"; // only this page loads it
 
-// Route / — 13 section(s), in page order.
+// Route / — 12 section(s), in page order.
 export default function HomePage() {
   usePageChrome({ title: "brand.ai | AI for brand management", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -76,7 +75,16 @@ export default function HomePage() {
         </main>
         <FooterMain />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

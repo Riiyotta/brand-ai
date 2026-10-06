@@ -59,5 +59,9 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/TextBlock.jsx"
+  "implementedBy": "src/sections/TextBlock.jsx",
+  "implementedByAll": [
+    "src/sections/TextBlock.jsx",
+    "src/sections/TextBlock2.jsx"
+  ]
 }

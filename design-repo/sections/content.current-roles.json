@@ -65,5 +65,8 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/CurrentRoles.jsx"
+  "implementedBy": "src/sections/CurrentRoles.jsx",
+  "implementedByAll": [
+    "src/sections/CurrentRoles.jsx"
+  ]
 }

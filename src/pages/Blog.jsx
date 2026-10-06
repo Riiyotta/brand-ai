@@ -5,7 +5,6 @@ import NewsCardFeatured from "../sections/NewsCardFeatured.jsx";
 import FilterNews from "../sections/FilterNews.jsx";
 import NewsroomGridInner from "../sections/NewsroomGridInner.jsx";
 import FooterMain5 from "../sections/FooterMain5.jsx";
-import CookiesWrap2 from "../sections/CookiesWrap2.jsx";
 import css0 from "../styles/14-_slug_.C1n5o3pd.css?inline"; // only this page loads it
 import css1 from "../styles/15-_slug_.BC6yS-M8.css?inline"; // only this page loads it
 import css2 from "../styles/inline-39.css?inline"; // only this page loads it
@@ -16,7 +15,7 @@ import css6 from "../styles/inline-13.css?inline"; // only this page loads it
 import css7 from "../styles/inline-42.css?inline"; // only this page loads it
 import css8 from "../styles/inline-43.css?inline"; // only this page loads it
 
-// Route /blog — 6 section(s), in page order.
+// Route /blog — 5 section(s), in page order.
 export default function Blog() {
   usePageChrome({ title: "Insights on brand strategy and AI | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 900px;" }, body: { "style": "" } });
   return (
@@ -57,7 +56,16 @@ export default function Blog() {
         </main>
         <FooterMain5 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap2 />
+        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
+          <div className="message">
+            <p>
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

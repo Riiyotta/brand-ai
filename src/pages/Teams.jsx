@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header8 from "../sections/Header8.jsx";
+import Header11 from "../sections/Header11.jsx";
 import ModuleCoverStacked8 from "../sections/ModuleCoverStacked8.jsx";
 import ModuleFeaturesInline5 from "../sections/ModuleFeaturesInline5.jsx";
 import ModuleMediaFilterGrid3 from "../sections/ModuleMediaFilterGrid3.jsx";
@@ -10,7 +10,6 @@ import ModuleDownload6 from "../sections/ModuleDownload6.jsx";
 import ModuleFaq6 from "../sections/ModuleFaq6.jsx";
 import ModuleMediaSingle5 from "../sections/ModuleMediaSingle5.jsx";
 import FooterMain11 from "../sections/FooterMain11.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -29,7 +28,7 @@ import css14 from "../styles/inline-34.css?inline"; // only this page loads it
 import css15 from "../styles/inline-35.css?inline"; // only this page loads it
 import css16 from "../styles/inline-37.css?inline"; // only this page loads it
 
-// Route /teams — 11 section(s), in page order.
+// Route /teams — 10 section(s), in page order.
 export default function Teams() {
   usePageChrome({ title: "Brand management software for growing teams | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -53,7 +52,7 @@ export default function Teams() {
       <style>{css16}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header8 />
+        <Header11 />
         <main id="main" role="main">
           <div id="main-inner">
             <div className="page page-slug">
@@ -116,7 +115,16 @@ export default function Teams() {
         </main>
         <FooterMain11 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

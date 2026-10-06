@@ -1,3 +1,4 @@
+// IA section(s): proof.module-quotes (ia/ia.json, design-repo/sections/)
 // module-quotes — the section's real markup, read from the rendered page (route /, section 8).
 export default function ModuleQuotes() {
   return (
@@ -9,7 +10,7 @@ export default function ModuleQuotes() {
               <p className="module-quote-text" data-reveal="">{"“brand.ai was born with the desire to liberate. It's created for inclusivity and understanding.”"}</p>
               <div className="module-quote-author-wrapper" data-reveal="">
                 <div className="media image module-quote-author-image" data-orientation="landscape" data-reveal="">
-                  <img className="lazyload" data-sizes="false" sizes="auto" width="300" height="300" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__5c51af88.png" alt="" fetchPriority="auto" data-reveal="" />
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="300" height="300" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__4cbfb401.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__4cbfb401.png 1800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__268de442.png 300w" data-reveal="" />
                 </div>
                 <div className="module-quote-author" data-reveal="">
                   <span className="name" data-reveal="">Rob Campbell</span>
@@ -23,7 +24,7 @@ export default function ModuleQuotes() {
               <p className="module-quote-text" data-reveal="">{"\"As I build us into a global brand, brand.ai will help the entire global company become a global brand as it'll help ensure brand consistency across countries, languages etc.\""}</p>
               <div className="module-quote-author-wrapper" data-reveal="">
                 <div className="media image module-quote-author-image" data-orientation="landscape" data-reveal="">
-                  <img className="lazyload" data-sizes="false" sizes="auto" width="360" height="360" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__5c51af88.png" alt="" fetchPriority="auto" data-reveal="" />
+                  <img className=" lazyloaded" data-sizes="false" sizes="false" width="360" height="360" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__4cbfb401.png" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__a80b8a21.png 200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__c9d274c0.png 600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__20ab9b9d.png 1000w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__0ff6edc9.png 1400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__4cbfb401.png 1800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__84a93a2c.png 360w" data-reveal="" />
                 </div>
                 <div className="module-quote-author" data-reveal="">
                   <span className="name" data-reveal="">David Corns</span>

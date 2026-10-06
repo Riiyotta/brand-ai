@@ -8,7 +8,6 @@ import ModuleMediaSingle from "../sections/ModuleMediaSingle.jsx";
 import ModuleMediaSingle2 from "../sections/ModuleMediaSingle2.jsx";
 import ModuleNews2 from "../sections/ModuleNews2.jsx";
 import FooterMain3 from "../sections/FooterMain3.jsx";
-import CookiesWrap from "../sections/CookiesWrap.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -22,7 +21,7 @@ import css9 from "../styles/inline-12.css?inline"; // only this page loads it
 import css10 from "../styles/inline-23.css?inline"; // only this page loads it
 import css11 from "../styles/inline-24.css?inline"; // only this page loads it
 
-// Route /company — 9 section(s), in page order.
+// Route /company — 8 section(s), in page order.
 export default function Company() {
   usePageChrome({ title: "Tools for those who believe in brand | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -58,7 +57,16 @@ export default function Company() {
         </main>
         <FooterMain3 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

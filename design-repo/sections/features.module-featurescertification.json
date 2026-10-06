@@ -78,5 +78,10 @@
   "assetRoles": [
     "illustration"
   ],
-  "implementedBy": "src/sections/ModuleFeaturesCertification.jsx"
+  "implementedBy": "src/sections/ModuleFeaturesCertification.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleFeaturesCertification.jsx",
+    "src/sections/ModuleFeaturesCertification2.jsx",
+    "src/sections/ModuleFeaturesCertification3.jsx"
+  ]
 }

@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediasingle (ia/ia.json, design-repo/sections/)
 // module-mediaSingle — the section's real markup, read from the rendered page (route /company, section 5).
 export default function ModuleMediaSingle2() {
   return (

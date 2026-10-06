@@ -1,3 +1,4 @@
+// IA section(s): hero.main-inner (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // main-inner — the section's real markup, read from the rendered page (route /blog/infrastructure, section 1).

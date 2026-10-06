@@ -1,17 +1,18 @@
+// IA section(s): hero.module-coverstacked (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// module-coverStacked — the section's real markup, read from the rendered page (route /, section 1; shared by 2 routes).
+// module-coverStacked — the section's real markup, read from the rendered page (route /, section 1).
 export default function ModuleCoverStacked() {
   return (
     <section className="module-coverStacked module" data-scheme="light" data-next-scheme="light" data-prev-scheme="light" data-scroll="false" data-hidden="false" data-clone-section="ModuleCoverStacked">
-      <div className="textBlock module-coverStacked-textBlock">
-        <div className="textBlock-inner">
-          <h1 className="headline">Your brand, as source code</h1>
-          <div className="paragraph">
-            <p>Brand infrastructure your teams run on and your agents answer to. Owned by you. Enforced everywhere.</p>
+      <div className="textBlock module-coverStacked-textBlock" data-reveal="">
+        <div className="textBlock-inner" data-reveal="">
+          <h1 className="headline" data-reveal="">Your brand, as source code</h1>
+          <div className="paragraph" data-reveal="">
+            <p data-reveal="">Brand infrastructure your teams run on and your agents answer to. Owned by you. Enforced everywhere.</p>
           </div>
-          <div className="cta-wrapper">
-            <A href="/book-a-demo" className="button-cta">Book a demo</A>
+          <div className="cta-wrapper" data-reveal="">
+            <A href="/book-a-demo" className="button-cta" data-reveal="">Book a demo</A>
           </div>
         </div>
       </div>

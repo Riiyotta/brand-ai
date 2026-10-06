@@ -1,6 +1,6 @@
 import A from "../lib/A.jsx";
 import usePageChrome from "../lib/usePageChrome.js";
-import Header7 from "../sections/Header7.jsx";
+import Header9 from "../sections/Header9.jsx";
 import ModuleCoverStacked6 from "../sections/ModuleCoverStacked6.jsx";
 import ModuleLogos2 from "../sections/ModuleLogos2.jsx";
 import ModuleCenteredHeadline4 from "../sections/ModuleCenteredHeadline4.jsx";
@@ -17,7 +17,6 @@ import ModuleMediaSingle3 from "../sections/ModuleMediaSingle3.jsx";
 import ModuleFaq4 from "../sections/ModuleFaq4.jsx";
 import ModuleNews5 from "../sections/ModuleNews5.jsx";
 import FooterMain9 from "../sections/FooterMain9.jsx";
-import CookiesWrap2 from "../sections/CookiesWrap2.jsx";
 import css0 from "../styles/inline-27.css?inline"; // only this page loads it
 import css1 from "../styles/inline-10.css?inline"; // only this page loads it
 import css2 from "../styles/inline-11.css?inline"; // only this page loads it
@@ -41,7 +40,7 @@ import css19 from "../styles/inline-35.css?inline"; // only this page loads it
 import css20 from "../styles/inline-23.css?inline"; // only this page loads it
 import css21 from "../styles/inline-24.css?inline"; // only this page loads it
 
-// Route /product — 18 section(s), in page order.
+// Route /product — 17 section(s), in page order.
 export default function Product() {
   usePageChrome({ title: "Brand management software that preserves craft | brand.ai", html: { "lang": "en", "style": "--footer-dif: 0px; --footer-height: 28px;" }, body: { "style": "" } });
   return (
@@ -70,7 +69,7 @@ export default function Product() {
       <style>{css21}</style>
     <div id="__nuxt">
       <div id="layout">
-        <Header7 />
+        <Header9 />
         <main id="main" role="main">
           <div id="main-inner">
             <div className="page page-slug">
@@ -96,7 +95,16 @@ export default function Product() {
         </main>
         <FooterMain9 />
         <div className="controller-page-scroll"></div>
-        <CookiesWrap2 />
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
+              {"This site uses "}
+              <A href="/legal/privacy" className="">cookies</A>
+              .
+            </p>
+            <div className="close" data-reveal="">Accept</div>
+          </div>
+        </div>
       </div>
     </div>
     <div id="teleports"></div>

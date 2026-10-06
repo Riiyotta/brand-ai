@@ -1,3 +1,4 @@
+// IA section(s): content.post-related (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // post-related — the section's real markup, read from the rendered page (route /blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good, section 4).

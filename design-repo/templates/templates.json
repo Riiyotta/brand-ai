@@ -66,11 +66,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -126,11 +121,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -180,11 +170,6 @@
         },
         {
           "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
           "required": true,
           "repeatable": false
         }
@@ -237,11 +222,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -280,11 +260,6 @@
         },
         {
           "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
           "required": true,
           "repeatable": false
         }
@@ -331,11 +306,6 @@
         },
         {
           "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
           "required": true,
           "repeatable": false
         }
@@ -428,11 +398,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -501,11 +466,6 @@
         },
         {
           "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
           "required": true,
           "repeatable": false
         }
@@ -600,11 +560,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -685,11 +640,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -755,11 +705,6 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
         }
       ],
       "evidence": {
@@ -769,51 +714,6 @@
     },
     {
       "id": "template.blog-2",
-      "name": "Blog pages",
-      "routeCount": 6,
-      "chrome": "full",
-      "routes": [
-        "/blog/post/why-katie-dreke-is-betting-on-the-human-touch",
-        "/blog/post/why-most-ai-pilots-never-leave-the-lab",
-        "/blog/post/welcome-to-brand-ai",
-        "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
-        "/blog/post/how-teams-are-using-brand-ai",
-        "/blog/post/how-brand-engineering-is-shaping-modern-brands"
-      ],
-      "nodes": [
-        {
-          "section": "shell.header",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "hero.page-wrapper",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "content.post-related",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
-          "required": true,
-          "repeatable": false
-        }
-      ],
-      "evidence": {
-        "level": "measured",
-        "note": "every route of this template was visited and had an identical section sequence"
-      }
-    },
-    {
-      "id": "template.blog-3",
       "name": "Blog pages",
       "routeCount": 3,
       "chrome": "full",
@@ -847,9 +747,44 @@
           "section": "shell.footer-main",
           "required": true,
           "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.blog-3",
+      "name": "Blog pages",
+      "routeCount": 6,
+      "chrome": "full",
+      "routes": [
+        "/blog/post/why-most-ai-pilots-never-leave-the-lab",
+        "/blog/post/welcome-to-brand-ai",
+        "/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now",
+        "/blog/post/how-teams-are-using-brand-ai",
+        "/blog/post/how-brand-engineering-is-shaping-modern-brands",
+        "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+      ],
+      "nodes": [
+        {
+          "section": "shell.header",
+          "required": true,
+          "repeatable": false
         },
         {
-          "section": "shell.cookieswrap",
+          "section": "hero.page-wrapper",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.post-related",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer-main",
           "required": true,
           "repeatable": false
         }
@@ -895,11 +830,6 @@
         },
         {
           "section": "shell.footer-main",
-          "required": true,
-          "repeatable": false
-        },
-        {
-          "section": "shell.cookieswrap",
           "required": true,
           "repeatable": false
         }

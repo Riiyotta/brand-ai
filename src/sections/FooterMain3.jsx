@@ -1,3 +1,4 @@
+// IA section(s): shell.footer-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // footer-main — the section's real markup, read from the rendered page (route /company, section 7).
@@ -9,7 +10,7 @@ export default function FooterMain3() {
           <div className="footer-top-text">
             <div className="headline-rotate">
               <div className="headline-rotate-inner">
-                <span className="headline-rotate-text"></span>
+                <span className="headline-rotate-text">You</span>
                 <span className="cursor">|</span>
               </div>
             </div>
@@ -22,7 +23,7 @@ export default function FooterMain3() {
           <div className="footer-three-inner">
             <div data-v-a370ce5e="" className="footer3">
               <div data-v-a370ce5e="" className="footer3-container">
-                <img src="/stills/0fffbee2.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
+                <img src="/stills/a2d5f01c.png" alt="" data-engine="three.js r158" style={{ "display": "block", "width": "1440px", "height": "900px" }} width={1440} height={900} />
               </div>
             </div>
           </div>

@@ -1,3 +1,4 @@
+// IA section(s): hero.main-inner (ia/ia.json, design-repo/sections/)
 // main-inner — the section's real markup, read from the rendered page (route /legal/privacy, section 1).
 export default function MainInner3() {
   return (

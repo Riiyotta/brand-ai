@@ -1,3 +1,4 @@
+// IA section(s): content.module-mediaflexible (ia/ia.json, design-repo/sections/)
 // module-mediaFlexible — the section's real markup, read from the rendered page (route /teams, section 4).
 export default function ModuleMediaFlexible6() {
   return (

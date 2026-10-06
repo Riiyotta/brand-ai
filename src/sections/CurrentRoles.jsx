@@ -1,3 +1,4 @@
+// IA section(s): content.current-roles (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // current-roles — the section's real markup, read from the rendered page (route /careers, section 5).

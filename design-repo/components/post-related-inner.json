@@ -4,10 +4,11 @@
   "occurrences": 10,
   "composedOf": [
     "image",
-    "link"
+    "link",
+    "video"
   ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": "/blog/post/why-katie-dreke-is-betting-on-the-human-touch"
+    "sampleRoute": "/blog/post/your-cmo-s-days-are-numbered"
   }
 }

@@ -1,6 +1,7 @@
+// IA section(s): shell.footer-main (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
-// footer-main — the section's real markup, read from the rendered page (route /blog/post/every-brand-needs-a-living-operating-system-not-a-pdf, section 4).
+// footer-main — the section's real markup, read from the rendered page (route /blog/post/how-brand-engineering-is-shaping-modern-brands, section 3; shared by 2 routes).
 export default function FooterMain31() {
   return (
     <footer className="footer-main" data-clone-section="FooterMain31">
@@ -9,7 +10,7 @@ export default function FooterMain31() {
           <div className="footer-top-text">
             <div className="headline-rotate">
               <div className="headline-rotate-inner">
-                <span className="headline-rotate-text">A brand engine,</span>
+                <span className="headline-rotate-text">Break free from static guidelines</span>
                 <span className="cursor">|</span>
               </div>
             </div>

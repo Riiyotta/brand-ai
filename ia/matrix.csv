@@ -1,5 +1,4 @@
 section,category,templates,routes,Group,Security,Company,Careers,Blog,Group,Brand os,Brand studio,Product,Enterprise,Teams,Blog pages,Blog pages,Brands of loving grace and humans who us
-shell.cookieswrap,SHELL,14,38,x,x,x,x,x,x,x,x,x,x,x,x,x,x
 shell.footer-main,SHELL,14,38,x,x,x,x,x,x,x,x,x,x,x,x,x,x
 shell.header,SHELL,14,38,x,x,x,x,x,x,x,x,x,x,x,x,x,x
 hero.main-inner,HERO,1,17,,,,,,x,,,,,,,,
@@ -8,18 +7,18 @@ hero.module-coverstacked,HERO,8,9,x,,x,x,,,x,x,x,x,x,,,
 content.module-download,CONTENT,7,8,x,x,,,,,x,x,x,x,x,,,
 support.module-faq,SUPPORT,6,6,,x,,,,,x,x,x,x,x,,,
 content.module-news,CONTENT,5,6,x,,x,,,,x,x,x,,,,,
-hero.page-wrapper,HERO,1,6,,,,,,,,,,,,x,,
+hero.page-wrapper,HERO,1,6,,,,,,,,,,,,,x,
 features.module-featuresinline,FEATURES,5,5,,x,,,,,x,,x,x,x,,,
 content.module-centeredheadline,CONTENT,4,5,x,,x,,,,x,,x,,,,,
 content.module-mediasingle,CONTENT,4,4,,,x,,,,,,x,x,x,,,
 content.module-mediafiltergrid,CONTENT,3,4,x,,,,,,,,,x,x,,,
 proof.module-logos,PROOF,3,4,x,,,,,,,,x,x,,,,
 proof.module-quotes,PROOF,3,4,x,,,x,,,,,x,,,,,
-content.page-content-meta,CONTENT,2,4,,,,,,,,,,,,,x,x
+content.page-content-meta,CONTENT,2,4,,,,,,,,,,,,x,,x
 content.module-mediaflexible,CONTENT,3,3,,,,,,,,,x,x,x,,,
 features.module-featurescertification,FEATURES,3,3,,x,,,,,,,x,x,,,,
 features.module-featuresunpacked,FEATURES,3,3,,x,,x,,,,,,x,,,,
-hero.page-container,HERO,1,3,,,,,,,,,,,,,x,
+hero.page-container,HERO,1,3,,,,,,,,,,,,x,,
 content.module-headlinefloating,CONTENT,2,2,,,,,,,x,x,,,,,,
 features.module-featuresapp,FEATURES,2,2,,,,,,,,,,x,x,,,
 features.module-featuresnumbered,FEATURES,2,2,,,x,x,,,,,,,,,,
@@ -41,4 +40,4 @@ features.module-featurescolumns,FEATURES,1,1,,,,,,,,,x,,,,,
 features.news-card-featured,FEATURES,1,1,,,,,x,,,,,,,,,
 hero.module-covercolumns,HERO,1,1,,x,,,,,,,,,,,,
 shell.post-header,SHELL,1,1,,,,,,,,,,,,,,x
-ROUTE COUNT,,,38,2,1,1,1,1,17,1,1,1,1,1,6,3,1
+ROUTE COUNT,,,38,2,1,1,1,1,17,1,1,1,1,1,3,6,1

@@ -55,5 +55,11 @@
     "changes": []
   },
   "assetRoles": [],
-  "implementedBy": "src/sections/ModuleCenteredHeadline.jsx"
+  "implementedBy": "src/sections/ModuleCenteredHeadline.jsx",
+  "implementedByAll": [
+    "src/sections/ModuleCenteredHeadline.jsx",
+    "src/sections/ModuleCenteredHeadline2.jsx",
+    "src/sections/ModuleCenteredHeadline3.jsx",
+    "src/sections/ModuleCenteredHeadline4.jsx"
+  ]
 }

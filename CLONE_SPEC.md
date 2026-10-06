@@ -1,6 +1,6 @@
 # CLONE_SPEC — brand.ai | AI for brand management
 
-Source: https://brand.ai/ · stack guess: Vite-like (ESM module scripts) · 38 route(s), 14 template(s), 42 section type(s).
+Source: https://brand.ai/ · stack guess: Vite-like (ESM module scripts) · 38 route(s), 14 template(s), 41 section type(s).
 Measured from the rendered pages at 1440, 1280 and 390px wide. Colours are hex. Values are measurements; role names are inferred from usage.
 
 ## Colours
@@ -243,16 +243,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - colour: background #141414 · text #f7f5f2 · align start
 - motion: css-transition, css-animation, scroll-linked, canvas-animation
 
-### `shell.cookieswrap` (SHELL)
-
-- appears on 38 route(s), 38 instance(s); tag `<div>`, named "cookiesWrap"
-- height: 51px @1440 · 51px @1280 · 51px @390
-- columns: 2 @1440 · 2 @1280 · 2 @390
-- box: padding 18.62/18.62px · first child 225px wide · gap 18.62px
-- colour: background #d7d7d780 · text #1b1b1b · align start
-- body: ABC Monument Grotesk Semi-Mono 14px/14px weight 400 #1b1b1b
-- motion: css-transition
-
 ### `hero.module-covercolumns` (HERO)
 
 - appears on 1 route(s), 1 instance(s); tag `<section>`, named "module-coverColumns"
@@ -418,7 +408,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 ### `content.module-mediaflexible-media-wrapper` (CONTENT)
 
 - appears on 1 route(s), 2 instance(s); tag `<div>`, named "module-mediaFlexible-media-wrapper"
-- height: 2214px @1440 · 2015px @1280 · 2831px @390
+- height: 2214px @1440 · 2015px @1280 · 2984px @390
 - columns: 4 @1440 · 4 @1280 · 1 @390
 - box: padding 0/0px · first child 605px wide · gap 30px
 - colour: background #f7f5f2 · text #1b1b1b · align start
@@ -441,7 +431,7 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 ### `content.connected-applications` (CONTENT)
 
 - appears on 1 route(s), 1 instance(s); tag `<section>`, named "Connected Applications"
-- height: 897px @1440 · 817px @1280 · 413px @390
+- height: 897px @1440 · 817px @1280 · 588px @390
 - columns: 1 @1440 · 1 @1280 · 1 @390
 - box: padding 0/0px · first child 1240px wide · gap 30px
 - colour: background #f7f5f2 · text #1b1b1b · align start
@@ -541,30 +531,6 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - motion: none observed
 - example headline: "Secure integrations add to company knowledge"
 
-### `hero.page-wrapper` (HERO)
-
-- appears on 6 route(s), 6 instance(s); tag `<div>`, named "page-wrapper"
-- height: 5778px @1440 · 5688px @1280 · 5443px @390
-- columns: 1 @1440 · 1 @1280 · 1 @390
-- box: padding 0/0px · first child 1240px wide · gap 60px
-- colour: background #f7f5f2 · text #1b1b1b · align start
-- headline: ABC Monument Grotesk 72px/72px weight 400 tracking -2.16px #1b1b1b
-- body: ABC Monument Grotesk 22px/33px weight 400 #1b1b1b
-- motion: css-transition
-- example headline: "Brand engineers: The role that didn't exist until now"
-
-### `content.post-related` (CONTENT)
-
-- appears on 10 route(s), 10 instance(s); tag `<section>`, named "post-related"
-- height: 571px @1440 · 518px @1280 · 413px @390
-- columns: 3 @1440 · 3 @1280 · 3 @390
-- box: padding 0/0px · first child 1240px wide · gap 40px
-- colour: background #f7f5f2 · text #1b1b1b · align start
-- headline: ABC Monument Grotesk 28px/39.2px weight 400 tracking -0.56px #1b1b1b
-- layout: text + visual, 403 / 387px, text on the left (layered)
-- motion: css-transition
-- example headline: "Related Articles"
-
 ### `hero.page-container` (HERO)
 
 - appears on 3 route(s), 3 instance(s); tag `<div>`, named "page-container"
@@ -588,6 +554,30 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 - body: ABC Monument Grotesk Semi-Mono 14px/21px weight 400 #1b1b1b
 - motion: css-transition
 - example headline: "Citations (17)"
+
+### `content.post-related` (CONTENT)
+
+- appears on 10 route(s), 10 instance(s); tag `<section>`, named "post-related"
+- height: 571px @1440 · 518px @1280 · 413px @390
+- columns: 3 @1440 · 3 @1280 · 3 @390
+- box: padding 0/0px · first child 1240px wide · gap 40px
+- colour: background #f7f5f2 · text #1b1b1b · align start
+- headline: ABC Monument Grotesk 28px/39.2px weight 400 tracking -0.56px #1b1b1b
+- layout: text + visual, 403 / 387px, text on the left (layered)
+- motion: css-transition
+- example headline: "Related Articles"
+
+### `hero.page-wrapper` (HERO)
+
+- appears on 6 route(s), 6 instance(s); tag `<div>`, named "page-wrapper"
+- height: 5778px @1440 · 5688px @1280 · 5443px @390
+- columns: 1 @1440 · 1 @1280 · 1 @390
+- box: padding 0/0px · first child 1240px wide · gap 60px
+- colour: background #f7f5f2 · text #1b1b1b · align start
+- headline: ABC Monument Grotesk 72px/72px weight 400 tracking -2.16px #1b1b1b
+- body: ABC Monument Grotesk 22px/33px weight 400 #1b1b1b
+- motion: css-transition
+- example headline: "Brand engineers: The role that didn't exist until now"
 
 ### `shell.post-header` (SHELL)
 
@@ -614,41 +604,41 @@ Height = median across the type's instances. Phone/laptop columns come from the 
 
 | Route | Template | Sections in order |
 |---|---|---|
-| `/` | `template.group` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `hero.module-hero-inline` → `content.module-centeredheadline` → `features.module-featurestimed` → `features.module-featurestimed` → `content.module-mediafiltergrid` → `proof.module-quotes` → `content.module-news` → `content.module-download` → `shell.footer-main` → `shell.cookieswrap` |
-| `/security` | `template.security` | `shell.header` → `hero.module-covercolumns` → `features.module-featurescertification` → `features.module-featuresinline` → `features.module-featuresunpacked` → `content.module-download` → `support.module-faq` → `shell.footer-main` → `shell.cookieswrap` |
-| `/company` | `template.company` | `shell.header` → `hero.module-coverstacked` → `content.module-centeredheadline` → `features.module-featuresnumbered` → `content.module-mediasingle` → `content.module-mediasingle` → `content.module-news` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers` | `template.careers` | `shell.header` → `hero.module-coverstacked` → `features.module-featuresunpacked` → `features.module-featuresnumbered` → `proof.module-quotes` → `content.current-roles` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog` | `template.blog` | `shell.header` → `features.news-card-featured` → `content.filter-news` → `content.newsroom-grid-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/book-a-demo` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/brand-os` | `template.brand-os` | `shell.header` → `hero.module-coverstacked` → `content.module-headlinefloating` → `content.textblock` → `content.module-mediaflexible-media-wrapper` → `content.textblock` → `content.module-mediaflexible-media-wrapper` → `content.newsroom` → `content.connected-applications` → `features.module-featuresinline` → `content.module-centeredheadline` → `support.module-faq` → `content.module-download` → `content.module-news` → `shell.footer-main` → `shell.cookieswrap` |
-| `/brand-studio` | `template.brand-studio` | `shell.header` → `hero.module-coverstacked` → `content.module-headlinefloating` → `content.assistant` → `content.canvas` → `content.projects` → `content.brandcheck` → `content.module-download` → `support.module-faq` → `content.module-news` → `shell.footer-main` → `shell.cookieswrap` |
-| `/product` | `template.product` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `content.module-centeredheadline` → `content.module-mediaflexible` → `content.module-mediaflexible` → `features.module-featurescolumns` → `proof.module-quotes` → `content.module-mediaflexible` → `content.module-mediaflexible` → `features.module-featuresinline` → `features.module-featurescertification` → `content.module-download` → `content.module-mediasingle` → `support.module-faq` → `content.module-news` → `shell.footer-main` → `shell.cookieswrap` |
-| `/enterprise` | `template.enterprise` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `features.module-featuresinline` → `content.module-mediafiltergrid` → `features.module-featurescertification` → `content.module-mediaflexible` → `features.module-featuresapp` → `features.module-featuresunpacked` → `content.module-download` → `support.module-faq` → `content.module-mediasingle` → `shell.footer-main` → `shell.cookieswrap` |
-| `/teams` | `template.teams` | `shell.header` → `hero.module-coverstacked` → `features.module-featuresinline` → `content.module-mediafiltergrid` → `content.module-mediaflexible` → `features.module-featuresapp` → `content.module-download` → `support.module-faq` → `content.module-mediasingle` → `shell.footer-main` → `shell.cookieswrap` |
-| `/faq` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/legal/privacy` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/legal/acceptable-use-policy` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/senior-software-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/forward-deployed-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/software-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/digital-designer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/product-designer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/brand-support-specialist` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/brand-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/careers/account-executive` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/infrastructure` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/insights` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/product` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/company` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/interviews` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/why-katie-dreke-is-betting-on-the-human-touch` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/your-cmo-s-days-are-numbered` | `template.blog-3` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/home` | `template.group` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `hero.module-hero-inline` → `content.module-centeredheadline` → `features.module-featurestimed` → `features.module-featurestimed` → `content.module-mediafiltergrid` → `proof.module-quotes` → `content.module-news` → `content.module-download` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/why-most-ai-pilots-never-leave-the-lab` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/welcome-to-brand-ai` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/how-teams-are-using-brand-ai` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/how-brand-engineering-is-shaping-modern-brands` | `template.blog-2` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/your-brand-is-more-valuable-than-you-can-measure` | `template.blog-3` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf` | `template.blog-3` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
-| `/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good` | `template.brands-of-loving-grace-and-humans-who-us` | `shell.header` → `shell.post-header` → `content.post-content` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` → `shell.cookieswrap` |
+| `/` | `template.group` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `hero.module-hero-inline` → `content.module-centeredheadline` → `features.module-featurestimed` → `features.module-featurestimed` → `content.module-mediafiltergrid` → `proof.module-quotes` → `content.module-news` → `content.module-download` → `shell.footer-main` |
+| `/security` | `template.security` | `shell.header` → `hero.module-covercolumns` → `features.module-featurescertification` → `features.module-featuresinline` → `features.module-featuresunpacked` → `content.module-download` → `support.module-faq` → `shell.footer-main` |
+| `/company` | `template.company` | `shell.header` → `hero.module-coverstacked` → `content.module-centeredheadline` → `features.module-featuresnumbered` → `content.module-mediasingle` → `content.module-mediasingle` → `content.module-news` → `shell.footer-main` |
+| `/careers` | `template.careers` | `shell.header` → `hero.module-coverstacked` → `features.module-featuresunpacked` → `features.module-featuresnumbered` → `proof.module-quotes` → `content.current-roles` → `shell.footer-main` |
+| `/blog` | `template.blog` | `shell.header` → `features.news-card-featured` → `content.filter-news` → `content.newsroom-grid-inner` → `shell.footer-main` |
+| `/book-a-demo` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/brand-os` | `template.brand-os` | `shell.header` → `hero.module-coverstacked` → `content.module-headlinefloating` → `content.textblock` → `content.module-mediaflexible-media-wrapper` → `content.textblock` → `content.module-mediaflexible-media-wrapper` → `content.newsroom` → `content.connected-applications` → `features.module-featuresinline` → `content.module-centeredheadline` → `support.module-faq` → `content.module-download` → `content.module-news` → `shell.footer-main` |
+| `/brand-studio` | `template.brand-studio` | `shell.header` → `hero.module-coverstacked` → `content.module-headlinefloating` → `content.assistant` → `content.canvas` → `content.projects` → `content.brandcheck` → `content.module-download` → `support.module-faq` → `content.module-news` → `shell.footer-main` |
+| `/product` | `template.product` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `content.module-centeredheadline` → `content.module-mediaflexible` → `content.module-mediaflexible` → `features.module-featurescolumns` → `proof.module-quotes` → `content.module-mediaflexible` → `content.module-mediaflexible` → `features.module-featuresinline` → `features.module-featurescertification` → `content.module-download` → `content.module-mediasingle` → `support.module-faq` → `content.module-news` → `shell.footer-main` |
+| `/enterprise` | `template.enterprise` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `features.module-featuresinline` → `content.module-mediafiltergrid` → `features.module-featurescertification` → `content.module-mediaflexible` → `features.module-featuresapp` → `features.module-featuresunpacked` → `content.module-download` → `support.module-faq` → `content.module-mediasingle` → `shell.footer-main` |
+| `/teams` | `template.teams` | `shell.header` → `hero.module-coverstacked` → `features.module-featuresinline` → `content.module-mediafiltergrid` → `content.module-mediaflexible` → `features.module-featuresapp` → `content.module-download` → `support.module-faq` → `content.module-mediasingle` → `shell.footer-main` |
+| `/faq` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/legal/privacy` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/legal/acceptable-use-policy` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/senior-software-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/forward-deployed-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/software-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/digital-designer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/product-designer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/brand-support-specialist` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/brand-engineer` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/careers/account-executive` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/infrastructure` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/insights` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/product` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/company` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/interviews` | `template.group-2` | `shell.header` → `hero.main-inner` → `shell.footer-main` |
+| `/blog/post/your-cmo-s-days-are-numbered` | `template.blog-2` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` |
+| `/home` | `template.group` | `shell.header` → `hero.module-coverstacked` → `proof.module-logos` → `hero.module-hero-inline` → `content.module-centeredheadline` → `features.module-featurestimed` → `features.module-featurestimed` → `content.module-mediafiltergrid` → `proof.module-quotes` → `content.module-news` → `content.module-download` → `shell.footer-main` |
+| `/blog/post/why-most-ai-pilots-never-leave-the-lab` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/welcome-to-brand-ai` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/brand-engineers-the-role-that-didn-t-exist-until-now` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/how-teams-are-using-brand-ai` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/how-brand-engineering-is-shaping-modern-brands` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/your-brand-is-more-valuable-than-you-can-measure` | `template.blog-2` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf` | `template.blog-2` | `shell.header` → `hero.page-container` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/why-katie-dreke-is-betting-on-the-human-touch` | `template.blog-3` | `shell.header` → `hero.page-wrapper` → `content.post-related` → `shell.footer-main` |
+| `/blog/post/brands-of-loving-grace-and-humans-who-use-ai-for-good` | `template.brands-of-loving-grace-and-humans-who-us` | `shell.header` → `shell.post-header` → `content.post-content` → `content.page-content-meta` → `content.post-related` → `shell.footer-main` |

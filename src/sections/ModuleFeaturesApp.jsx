@@ -1,3 +1,4 @@
+// IA section(s): features.module-featuresapp (ia/ia.json, design-repo/sections/)
 // module-featuresApp — the section's real markup, read from the rendered page (route /enterprise, section 7).
 export default function ModuleFeaturesApp() {
   return (
@@ -24,7 +25,7 @@ export default function ModuleFeaturesApp() {
                     <h3 data-reveal="">Figma</h3>
                   </div>
                   <div className="media image image" data-orientation="portrait" data-reveal="">
-                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="18" height="27" src="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__b31158bd.svg" alt="" fetchPriority="auto" srcSet="/_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__776fcd47.svg 400w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__7b2bace0.svg 800w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__520c86ad.svg 1200w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__b31158bd.svg 1600w, /_ext/cdn.sanity.io/images/3zwn2ers/fullsite/61bada6d559ed96777b3d8657899eaa573f55660-18x27__e122351c.svg 18w" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="18" height="27" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -54,7 +55,7 @@ export default function ModuleFeaturesApp() {
                     <h3 data-reveal="">{"Linear "}</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -64,7 +65,7 @@ export default function ModuleFeaturesApp() {
                     <h3 data-reveal="">Shopify</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="27" height="24" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>
@@ -74,7 +75,7 @@ export default function ModuleFeaturesApp() {
                     <h3 data-reveal="">Are.na</h3>
                   </div>
                   <div className="media image image" data-orientation="landscape" data-reveal="">
-                    <img className="lazyload" data-sizes="false" sizes="auto" width="32" height="19" alt="" fetchPriority="auto" data-reveal="" />
+                    <img className=" lazyloaded" data-sizes="false" sizes="false" width="32" height="19" alt="" fetchPriority="auto" data-reveal="" />
                   </div>
                 </div>
               </div>

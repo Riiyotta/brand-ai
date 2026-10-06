@@ -16,10 +16,10 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 
 | Role | Files | Total size |
 |---|---|---|
-| content-image | 1171 | 1560.0 MB |
+| content-image | 1182 | 1540.9 MB |
 | icon | 112 | 22.1 MB |
-| video | 88 | 139.5 MB |
-| hero-image | 25 | 110.1 MB |
+| video | 108 | 143.7 MB |
+| hero-image | 25 | 101.1 MB |
 | illustration | 14 | 2.0 MB |
 | avatar | 11 | 8.9 MB |
 | font | 5 | 0.2 MB |
@@ -39,12 +39,12 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5c289f3832b4444720237526c50ec0156056d607-27x24__b31158bd.svg` (25 KB) on `/enterprise`
 - `_ext/cdn.sanity.io/files/3zwn2ers/fullsite/b75ba9e407e8475b3a21deec08448d4991b8e503.svg` (25 KB) on `/brand-os`
 - `_ext/cdn.sanity.io/files/3zwn2ers/fullsite/b9a10739b5e01c29855154f1ff811c1fb17f1d97.svg` (13 KB)
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__5c51af88.svg` (12 KB)
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__b31158bd.svg` (12 KB) on `/enterprise`
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__776fcd47.svg` (12 KB)
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__5c51af88.svg` (12 KB) on `/enterprise`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__7b2bace0.svg` (12 KB)
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__520c86ad.svg` (12 KB)
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__776fcd47.svg` (12 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__24feb848.svg` (12 KB)
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__b31158bd.svg` (12 KB)
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/333a42d782f697f5c18e2dfe66406324de99351e-27x27__520c86ad.svg` (12 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/bed2ea391a8b16b84209c5de6d52dd8b8e5d27c2-27x24__5c51af88.svg` (9 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/bed2ea391a8b16b84209c5de6d52dd8b8e5d27c2-27x24__b31158bd.svg` (9 KB) on `/enterprise`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/bed2ea391a8b16b84209c5de6d52dd8b8e5d27c2-27x24__776fcd47.svg` (9 KB)
@@ -112,7 +112,6 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/15f5d9d7e7d6ec61232092417375a92846f55d33-2880x1944__4cbfb401.png` (9781 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c42a6755a959e829e16ad558aee14d45b48a111f-1620x2010__07385d44.png` (9765 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/c42a6755a959e829e16ad558aee14d45b48a111f-1620x2010__b31158bd.png` (9470 KB)
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3a21f3bf326180b84c8bc812ec8c3a455d11355b-2880x1620__b31158bd.png` (9416 KB) on `/blog`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1cf1bf2bfe905384c2910a8690ea7a155d57dcc1-1620x1620__0ff6edc9.png` (9326 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/6c519df619a8d5f3cd75c835309aedd92da168f1-2880x1944__b31158bd.png` (9245 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/06b0012799a2db70d92aee01ef4404858351e671-2880x1944__b31158bd.png` (9089 KB)
@@ -151,7 +150,8 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/20048c6a18df0fb02982901a0be84af10d421a71-1620x1620__520c86ad.png` (6045 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/ddc2d329c95ac6f273f32f12709043ab54556bae-1080x1200__446e9ece.png` (6023 KB)
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1dd64d983858cb401cd131d402b6e406d4d47f63-1620x1620__0ff6edc9.png` (6021 KB)
-- … and 1111 more (all listed in `design-repo/assets/asset-roles.json`)
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/15f5d9d7e7d6ec61232092417375a92846f55d33-2880x1944__0ff6edc9.png` (6017 KB)
+- … and 1122 more (all listed in `design-repo/assets/asset-roles.json`)
 
 ### video
 
@@ -189,40 +189,39 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/stream.mux.com/3Eq6sROfYhzu2zYWZHH5S1SUaME00Iguqa9YQo62iwdk/high.mp4` (992 KB) on `/brand-os`
 - `_ext/stream.mux.com/MCEqB7KOBE7PZd42TM00qCiXjgUZl00x01w4x1i7Ge1qQ8/high.mp4` (958 KB) on `/brand-studio`
 - `_ext/stream.mux.com/eduQeVvbAby4fr0102900cezgafKpuMEzPhntwWAE5yUuY/high.mp4` (949 KB) on `/brand-os`
-- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/u01aA2026SvfL01Tam1Tl5Gt7kV4hjA8ybLZgoxYw01exxQzKJF1xxsq02hM5EpfthKg8tZYPGLavClQDVwKErNwNdD4i006su02a41/1__58843fc4.ts` (870 KB)
 - `_ext/stream.mux.com/s36F2PQ8r2oFe1jRdr4DtSRDnG01gzHf8TRKIVpp9QkM/high.mp4` (858 KB) on `/brand-os`
 - `_ext/stream.mux.com/4hMsBGereMqbL8yR00PlsuBKs0100e00Mff5y62J00loQFXE/high.mp4` (854 KB) on `/product`
 - `_ext/stream.mux.com/jEVpZNpq1C2aEtO61ZrS02HgKiPiXnySddJC2HBDMfsE/medium.mp4` (820 KB)
 - `_ext/stream.mux.com/LVelvUEUaPMOuZFmsMIDR47iGGwngX9VNP7p4vt02ajE/high.mp4` (796 KB) on `/company`
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/IzfIfn01BfQSyr3CUkeIoEYH6tCrFQ005Bi02ULmWVtnH00N02xEcs7B6mBzCtY01cOHCIOK1lHs2c4N1fPR9qhPfNXTa02e9jacDqX/0__8c24bef3.ts` (705 KB)
 - `_ext/stream.mux.com/pmxYh8ufWtprlGkacu9022oY1namqzF4nSN012aVN2mw00/medium.mp4` (685 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/2FPxTUm700mYvmR9AZkXJa1gmzB018mBeH3kcWOh7InO6kBmBRToMZu3Qw51wLp8Bl00PvGm9RiDBldBWAI4hg1IGeuYoaD4xJ5/0__cbc1478e.ts` (629 KB)
 - `_ext/stream.mux.com/98ZFd00AMTC00horKFxLIL6SSi8KV7qVIj6VcWQqvdoOM/medium.mp4` (625 KB)
 - `_ext/stream.mux.com/Xv1aAAFj02xYi6jHM2DPTKLQ7g00K4d4sALnuJNHC02eVk/high.mp4` (565 KB) on `/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf`
 - `_ext/stream.mux.com/WvvZrYyFfMvazlqHnKyPnjioNxhgIx01HL7gfD61ofFI/high.mp4` (560 KB) on `/security`
 - `_ext/stream.mux.com/01hNzRryeBX02OUSIeN8ssrHuk1bSbt013lFYmZ5NV36IU/high.mp4` (554 KB) on `/brand-studio`
 - `_ext/stream.mux.com/7aDMp02RirsI1e4xXcSyOio6OmwVXJXU8YJc1Ko1CUlg/high.mp4` (525 KB) on `/`
-- `_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__376cfced.ts` (462 KB)
-- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__376cfced.ts` (462 KB)
-- `_ext/chunk-oci-us-ashburn-1-vop1.cfcdn.mux.com/v1/chunk/KgRTE8Ss97djpi3cOInKs500x8hfIwuKL4PPvQ6TRIQV02jgUlCo3su2oPTCWD8x9hCL2JITUT8tS702Dh78NgEed02FCVUlCcsQ/0__5590bc25.ts` (429 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__42e1e8d2.ts` (462 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/uFGU01uNIngCGbl6skzNBiEx3uNXFyEsIssOyRZemX02ghb00rpcEuEA3JontUpwC007ay91A01OTdwWwfpU9YbZOzziBg1QhVOdQ/0__ed9f6d1c.ts` (462 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/JIWIzEoSNQ01iQ02X34xyfLuiLXuiYYzruFwfqJos02AYdtKdhl9w95l734Wzw3j1Mbw3bjCzrW4OaBnewv5ldoo2n4ZZoiDaFz/0__f6ba4a9c.ts` (447 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/KgRTE8Ss97djpi3cOInKs500x8hfIwuKL4PPvQ6TRIQV02jgUlCo3su2oPTCWD8x9hCL2JITUT8tS702Dh78NgEed02FCVUlCcsQ/0__beba99e6.ts` (429 KB)
 - `_ext/stream.mux.com/GB6rnuqr00wyb01x13k6nPa8SvXHr4cIx901F1LHt5Kkrg/high.mp4` (379 KB) on `/brand-os`
 - `_ext/stream.mux.com/rJIZjdlAqTinFSCTElNRr3RoiZWmQRxbbWOpdlASPuA/high.mp4` (375 KB) on `/`
 - `_ext/stream.mux.com/6YOTmygcvrNo9mGSWk2QMFF8V1Z4TjrSm8RmPyXKcj00/high.mp4` (361 KB) on `/product`
 - `_ext/stream.mux.com/X00ndX8uiqCD8wcPhh2qODlALnS10202kIWAqpL00fNTemU/high.mp4` (360 KB) on `/brand-os`
-- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__9296a18d.ts` (359 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__f1816d7e.ts` (359 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/d007AA3Xl1gdsVDA02KwYvb5bB7WOHxyK4heBj4lC9XjgjYDSn02tBYnNSUXdZKRD12w5eCSi01phITmXB3PuNgGTfoLdzqcvT3T/0__628339e0.ts` (359 KB)
 - `_ext/stream.mux.com/aJdCTDaKA9HITnwbCzUPyZAyy2EYx98m92YaOaloQoQ/medium.mp4` (354 KB)
 - `_ext/stream.mux.com/rrrlseTcvrDNSnPC49nBgWlDTXyW00027cbAe2GCQjR900/high.mp4` (337 KB) on `/brand-os`
-- `_ext/stream.mux.com/00XAUUaZFWWkBLHzUB2LGH2kUfzOWtp5LCMbx2mWcJLQ/high.mp4` (301 KB) on `/brand-studio`
-- `_ext/stream.mux.com/m5dEJVb1JYX8wZDf46GfodLvvAgJoknr02FWShVRiFBA/high.mp4` (301 KB) on `/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf`
-- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/102pzA4ZBx4DtvQ100tLj3P2HTd2LbUNPI4PjdPUke5dOGhEbuEL7zfGFiGmzHs02vNS95ajOItCUtGKWUouht4tCcheDg6ZV7e/0__0c0e14da.ts` (256 KB)
-- `_ext/stream.mux.com/hIMCawdOeWcwxyYdAYwLt2vv2IiCQ27EAyOrG2gjYDo/high.mp4` (219 KB) on `/`
-- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/01smuy01rdWqs02W02Hz4qqIyC6xI2DJBXi6XD3EG00HnEptlY2YbO02zhvLVRwYf2kqH02XhJjj5DnHG2QQyCeCQ21VruUGZpHH9WY/0__3da1e39e.ts` (171 KB)
-- … and 28 more (all listed in `design-repo/assets/asset-roles.json`)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/F400iKo7wxcyF3mOT4tEuQ9V00n1DRB9lMDkboRkaqYZWLp02nmgU2CBBzQuMhDKkoJwO37rJOkLPgVzhFKHeIQZ2SLHNglibjM/0__0af307f0.ts` (323 KB)
+- `_ext/chunk-oci-us-ashburn-1-vop1.fastly.mux.com/v1/chunk/JAnllH6sxuvcmcyfpWMB00AJ01tvh02HnoEzmb9qwBW5rmEJzw00RCA6iyQ8SZJuOSBla9w1MTDYx01OWpYDM43RNWiAEakSlrb8T/0__e984af32.ts` (321 KB)
+- … and 48 more (all listed in `design-repo/assets/asset-roles.json`)
 
 ### hero-image
 
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/89b5f095e6214b2581e0b2b9736010247063840c-2880x3200__b31158bd.png` (12649 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/3ecc0eadf375b6c919ee91f7b538f7f8bbf51bb5-1080x1200__4cbfb401.png` (11943 KB) on `/blog/post/welcome-to-brand-ai`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/a0d3135fb7ad1d01de4b6e49eaeae6a0d36d57f7-2880x1944__b31158bd.png` (10164 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/fbb8e30e4738ae6d06c584f6270a0931f9e095f5-2880x1944__b31158bd.png` (8980 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/8eaa689712fc690a00164404c5d2493b4f2c39f7-1080x1200__4cbfb401.png` (8449 KB) on `/blog/post/welcome-to-brand-ai`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/15f5d9d7e7d6ec61232092417375a92846f55d33-2880x1944__b31158bd.png` (7757 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/7c3f6c092581f31d1aea2471261ef58d7334b727-2880x1944__b31158bd.png` (7053 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
@@ -239,6 +238,7 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/5e78c1092b8fea66e6b3f2cffe17876bc3f21e5b-1920x1080__b31158bd.png` (399 KB) on `/blog/post/welcome-to-brand-ai`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/a3912665992fafdc024249255d5396dbacfc967a-2880x1620__b31158bd.png` (329 KB) on `/blog/post/welcome-to-brand-ai`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/2523b241d4bb95e48c39dac9981101daf45c9463-2880x2136__b31158bd.png` (307 KB) on `/blog/post/how-teams-are-using-brand-ai`
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/fbb8e30e4738ae6d06c584f6270a0931f9e095f5-2880x1944__b31158bd.png` (190 KB) on `/blog/post/why-katie-dreke-is-betting-on-the-human-touch`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/b9b04f70a5c5f2c887db7c554778e9d69739b7cd-2880x1620__b31158bd.png` (153 KB) on `/blog/post/how-teams-are-using-brand-ai`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/1b55223ad2a34404ab16ddea70915a974ee0239d-1008x666__13469b18.png` (112 KB) on `/`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/4d20670f8593b1d2dee22194c5df2403c7fc8cb1-1014x842__13469b18.png` (99 KB) on `/`
@@ -251,8 +251,8 @@ Everything the pages loaded, saved under `recon/mirror/public/`. Paths are relat
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/ece38a95a3d9d77184e15557fe9d307110d262c3-201x201__4cbfb401.png` (635 KB) on `/product`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__4cbfb401.png` (346 KB) on `/product`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__4cbfb401.png` (320 KB) on `/product`
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__4cbfb401.jpg` (98 KB) on `/book-a-demo`
-- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__b31158bd.jpg` (87 KB) on `/book-a-demo`
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/dd99faa27ef586e0908ee612f249bfb79583ea58-200x200__4cbfb401.jpg` (98 KB) on `/product`
+- `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/f46c7f58a9460848d2f26dcb696bf74209ce3e31-400x400__b31158bd.jpg` (87 KB) on `/product`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/ece38a95a3d9d77184e15557fe9d307110d262c3-201x201__5c51af88.png` (7 KB) on `/`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/d9f31ab71507fd1ee62071501b04f68ed2679f5e-360x360__5c51af88.png` (5 KB) on `/`
 - `_ext/cdn.sanity.io/images/3zwn2ers/fullsite/602c9ab7cadbd0e643211242d781f1a12f6ccd48-300x300__5c51af88.png` (5 KB) on `/`

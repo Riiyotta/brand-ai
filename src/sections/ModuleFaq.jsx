@@ -1,3 +1,4 @@
+// IA section(s): support.module-faq (ia/ia.json, design-repo/sections/)
 // module-faq — the section's real markup, read from the rendered page (route /security, section 6).
 export default function ModuleFaq() {
   return (

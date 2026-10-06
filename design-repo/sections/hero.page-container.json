@@ -12,7 +12,7 @@
     "routes": 3,
     "measuredFrom": [
       "src/blog/post/every-brand-needs-a-living-operating-system-not-a-pdf/index.html:150-404",
-      "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html:148-410",
+      "src/blog/post/your-brand-is-more-valuable-than-you-can-measure/index.html:150-412",
       "src/blog/post/your-cmo-s-days-are-numbered/index.html:150-438"
     ]
   },
@@ -89,5 +89,10 @@
     "icon",
     "video"
   ],
-  "implementedBy": "src/sections/PageContainer.jsx"
+  "implementedBy": "src/sections/PageContainer.jsx",
+  "implementedByAll": [
+    "src/sections/PageContainer.jsx",
+    "src/sections/PageContainer2.jsx",
+    "src/sections/PageContainer3.jsx"
+  ]
 }

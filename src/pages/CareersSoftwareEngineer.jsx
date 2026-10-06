@@ -27,14 +27,14 @@ export default function CareersSoftwareEngineer() {
         </main>
         <FooterMain17 />
         <div className="controller-page-scroll"></div>
-        <div id="cookiesWrap" className="cookies-wrapper" style={{ "translate": "none", "rotate": "none", "scale": "none", "transform": "translate(0px, 0px)", "opacity": "1", "visibility": "inherit" }}>
-          <div className="message">
-            <p>
+        <div id="cookiesWrap" className="cookies-wrapper" data-reveal="">
+          <div className="message" data-reveal="">
+            <p data-reveal="">
               {"This site uses "}
               <A href="/legal/privacy" className="">cookies</A>
               .
             </p>
-            <div className="close">Accept</div>
+            <div className="close" data-reveal="">Accept</div>
           </div>
         </div>
       </div>

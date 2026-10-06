@@ -1,10 +1,10 @@
 {
   "id": "lazyloaded",
   "name": "lazyloaded",
-  "occurrences": 85,
+  "occurrences": 30,
   "composedOf": [],
   "evidence": {
     "level": "measured",
-    "sampleRoute": "/"
+    "sampleRoute": "/blog"
   }
 }

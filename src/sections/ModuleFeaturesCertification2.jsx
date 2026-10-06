@@ -1,3 +1,4 @@
+// IA section(s): features.module-featurescertification (ia/ia.json, design-repo/sections/)
 import A from "../lib/A.jsx";
 
 // module-featuresCertification — the section's real markup, read from the rendered page (route /product, section 11).

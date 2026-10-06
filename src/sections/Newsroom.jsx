@@ -1,3 +1,4 @@
+// IA section(s): content.newsroom (ia/ia.json, design-repo/sections/)
 // Newsroom — the section's real markup, read from the rendered page (route /brand-os, section 7).
 export default function Newsroom() {
   return (
